@@ -4,8 +4,7 @@ excerpt: "prelude and fugue for piano, 3'52\"; mirror canon(s) for two clarinets
 collection: music
 ---
 
-**Prelude and Fugue in C major (2021)**
-
+**Prelude and Fugue in C major (2021)**\
 _for piano, 3'52"_
 
 [![Luc Ta - Prelude and Fugue in C Major](https://img.youtube.com/vi/KQXKckJTqVw/0.jpg)](https://www.youtube.com/watch?v=KQXKckJTqVw)
