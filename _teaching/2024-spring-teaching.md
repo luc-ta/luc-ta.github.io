@@ -1,5 +1,5 @@
 ---
-title: "Lebesgue Integration and Fourier Analysis"
+title: "Analysis II: Lebesgue Integration and Complex Fourier Series"
 collection: teaching
 type: "TA"
 permalink: /teaching/lebesgue2024
