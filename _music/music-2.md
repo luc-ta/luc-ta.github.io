@@ -1,6 +1,6 @@
 ---
-title: "Trio for Clarinet, Cello, and Piano in G major (2021)"
-excerpt: "3'52\"; mirror canon(s) for two clarinets; 36'20\"<br/><img src='https://img.youtube.com/vi/RCqd35pq-MU/0.jpg'>"
+title: "Trio in G major (2021)"
+excerpt: "for clarinet, cello, and piano, 36'20\"<br/><img src='https://img.youtube.com/vi/RCqd35pq-MU/0.jpg'>"
 collection: music
 ---
 
