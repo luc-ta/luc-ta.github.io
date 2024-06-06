@@ -1,36 +1,28 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown.min.css";
+  @import "minima/skins/dark";
 
-body {
-  margin: 0;
-}
-
-@media (prefers-color-scheme: light) {
-  body {
-    /*
-    --color-canvas-default, copied from 
-    https://github.com/sindresorhus/github-markdown-css/blob/main/github-markdown.css
-    */
-    background-color: #ffffff;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    /* --color-canvas-default */
-    background-color: #0d1117;
-  }
-}
-
-.markdown-body {
-  box-sizing: border-box;
-  min-width: 200px;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 45px;
-}
-
-@media (max-width: 767px) {
-  .markdown-body {
-    padding: 15px;
+  :root {
+    --brand-color :           #{$brand-color};
+    --brand-color-light :     #{$brand-color-light};
+    --brand-color-dark :      #{$brand-color-dark};
+  
+    --site-title-color :      #{$site-title-color};
+  
+    --text-color :            #{$text-color};
+    --background-color :      #{$background-color};
+    --code-background-color : #{$code-background-color};
+  
+    --link-base-color:        #{$link-base-color};
+    --link-visited-color:     #{$link-visited-color};
+    --link-hover-color:       #{$link-hover-color};
+  
+    --border-color-01:        #{$border-color-01};
+    --border-color-02:        #{$border-color-02};
+    --border-color-03:        #{$border-color-03};
+  
+    --table-text-color:       #{$table-text-color};
+    --table-zebra-color:      #{$table-zebra-color};
+    --table-header-bg-color:  #{$table-header-bg-color};
+    --table-header-border:    #{$table-header-border};
+    --table-border-color:     #{$table-border-color};
   }
 }
