@@ -3,7 +3,7 @@ title: "Lebesgue Integration and Fourier Analysis"
 collection: teaching
 type: "TA"
 permalink: /teaching/lebesgue2024
-venue: "University 1, Department"
+venue: "Yale University"
 date: 2024-01-01
 location: "New Haven, CT"
 ---
