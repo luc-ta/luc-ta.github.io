@@ -6,6 +6,11 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+plugins:
+  - jekyll-remote-theme
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Luc Ta"
@@ -150,6 +155,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - assets
   - .asset-cache
   - .bundle
   - .jekyll-assets-cache
