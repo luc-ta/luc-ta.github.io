@@ -6,6 +6,7 @@ collection: music
 
 **Prelude and Fugue in C major (2021)**
 _for piano, 3'52"_
+
 [![Luc Ta - Prelude and Fugue in C Major](https://img.youtube.com/vi/KQXKckJTqVw/0.jpg)](https://www.youtube.com/watch?v=KQXKckJTqVw)
 I've always loved counterpoint and jazz. After the subject and answer of this fugue came to me as I was doing the laundry one day, I knew I wanted to try combining the two somehow.
 
