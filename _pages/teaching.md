@@ -9,6 +9,10 @@ author_profile: true
 
 ## Yale University, Department of Mathematics
 
+**Introduction to Abstract Algebra**
+_TA, August 2024 - December 2024_
+* Will serve as a TA for Yale's notoriously difficult course in finite group theory and ring theory using Dummit and Foote's _Abstract Algebra_
+
 **Analysis II: Lebesgue Integration and Complex Fourier Series**\
 _TA, January 2024 - May 2024_
 * Held semiweekly office hours to guide students on homework and general concepts in measure theory and Fourier analysis from Bass's _Real Analysis for Graduate Students_ and Beals's _Analysis: An Introduction_
