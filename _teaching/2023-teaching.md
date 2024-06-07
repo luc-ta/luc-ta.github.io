@@ -2,7 +2,7 @@
 title: "Analysis I-II"
 collection: teaching
 type: "TA"
-permalink: /teaching/lebesgue2024
+permalink: /teaching/analysis-yale
 venue: "Yale University"
 date: 2023-01-01
 location: "New Haven, CT"
