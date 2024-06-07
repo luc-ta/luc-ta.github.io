@@ -8,7 +8,7 @@ date: 2022-01-01
 location: "New Haven, CT"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+During my sophomore year, I served as one of several TAs for the yearlong precalculus and calculus sequence.
 
 Heading 1
 ======
