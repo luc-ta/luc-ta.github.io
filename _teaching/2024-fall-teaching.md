@@ -8,7 +8,7 @@ date: 2024-08-01
 location: "New Haven, CT"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This fall, I will serve as a TA for Yale's notoriously difficult course in finite group theory and ring theory.
 
 Heading 1
 ======
