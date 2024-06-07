@@ -8,7 +8,7 @@ date: 2023-01-01
 location: "New Haven, CT"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+During my junior year, I served as one of two TAs for the yearlong analysis sequence.
 
 Analysis II: Lebesgue Integration and Complex Fourier Series (Spring 2024)
 ======
