@@ -1,5 +1,5 @@
 ---
-title: "Analysis I-II"
+title: "Single-Variable Analysis I-II"
 collection: teaching
 type: "TA"
 permalink: /teaching/analysis2023
