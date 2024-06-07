@@ -8,7 +8,7 @@ date: 2022-01-01
 location: "New Haven, CT"
 ---
 
-During my sophomore year, I served as one of several TAs for the yearlong precalculus and calculus sequence.
+Throughout my sophomore year, I served as one of several TAs for the yearlong precalculus and calculus sequence culminating in integration and basic differential equations.
 
 Heading 1
 ======
