@@ -9,7 +9,7 @@ author_profile: true
 
 ## Yale University, Department of Mathematics
 
-**Introduction to Abstract Algebra**
+**Introduction to Abstract Algebra**\
 _TA, August 2024 - December 2024_
 * Will serve as a TA for Yale's notoriously difficult course in finite group theory and ring theory using Dummit and Foote's _Abstract Algebra_
 
