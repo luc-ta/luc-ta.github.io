@@ -16,7 +16,7 @@ _TA, August 2024 - December 2024_
 **Analysis II: Lebesgue Integration and Complex Fourier Series**\
 _TA, January 2024 - May 2024_
 * Held semiweekly office hours to guide students on homework and general concepts in measure theory and Fourier analysis from Bass's _Real Analysis for Graduate Students_ and Beals's _Analysis: An Introduction_
-* Created original [midterm](../files/Math_305_midterm_review_worksheet.pdf) and [final exam](../files/Math_305_final_review_worksheet.pdf) review materials; designed and conducted interactive exam review sessions
+* Created and distributed original [midterm](../files/Math_305_midterm_review_worksheet.pdf) and [final exam](../files/Math_305_final_review_worksheet.pdf) review materials; designed and conducted interactive exam review sessions
 * Served as the only on-campus TA for all 40 students; wrote solution sets for the off-campus TA to consult during remote office hours
 
 **Real Analysis**\
@@ -27,4 +27,4 @@ _TA, August 2023 - December 2023_
 **Introduction to Functions and Calculus I-II**\
 _TA, August 2022 - May 2023_
 * Designed and led semiweekly interactive practice workshops, held semiweekly office hours, and conducted weekly small-group review sessions to guide 80 students on general concepts and homework
-* Created practice problems and solution sets for other TA's to deliver and consult during semiweekly workshops; formulated teaching strategies and approaches with coworkers and course instructors
+* Created original practice problems and solution sets for other TA's to deliver and consult during semiweekly workshops; formulated teaching strategies and approaches with coworkers and course instructors
