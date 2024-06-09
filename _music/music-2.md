@@ -4,7 +4,7 @@ excerpt: "for clarinet, cello, and piano, 36'20\"<br/><img src='https://img.yout
 collection: music
 ---
 
-_for clarinet, cello, and piano, 36'20_\
+_for clarinet, cello, and piano, 36'20"_\
 [![Luc Ta - Trio for Clarinet, Cello, and Piano in G major (2022)](https://img.youtube.com/vi/RCqd35pq-MU/0.jpg)](https://www.youtube.com/watch?v=RCqd35pq-MU&list=PLYZn6AEJG5Of7nTC0-sEwcFQTBsI8qknj&index=1)\
 This piece was featured in the [fifth issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale.
 
