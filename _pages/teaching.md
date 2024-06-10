@@ -22,7 +22,7 @@ _TA, January 2024 - May 2024_
 **Real Analysis**\
 _TA, August 2023 - December 2023_
 * Held semiweekly office hours and conducted interactive midterm and final exam review sessions to guide students on homework and general concepts from Rudin's _Principles of Mathematical Analysis_ and Tao's _Analysis I_
-* Led weekly proof-writing workshops to introduce all 44 students to set-theoretic results and develop confidence with proof techniques like epsilon-delta manipulation and mathematical induction
+* Led weekly proof-writing workshops to introduce all 44 students to set theory and mathematical argument, developing confidence with proof techniques like epsilon-delta manipulation and mathematical induction
 
 **Introduction to Functions and Calculus I-II**\
 _TA, August 2022 - May 2023_
