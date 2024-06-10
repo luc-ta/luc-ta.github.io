@@ -27,4 +27,4 @@ _TA, August 2023 - December 2023_
 **Introduction to Functions and Calculus I-II**\
 _TA, August 2022 - May 2023_
 * Designed and led semiweekly interactive practice workshops, held semiweekly office hours, and conducted weekly small-group review sessions to guide 80 students on general concepts and homework
-* Created original practice problems and solution sets for other TA's to deliver and consult during semiweekly workshops; formulated teaching strategies and approaches with coworkers and course instructors
+* Created original practice problems and solution sets for other TA's to deliver and consult during semiweekly workshops; formulated and refined teaching strategies and approaches with coworkers and course instructors
