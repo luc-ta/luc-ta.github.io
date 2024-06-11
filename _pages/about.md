@@ -21,4 +21,4 @@ July 2024: I will be delivering talks about my research on toric knot mosaics an
 
 May 2024: I have begun researching with Drs. Samantha Pezzimenti and Tony W.H. Wong through the REU at Moravian University.
 
-April 2024: As a delegate with the Yale math department's Student Advisory Council, I helped organize a professional development panel for prospective mathematics graduate school applicants and a town hall to take feedback for the department, especially regarding its climate and inclusivity.
+April 2024: As a delegate with the Yale math department's Student Advisory Council, I helped organize a course scheduling and major planning workshop for students considering declaring a mathematics major, a professional development panel for prospective mathematics graduate school applicants, and a town hall to take feedback for the department, especially regarding its climate and inclusivity.
