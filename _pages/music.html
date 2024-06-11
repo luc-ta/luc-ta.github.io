@@ -7,6 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.music %}
-  {% include archive-single.html reversed %}
+{% for post in site.music reversed %}
+  {% include archive-single.html %}
 {% endfor %}
