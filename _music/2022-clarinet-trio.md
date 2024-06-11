@@ -1,6 +1,6 @@
 ---
 title: "Trio in G major (2022)"
-excerpt: "for clarinet, cello, and piano, 36'20\"<br/>[![Luc Ta - Trio for Clarinet, Cello, and Piano in G major (2022)](https://img.youtube.com/vi/RCqd35pq-MU/0.jpg 'Luc Ta - Trio for Clarinet, Cello, and Piano in G major (2022)')](https://luc-ta.github.io/music/clarinet-trio/)"
+excerpt: "for clarinet, cello, and piano, 36'20\"<br/>[![Luc Ta - Trio for Clarinet, Cello, and Piano in G major (2022)](https://img.youtube.com/vi/RCqd35pq-MU/0.jpg 'Luc Ta - Trio for Clarinet, Cello, and Piano in G major (2022)')](https://luc-ta.github.io/music/2022-clarinet-trio/)"
 collection: music
 ---
 
