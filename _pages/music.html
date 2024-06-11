@@ -7,7 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% set oeuvre = ["_music/piano-quintet.md","_music/trombone-sonata.md","_music/clarinet-trio.md","_music/contrapuntal-pieces.md"] %}
-{% for post in oeuvre %}
+{% for post in site.music %}
   {% include archive-single.html %}
 {% endfor %}
