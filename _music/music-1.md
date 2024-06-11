@@ -18,4 +18,6 @@ _for two clarinets, 3'35"_\
 [![Luc Ta - Two Sides of the Same Canon (2021)](https://img.youtube.com/vi/H5dGyHC81e4/0.jpg)](https://www.youtube.com/watch?v=H5dGyHC81e4)\
 This piece consists of two mirror canons—really one mirror canon that is itself inverted to create a second movement—built around a familiar theme that originated in October 2020. Bonus points if you can guess it...
 
+This piece was featured by [thenameisgsarci](https://www.youtube.com/@thenameisgsarci) on YouTube, who created and uploaded the above score video.
+
 The instrumentation is flexible; feel free to email me for arrangement requests.
