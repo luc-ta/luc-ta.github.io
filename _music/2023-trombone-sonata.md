@@ -1,6 +1,6 @@
 ---
 title: "Sonata in B♭ major (2023)"
-excerpt: "for trombone and piano, 32'23\"<br/>[![Luc Ta - Sonata for Trombone and Piano in B♭ major (2023)](https://img.youtube.com/vi/AUtxAs97rGk/0.jpg 'Luc Ta - Sonata for Trombone and Piano in B♭ major (2023)')](https://luc-ta.github.io/music/trombone-sonata/)"
+excerpt: "for trombone and piano, 32'23\"<br/>[![Luc Ta - Sonata for Trombone and Piano in B♭ major (2023)](https://img.youtube.com/vi/AUtxAs97rGk/0.jpg 'Luc Ta - Sonata for Trombone and Piano in B♭ major (2023)')](https://luc-ta.github.io/music/2023-trombone-sonata/)"
 collection: music
 ---
 
