@@ -1,6 +1,6 @@
 ---
 title: "2.5 Contrapuntal Pieces (2021)"
-excerpt: "prelude and fugue for piano, 3'52\"; mirror canon(s) for two clarinets; 3'35\"<br/>[![Luc Ta - 2.5 Contrapuntal Pieces (2021)](https://img.youtube.com/vi/KQXKckJTqVw/0.jpg 'Luc Ta - 2.5 Contrapuntal Pieces (2021)')](https://luc-ta.github.io/music/contrapuntal-pieces/)"
+excerpt: "prelude and fugue for piano, 3'52\"; mirror canon(s) for two clarinets; 3'35\"<br/>[![Luc Ta - 2.5 Contrapuntal Pieces (2021)](https://img.youtube.com/vi/KQXKckJTqVw/0.jpg 'Luc Ta - 2.5 Contrapuntal Pieces (2021)')](https://luc-ta.github.io/music/2021-contrapuntal-pieces/)"
 collection: music
 ---
 
