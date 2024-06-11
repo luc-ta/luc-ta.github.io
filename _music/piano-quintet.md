@@ -1,6 +1,6 @@
 ---
 title: "Piano Quintet (2023)"
-excerpt: "for two violins, viola, cello, and piano, 18'36\"<br/>[![Luc Ta - Piano Quintet (2023)](https://img.youtube.com/vi/Hk-ibIDhY2s/0.jpg 'Luc Ta - Piano Quintet (2023)')](https://luc-ta.github.io/music/piano-quintet)"
+excerpt: "for two violins, viola, cello, and piano, 18'36\"<br/>[![Luc Ta - Piano Quintet (2023)](https://img.youtube.com/vi/Hk-ibIDhY2s/0.jpg 'Luc Ta - Piano Quintet (2023)')](https://luc-ta.github.io/music/piano-quintet/)"
 collection: music
 ---
 
