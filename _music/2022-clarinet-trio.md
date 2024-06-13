@@ -10,6 +10,4 @@ I began composing this four-movement trio during my gap year after high school, 
 
 In spring 2022, this piece was featured alongside my [prelude and fugue](https://luc-ta.github.io/music/2021-contrapuntal-pieces/) in the [fifth issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale. That August, it was also showcased on YouTube creator [TheExarion](https://www.youtube.com/@TheExarion)'s livestream.
 
-This piece was featured in the [fifth issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale.
-
 The clarinet may be substituted by a violin, viola, or alto saxophone; feel free to email me for parts or arrangement requests.
