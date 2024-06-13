@@ -15,7 +15,7 @@ I also love [teaching](https://luc-ta.github.io/teaching/) and look forward to s
 
 Along with my research and teaching interests, the transformative power of mathematics when put into the hands of marginalized communities forms a central part of my professional motivations. I strive toward a mathematical practice centered around solidarity, accessibility, and community; my experiences as a first-generation college student inform my advocacy work with organizations including the Yale math department's Student Advisory Council, oSTEM, and Delta Alpha Pi, an international honor society for students with disabilities.
 
-Outside of mathematics (arguably), I compose chamber music in my free time. Score videos for my finished works are available [here](https://luc-ta.github.io/music/). I am more than happy to supply parts to anyone interested in performing my music; please reach out via email.
+Outside of mathematics (arguably), I compose chamber music in my free time. Score videos for my finished works are available [here](https://luc-ta.github.io/music/). I am always on the lookout for performance opportunities and am more than happy to supply parts or arrangements to interested musicians; please reach out via email.
 
 Recent updates
 ======
