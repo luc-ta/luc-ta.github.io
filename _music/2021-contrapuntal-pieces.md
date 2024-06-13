@@ -9,7 +9,7 @@ _for piano, 3'52"_\
 [![Luc Ta - Prelude and Fugue in C major (2021)](https://img.youtube.com/vi/KQXKckJTqVw/0.jpg)](https://www.youtube.com/watch?v=KQXKckJTqVw)\
 I've always loved counterpoint and jazz. After the subject and answer of this fugue came to me as I was doing the laundry one day, I knew I wanted to try combining the two somehow.
 
-This piece was featured on YouTube creator [TheExarion](https://www.youtube.com/@TheExarion)'s June 27, 2021 livestream. In 2022, it was also featured in the [fifth issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale.
+This piece was featured on YouTube creator [TheExarion](https://www.youtube.com/@TheExarion)'s June 27, 2021 livestreamed showcase. In 2022, it was also featured in the [fifth issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale.
 
 The fugue is also playable for saxophone quartet, string quartet, or similar ensemble; feel free to email me for parts or arrangement requests.
 
