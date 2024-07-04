@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-At Yale, I serve as an Undergraduate Learning Assistant (i.e., a TA) for several courses in the mathematics department. (For more detailed information, please refer to my [CV](https://luc-ta.github.io/cv/).) In case future students find them helpful, here is an archive of some of the review materials I have written for these courses and am able to share.
+At Yale, I have served as an Undergraduate Learning Assistant (i.e., a TA) for several courses in the mathematics department. (For more detailed information, please refer to my [CV](https://luc-ta.github.io/cv/).) In case future students find them helpful, here is an archive of some of the review materials I have written for these courses and am able to share.
 
 **Introduction to Abstract Algebra**\
 _Aug 2024 – Dec 2024_
