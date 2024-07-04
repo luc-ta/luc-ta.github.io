@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a rising senior at Yale University double majoring in mathematics on the intensive track and ethnic studies. I am preparing to apply to graduate school in mathematics with the intent of pursuing a career as a professor. My primary research interests lie in harnessing algebraic and categorical tools to study geometric objects and manifolds and vice versa, including but not limited to algebraic geometry, Lie theory, and geometric group theory. I also hold secondary research interests in algebraic and (algebro-)geometric approaches to knot theory, graph theory, and voting theory and electoral redistricting.
+I am a rising senior at Yale University double majoring in mathematics on the intensive track and ethnic studies. I am preparing to apply to graduate school in mathematics with the intent of pursuing a career as a professor. My primary research interests lie in algebraic geometry, Lie theory, geometric group theory, and their relationships with category theory. I also hold secondary research interests in algebraic, (algebro-)geometric, and categorical approaches to knot theory, graph theory, and voting theory and electoral redistricting.
 
 Through the REU at Moravian University, I am currently working on two knot-theoretic reesarch projects under the supervision of Samantha Pezzimenti and Tony W. H. Wong; I will present our work at the UnKnot V conference at Seattle University in July. This fall, I look forward to writing and defending a bachelor's thesis in algebraic geometry under the supervision of Sam Raskin. For further information, please refer to my [CV](https://luc-ta.github.io/cv/).
 
