@@ -1,5 +1,6 @@
 ---
 title: "Analysis I-II"
+sitemap: false
 collection: teaching
 type: "TA"
 permalink: /teaching/analysis2023
