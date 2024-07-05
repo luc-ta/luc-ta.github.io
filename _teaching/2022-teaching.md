@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Functions and Calculus I-II"
+sitemap: false
 collection: teaching
 type: "TA"
 permalink: /teaching/calc2022
