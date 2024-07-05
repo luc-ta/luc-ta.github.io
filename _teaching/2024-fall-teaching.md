@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Abstract Algebra"
+sitemap: false
 collection: teaching
 type: "TA"
 permalink: /teaching/algebra2024
