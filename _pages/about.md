@@ -16,3 +16,5 @@ I also love teaching mathematics and look forward to serving as an Undergraduate
 Along with my research and teaching interests, the transformative power of mathematics when put into the hands of marginalized communities forms a central part of my professional motivations. I strive toward a mathematical practice centered around solidarity, accessibility, and community; my experiences as a first-generation college student inform my advocacy work with organizations including the Yale math department's Student Advisory Council, oSTEM, and Delta Alpha Pi, an international honor society for students with disabilities.
 
 Outside of mathematics (arguably), I am a self-taught [composer](https://luc-ta.github.io/music/) specializing in contemporary chamber music. I am always on the lookout for performance opportunities and am more than happy to supply parts or arrangements to interested musicians; please reach out via email.
+
+![Presenting at the UnKnot V conference in 2024](https://luc-ta.github.io/images/presenting.jpg)
