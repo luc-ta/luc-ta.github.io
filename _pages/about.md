@@ -18,4 +18,5 @@ Along with my research and teaching interests, the transformative power of mathe
 Outside of mathematics (arguably), I am a self-taught [composer](https://luc-ta.github.io/music/) specializing in contemporary chamber music. I am always on the lookout for performance opportunities and am more than happy to supply parts or arrangements to interested musicians; please reach out via email.
 
 ![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
-_Giving a presentation on toric knot mosaics at UnKnot V_
+
+<p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
