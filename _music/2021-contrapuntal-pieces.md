@@ -9,7 +9,7 @@ _for piano, 3'52"_\
 [![Luc Ta - Prelude and Fugue in C major (2021)](https://img.youtube.com/vi/KQXKckJTqVw/0.jpg)](https://www.youtube.com/watch?v=KQXKckJTqVw)\
 _(click image to play)_
 
-I've always loved counterpoint and jazz. After the subject and answer of this fugue came to me as I was doing the laundry one day, I knew I wanted to try combining the two somehow.
+I've always loved fugues and jazz. After the subject and answer of this fugue came to me during the laundry one day, I knew I wanted to try combining the two.
 
 This piece was showcased on YouTube creator [TheExarion](https://www.youtube.com/@TheExarion)'s June 27, 2021 livestream. In 2022, it was also featured alongside my [clarinet-cello-piano trio](https://luc-ta.github.io/music/2022-clarinet-trio/) in the [fifth issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale.
 
@@ -20,7 +20,7 @@ _for two clarinets, 3'35"_\
 [![Luc Ta - Two Sides of the Same Canon (2021)](https://img.youtube.com/vi/H5dGyHC81e4/0.jpg)](https://www.youtube.com/watch?v=H5dGyHC81e4)\
 _(click image to play)_
 
-This piece consists of two mirror canons—really one mirror canon that is itself inverted to create a second movement—built around a familiar theme that originated in October 2020. Bonus points if you can guess it...
+This piece consists of two mirror canons—really one mirror canon that is itself inverted to create a second movement—built around a theme that originated in October 2020. Bonus points if you can guess the original theme...
 
 This piece was featured by YouTube creator [thenameisgsarci](https://www.youtube.com/@thenameisgsarci), who created and uploaded the above score video.
 
