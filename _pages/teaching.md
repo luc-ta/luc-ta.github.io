@@ -23,3 +23,6 @@ _Aug 2023 – Dec 2023_
 
 **Introduction to Functions and Calculus I-II**\
 _Aug 2022 – May 2023_
+
+**Miscellaneous teaching materials**
+* [The likelihood function and MLE of a binomial distribution](../files/The_likelihood_function_and_MLE_of_a_binomial_distribution.pdf) (for the course "Probability and Bayesian Statistics")
