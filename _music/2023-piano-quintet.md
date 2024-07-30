@@ -10,4 +10,4 @@ _(click image to play)_
 
 This two-movement quintet was partially inspired by "Feldschlacht V" and "Die Wahrheit" by Masashi Hamauzu, two contrasting miniatures for piano quintet. Thinking about these pieces as a sort of diptych, I wanted to further explore the structural and stylistic blueprints they lay out.
 
-This piece was featured in the [seventh issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale.
+This piece was featured in the [seventh issue](https://aacc.yalecollege.yale.edu/resources/295-magazine) of _295 Magazine_, published by the Asian American Cultural Center at Yale. In December, it will also be showcased on YouTube creator [TheExarion](https://www.youtube.com/@TheExarion)'s livestream.
