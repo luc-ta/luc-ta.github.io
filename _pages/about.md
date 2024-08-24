@@ -9,7 +9,7 @@ redirect_from:
 
 Hello! I am a rising senior at Yale University hoping to become a mathematics professor in the future.
 
-To read more about me, please refer to my [CV](https://luc-ta.github.io/cv/) or my [bio](https://luc-ta.github.io/about/). Both of these are also accessible via the navigation bar at the top of every page of this website, along with a catalog of my [music](https://luc-ta.github.io/music/).
+Below is a list of my publications. To read more about me, please refer to my [CV](https://luc-ta.github.io/cv/) or my [bio](https://luc-ta.github.io/about/). Both of these are also accessible via the navigation bar at the top of every page of this website, along with a catalog of my [music](https://luc-ta.github.io/music/).
 
 **Publications**
 
