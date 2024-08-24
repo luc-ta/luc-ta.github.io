@@ -3,8 +3,8 @@ permalink: /
 title: "About me"
 author_profile: true
 redirect_from: 
-  - /about/
-  - /about.html
+  - /home/
+  - /main/
 ---
 
 I am a rising senior at Yale University studying mathematics on the intensive track and ethnic studies. I plan to become a mathematics professor in the future; currently, my primary research interests lie in algebraic geometry, Lie theory, geometric group theory, and their relationships with category theory. I am also interested in these fields' applications in (smooth) knot theory, graph theory, and voting theory and electoral redistricting.
