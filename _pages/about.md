@@ -20,7 +20,7 @@ Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony W
 Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, Kaelyn Pontes, and Luc Ta. _Constructions of and bounds on the toric mosaic number._ 2024+. 
 
 
-_Editor-Reviewed Publications_\
+_Editor-Reviewed Publications_
 
 Luc Ta. Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355),” “[A375356](https://oeis.org/A375356),” and “[A375357](https://oeis.org/A375357)” computing the numbers of m X n classical, period, and toroidal knot/link mosaics. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
