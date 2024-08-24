@@ -1,19 +1,27 @@
 ---
 permalink: /
-title: "About me"
+title: "Luc Ta"
 author_profile: true
 redirect_from: 
   - /home/
   - /main/
 ---
 
-I am a rising senior at Yale University studying mathematics on the intensive track and ethnic studies. I plan to become a mathematics professor in the future; currently, my primary research interests lie in algebraic geometry, Lie theory, geometric group theory, and their relationships with category theory. I am also interested in these fields' applications in (smooth) knot theory, graph theory, and voting theory and electoral redistricting.
+Hello! I am a rising senior at Yale University hoping to become a mathematics professor in the future.
 
-Through the 2024 REU at Moravian University, I conducted two knot-theoretic research projects under the supervision of Samantha Pezzimenti and Wing Hong Tony Wong; I presented our work on toric knot mosaics at the [UnKnot V](https://sites.google.com/view/unknot-v-conference/home?authuser=0) conference in July. In the fall, I also plan to write and defend a bachelor's thesis in algebraic geometry. For further information, please refer to my [CV](https://luc-ta.github.io/cv/).
+To read more about me, please refer to my [CV](https://luc-ta.github.io/cv/) or my [bio](https://luc-ta.github.io/about/). Both of these are also accessible via the navigation bar at the top of every page of this website, along with a catalog of my [music](https://luc-ta.github.io/music/).
 
-I also love teaching mathematics; this year will mark my third year as a teaching assistant in Yale's math department. Accessibility, equity, and inclusivity form the center of my teaching ethos; I aim to foster welcoming and safe environments for mathematical exploration as a creative, communal, and human endeavor. Coupled with my research interests, the transformative power of mathematics in the hands of marginalized communities like my own forms a central part of my professional motivations.
+**Publications**
 
-Outside of mathematics (arguably), I am a self-taught [composer](https://luc-ta.github.io/music/) specializing in contemporary chamber music. I am always on the lookout for performance opportunities and am more than happy to supply parts or arrangements to interested musicians; please reach out via email.
+_Articles in Preparation_
 
-![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
-<p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
+Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony Wong. _Bounds on mosaic number of Legendrian knots._ 2024+.
+
+Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, Kaelyn Pontes, and Luc Ta. _Constructions of and bounds on the toric mosaic number._ 2024+. 
+
+
+_Editor-Reviewed Publications_\
+
+Luc Ta. Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355),” “[A375356](https://oeis.org/A375356),” and “[A375357](https://oeis.org/A375357)” computing the numbers of m X n classical, period, and toroidal knot/link mosaics. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+
+Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony Wong. Integer sequences “[A374939](https://oeis.org/A374939),” “[A374942](https://oeis.org/A374942),” “[A374943](https://oeis.org/A374943),” “[A374944](https://oeis.org/A374944),” “[A374945](https://oeis.org/A374945),” “[A374946](https://oeis.org/A374946),” “[A374947](https://oeis.org/A374947),” and “[A375354](https://oeis.org/A375354)” tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
