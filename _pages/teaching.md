@@ -11,7 +11,7 @@ At Yale, I have served as an Undergraduate Learning Assistant (i.e., a TA) for s
 
 **Introduction to Abstract Algebra**\
 _Aug 2024 – Dec 2024_
-* TBA
+* [Midterm review problems](../files/Math_350_midterm_review_worksheet_.pdf)
 
 **Analysis II: Lebesgue Integration and Complex Fourier Series**\
 _Jan 2024 – May 2024_
