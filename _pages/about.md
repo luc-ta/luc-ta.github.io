@@ -22,6 +22,6 @@ Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, Kaelyn Pontes, and Luc Ta. _
 
 _Editor-Reviewed Publications_
 
-Luc Ta. Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355),” “[A375356](https://oeis.org/A375356),” “[A375357](https://oeis.org/A375357),” “[A375392](https://oeis.org/A375392),” and “[A375619](https://oeis.org/A375619)” related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Luc Ta. Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355),” “[A375356](https://oeis.org/A375356),” “[A375357](https://oeis.org/A375357),” “[A375392](https://oeis.org/A375392),” “[A375619](https://oeis.org/A375619),” and “[A376155](https://oeis.org/A376155)” related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
 Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony Wong. Integer sequences “[A374939](https://oeis.org/A374939),” “[A374942](https://oeis.org/A374942),” “[A374943](https://oeis.org/A374943),” “[A374944](https://oeis.org/A374944),” “[A374945](https://oeis.org/A374945),” “[A374946](https://oeis.org/A374946),” “[A374947](https://oeis.org/A374947),” and “[A375354](https://oeis.org/A375354)” tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
