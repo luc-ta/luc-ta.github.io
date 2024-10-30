@@ -15,7 +15,7 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 _Research Articles_
 
-Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony Wong. _Bounds on the mosaic number of Legendrian knots._ 2024+. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\].
+Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony Wong. _Bounds on the mosaic number of Legendrian knots._ 2024+. Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\].
 
 Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, Kaelyn Pontes, and Luc Ta. _Constructions of and bounds on the toric mosaic number._ 2024+. In preparation.
 
