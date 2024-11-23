@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a rising senior at Yale University studying mathematics on the intensive track and ethnic studies. I plan to become a mathematics professor in the future. Currently, my primary research interests lie in algebraic geometry, arithmetic geometry, and Lie theory. I am also interested in algebraic and categorical methods in geometric topology, especially smooth knot theory.
+I am a rising senior at Yale University studying mathematics on the intensive track and ethnic studies. I plan to become a mathematics professor in the future. Currently, my primary research interests lie in algebraic topology, arithmetic geometry, and Lie theory. I am also interested in algebraic and categorical methods in geometric topology, especially smooth knot theory.
 
 Through the 2024 REU at Moravian University, I conducted two knot-theoretic research projects under the supervision of Samantha Pezzimenti and Wing Hong Tony Wong (see one of our submitted preprints [here](https://arxiv.org/abs/2410.08064)). I am also writing a senior thesis under the supervision of Sam Raskin about categories of Legendrian racks and quandles, two algebraic structures recently invented to study Legendrian knots. For further information about my research, please refer to my [CV](https://luc-ta.github.io/cv/).
 
