@@ -15,5 +15,5 @@ I also love teaching mathematics; this year marks my third year as a teaching as
 
 Outside of mathematics (arguably), I am a self-taught [composer](https://luc-ta.github.io/music/) specializing in contemporary chamber music. I am always on the lookout for performance opportunities and am more than happy to supply parts or arrangements to interested musicians; please reach out via email.
 
-![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
-<p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
+![Giving a beginner-friendly presentation at Yale about knot theory and my REU research](https://luc-ta.github.io/images/pizza_seminar.jpg)
+<p style="text-align: center;">Giving a beginner-friendly presentation at Yale about knot theory and my REU research</p>
