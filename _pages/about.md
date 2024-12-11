@@ -17,7 +17,7 @@ _Research Articles_
 
 Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta, and Wing Hong Tony Wong. _Bounds on the mosaic number of Legendrian knots._ 2024+. Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\].
 
-Luc Ta. _On categories of generalized Legendrian racks._ 2024+. Undergraduate senior thesis. In preparation, [preliminary draft available](../files/senior-thesis-draft.pdf).
+Luc Ta. _On categories of groups and generalized Legendrian racks._ 2024+. Undergraduate senior thesis. In preparation, [preliminary draft available](../files/senior-thesis-draft.pdf).
 
 Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, Kaelyn Pontes, and Luc Ta. _Constructions of and bounds on the toric mosaic number._ 2024+. In preparation.
 
