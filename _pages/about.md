@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Luc Ta"
+title: "Lực Ta"
 author_profile: true
 redirect_from: 
   - /home/
