@@ -28,7 +28,7 @@ Luc Ta*. Integer sequences “[A375353](https://oeis.org/A375353),” “[A37535
 
 Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta*, and Wing Hong Tony Wong. Integer sequences “[A374939](https://oeis.org/A374939),” “[A374942](https://oeis.org/A374942),” “[A374943](https://oeis.org/A374943),” “[A374944](https://oeis.org/A374944),” “[A374945](https://oeis.org/A374945),” “[A374946](https://oeis.org/A374946),” “[A374947](https://oeis.org/A374947),” and “[A375354](https://oeis.org/A375354)” tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
-_* These were released before I changed my name from Luc to the Vietnamese Lực.
+_* These were released before I changed my name from Luc to the Vietnamese Lực._
 
 ![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
 <p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
