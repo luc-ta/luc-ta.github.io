@@ -9,6 +9,10 @@ author_profile: true
 
 At Yale, I have served as an Undergraduate Learning Assistant (i.e., a TA) for several courses in the mathematics department. (For more detailed information, please refer to my [CV](https://luc-ta.github.io/cv/).) In case future students find them helpful, here is an archive of some of the review materials I have written for these courses and am able to share.
 
+**Fields and Galois Theory**\
+_Jan 2025 – May 2025_
+* [Review of semidirect products](../files/370-semidirect-session.pdf)
+
 **Introduction to Abstract Algebra**\
 _Aug 2024 – Dec 2024_
 * [Midterm review problems](../files/Math_350_midterm_review_worksheet_.pdf)
