@@ -11,6 +11,7 @@ At Yale, I have served as an Undergraduate Learning Assistant (i.e., a TA) for s
 
 **Fields and Galois Theory**\
 _Jan 2025 – May 2025_
+* [Midterm 1 review problems](../files/Math_370_midterm1_qs.pdf)
 * [Review of semidirect products](../files/370-semidirect-session.pdf)
 
 **Introduction to Abstract Algebra**\
