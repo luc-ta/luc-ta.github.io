@@ -11,7 +11,7 @@ At Yale, I have served as an Undergraduate Learning Assistant (i.e., a TA) for s
 
 **Fields and Galois Theory**\
 _Jan 2025 – May 2025_
-* [Review of normal subgroups and semidirect products, with applications to Galois theory](../files/370_normal_subgrps.pdf)
+* [Review of normal subgroups and semidirect products, with applications to Galois theory](../files/Math_370_normal_subgrps.pdf)
 * Midterm 1 review: [problems](../files/Math_370_midterm1_qs.pdf) \| [partial solutions](../files/Math_370_midterm1_partial_answers.pdf)
 * [Review of semidirect products](../files/370-semidirect-session.pdf)
 
