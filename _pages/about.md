@@ -15,9 +15,9 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 _Research Articles_
 
-Lực Ta. _Generalized Legendrian racks: Knot coloring invariants, mediality, and tabulation._ Undergraduate senior thesis. In preparation.
+_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Undergraduate senior thesis. In preparation.
 
-Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, Kaelyn Pontes, and Lực Ta. _Constructions of and bounds on the toric mosaic number._ In preparation.
+_Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. In preparation. Submitted. Preprint, [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. 
 
 Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Luc Ta*, and Wing Hong Tony Wong. _Bounds on the mosaic number of Legendrian knots._ Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\], 2024. (JMM presentation slides are available [here](../files/computing-legendrian-mosaic-numbers.pdf).)
 
