@@ -14,6 +14,7 @@ _Jan 2025 – May 2025_
 * [Review of semidirect products](../files/370-semidirect-session.pdf)
 * [Midterm 1 review](../files/Math_370_midterm1_qs.pdf)
 * [Review of normal subgroups in Galois theory](../files/Math_370_normal_subgrps.pdf)
+* [Midterm 2 review](../files/Math_370_midterm2_qs.pdf)
 
 **Introduction to Abstract Algebra**\
 _Aug 2024 – Dec 2024_
