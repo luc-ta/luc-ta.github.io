@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Yale University studying mathematics on the intensive track and ethnic studies. Starting this fall, I'll be a Ph.D. student in mathematics at the University of Pittsburgh, supported by the K. Leroy Irvis Fellowship. I plan to become a mathematics professor in the future.
+I am a senior at Yale University studying mathematics on the intensive track and ethnic studies. Starting this fall, I'll be a Ph.D. student in mathematics at the University of Pittsburgh supported by the K. Leroy Irvis Fellowship. I plan to become a mathematics professor in the future.
 
 Broadly, I'm interested in algebra, category theory, geometry, topology, and the intersections of these areas. For information about my undergraduate research, please refer to my [CV](https://luc-ta.github.io/cv/).
 
