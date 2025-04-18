@@ -16,7 +16,7 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 _Research Articles_
 
-_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Undergraduate senior thesis. In preparation. (HRUMC presentation slides are available [here](../files/hrumc.pdf).)
+_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Undergraduate senior thesis. Preprint, [arXiv:2504.12671](https://doi.org/10.48550/arXiv.2504.12671). \[math.GT\], 2025. (HRUMC presentation slides are available [here](../files/hrumc.pdf).)
 
 _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Submitted. Preprint, [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. 
 
