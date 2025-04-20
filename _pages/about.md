@@ -17,11 +17,11 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 _Research Articles_
 
-_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Undergraduate senior thesis. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. (Presentation slides are also available: [HRUMC](../files/hrumc.pdf); [Mellon Forum](../files/mellon.pdf).)
+_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Undergraduate senior thesis. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. (Presentation slides: [HRUMC](../files/hrumc.pdf); [Mellon Forum](../files/mellon.pdf).)
 
 _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Submitted. Preprint, [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. 
 
-_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\], 2024. (JMM presentation slides are available [here](../files/computing-legendrian-mosaic-numbers.pdf).)
+_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\], 2024. (Presentation slides: [JMM](../files/computing-legendrian-mosaic-numbers.pdf).)
 
 _Editor-Reviewed Publications_
 
