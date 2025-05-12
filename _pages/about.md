@@ -19,7 +19,7 @@ _Research Articles_
 
 _Equivalences of racks, Legendrian racks, and symmetric racks._ Submitted. Preprint, arXiv link pending, 2025. 14 pages.
 
-_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Submitted. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. Bachelor's thesis (advisor: Sam Raskin), 39 pages.\
+_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Submitted. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. Bachelor's thesis at Yale, advised by Sam Raskin, 39 pages.\
 (Presentation slides: [Mellon Forum](../files/mellon.pdf) \[nontechnical\], [HRUMC](../files/hrumc.pdf) \[technical\], [undergrad thesis defense](../files/defense.pdf) \[very technical\].)
 
 _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Submitted. Preprint, [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. Conducted at the 2024 Moravian Univ. REU, 21 pages.
