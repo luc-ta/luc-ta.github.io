@@ -24,7 +24,7 @@ Bachelor's thesis at Yale, advised by Sam Raskin.\
 (Presentation slides: [Mellon Forum](../files/mellon.pdf) \[nontechnical\], [HRUMC](../files/hrumc.pdf) \[technical\], [thesis defense](../files/defense.pdf) \[very technical\].)
 
 _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Submitted. Preprint, [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. 21 pages.\
-Based on work conducted at the 2024 Moravian Univ. REU.
+Based on work conducted at the 2024 Moravian University REU.
 
 _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\], 2024. 46 pages.\
 Based on work conducted at the 2024 Moravian University REU.\
