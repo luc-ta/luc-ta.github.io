@@ -32,9 +32,11 @@ Based on work conducted at the 2024 Moravian University REU.\
 
 _Editor-Reviewed Publications_
 
-Lực Ta. Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355),” “[A375356](https://oeis.org/A375356),” “[A375357](https://oeis.org/A375357),” “[A375392](https://oeis.org/A375392),” “[A375619](https://oeis.org/A375619),” and “[A376155](https://oeis.org/A376155)” related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Lực Ta Integer sequences “[A383144](https://oeis.org/A383144)”–“[A383146](https://oeis.org/A383146)” related to generalized Legendrian racks. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
 
-Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Lực Ta, and Wing Hong Tony Wong. Integer sequences “[A374939](https://oeis.org/A374939),” “[A374942](https://oeis.org/A374942),” “[A374943](https://oeis.org/A374943),” “[A374944](https://oeis.org/A374944),” “[A374945](https://oeis.org/A374945),” “[A374946](https://oeis.org/A374946),” “[A374947](https://oeis.org/A374947),” and “[A375354](https://oeis.org/A375354)” tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Lực Ta. Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355)”–“[A375357](https://oeis.org/A375357),” “[A375392](https://oeis.org/A375392),” “[A375619](https://oeis.org/A375619),” and “[A376155](https://oeis.org/A376155)” related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+
+Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Lực Ta, and Wing Hong Tony Wong. Integer sequences “[A374939](https://oeis.org/A374939),” “[A374942](https://oeis.org/A374942)”–“[A374947](https://oeis.org/A374947),” and “[A375354](https://oeis.org/A375354)” tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
 ![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
 <p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
