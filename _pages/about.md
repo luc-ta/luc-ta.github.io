@@ -17,7 +17,7 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 _Research Articles_
 
-_Equivalences of racks, Legendrian racks, and symmetric racks._ Submitted. Preprint, arXiv link pending, 2025. 14 pages.
+_Equivalences of racks, Legendrian racks, and symmetric racks._ Submitted. Preprint, arXiv link pending \[math.GT\], 2025. 13 pages.
 
 _Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Submitted. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. Bachelor's thesis at Yale, advised by Sam Raskin, 39 pages.\
 (Presentation slides: [Mellon Forum](../files/mellon.pdf) \[nontechnical\], [HRUMC](../files/hrumc.pdf) \[technical\], [undergrad thesis defense](../files/defense.pdf) \[very technical\].)
