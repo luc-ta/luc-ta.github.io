@@ -7,9 +7,7 @@ redirect_from:
   - /main/
 ---
 
-Hello! I'm a senior at Yale University studying mathematics and ethnic studies. (You might know me as Luc Ta; that was my name prior to 2025.) 
-
-Starting this fall, I’ll be a Ph.D. student in mathematics at the University of Pittsburgh supported by the K. Leroy Irvis Fellowship. I plan to become a mathematics professor in the future.
+Hello! I'm an incoming mathematics PhD student at the University of Pittsburgh supported by the K. Leroy Irvis Fellowship. I hope to become a mathematics professor in the future. I recently graduated from Yale, where I double majored in mathematics on the intensive track and ethnic studies. (You might know me as Luc Ta; that was my name prior to 2025.) 
 
 Below is a list of my publications. To read more about me, please refer to my [CV](https://luc-ta.github.io/cv/) or my [bio](https://luc-ta.github.io/about/). Both of these are also accessible via the navigation bar located at the top of this webpage, along with a few of my [teaching](https://luc-ta.github.io/teaching/) resources and a catalog of my [music](https://luc-ta.github.io/music/).
 
@@ -17,7 +15,7 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 _Research Articles_
 
-_Equivalences of racks, Legendrian racks, and symmetric racks._ Submitted. Preprint, arXiv link pending \[math.GT\], 2025. 13 pages.
+_Equivalences of racks, Legendrian racks, and symmetric racks._ Submitted. Preprint, [arXiv:2505.08090](https://arxiv.org/abs/2505.08090) \[math.GT\], 2025. 13 pages.
 
 _Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Submitted. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. 39 pages.\
 Bachelor's thesis at Yale, advised by Sam Raskin.\
