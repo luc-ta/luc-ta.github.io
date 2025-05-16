@@ -12,7 +12,8 @@ Hello! I'm an incoming mathematics PhD student at the University of Pittsburgh s
 Below is a list of my publications. To read more about me, please refer to my [CV](https://luc-ta.github.io/cv/) or my [bio](https://luc-ta.github.io/about/). Both of these are also accessible via the navigation bar located at the top of this webpage, along with a few of my [teaching](https://luc-ta.github.io/teaching/) resources and a catalog of my [music](https://luc-ta.github.io/music/).
 
 Publications
-======\
+======
+\
 
 **Submitted Preprints**
 
