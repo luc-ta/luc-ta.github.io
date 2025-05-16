@@ -13,24 +13,24 @@ Below is a list of my publications. To read more about me, please refer to my [C
 
 **Publications**
 
-_Research Articles_
+_Submitted Preprints_
 
-_Equivalences of racks, Legendrian racks, and symmetric racks._ Submitted. Preprint, [arXiv:2505.08090](https://arxiv.org/abs/2505.08090) \[math.GT\], 2025. 13 pages.
+_Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090) \[math.GT\], 2025. 13 pages.
 
-_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ Submitted. Preprint, [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. 39 pages.\
+_Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671) \[math.GT\], 2025. 39 pages.\
 Bachelor's thesis at Yale, advised by Sam Raskin.\
 (Presentation slides: [Mellon Forum](../files/mellon.pdf) \[nontechnical\], [HRUMC](../files/hrumc.pdf) \[technical\], [thesis defense](../files/defense.pdf) \[very technical\].)
 
-_Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Submitted. Preprint, [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. 21 pages.\
+_Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265) \[math.GT\], 2025. 21 pages.\
 Based on work conducted at the 2024 Moravian University REU.
 
-_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. Submitted. Preprint, [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\], 2024. 46 pages.\
+_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064) \[math.GT\], 2024. 46 pages.\
 Based on work conducted at the 2024 Moravian University REU.\
 (Presentation slides: [JMM](../files/computing-legendrian-mosaic-numbers.pdf).)
 
 _Editor-Reviewed Publications_
 
-Integer sequences “[A383144](https://oeis.org/A383144)”–“[A383146](https://oeis.org/A383146)” related to generalized Legendrian racks. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
+Integer sequences “[A383144](https://oeis.org/A383144)”–“[A383146](https://oeis.org/A383146)” and “[A383828](https://oeis.org/A383828)”–“[A383831](https://oeis.org/A383831)” related to generalized Legendrian racks and symmetric racks. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
 
 Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355)”–“[A375357](https://oeis.org/A375357),” “[A375392](https://oeis.org/A375392),” “[A375619](https://oeis.org/A375619),” and “[A376155](https://oeis.org/A376155)” related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
