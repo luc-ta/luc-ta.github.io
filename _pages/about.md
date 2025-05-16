@@ -11,9 +11,10 @@ Hello! I'm an incoming mathematics PhD student at the University of Pittsburgh s
 
 Below is a list of my publications. To read more about me, please refer to my [CV](https://luc-ta.github.io/cv/) or my [bio](https://luc-ta.github.io/about/). Both of these are also accessible via the navigation bar located at the top of this webpage, along with a few of my [teaching](https://luc-ta.github.io/teaching/) resources and a catalog of my [music](https://luc-ta.github.io/music/).
 
-**Publications**
+Publications
+======
 
-_Submitted Preprints_
+**Submitted Preprints**
 
 _Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090) \[math.GT\], 2025. 13 pages.
 
@@ -28,7 +29,7 @@ _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha 
 Based on work conducted at the 2024 Moravian University REU.\
 (Presentation slides: [JMM](../files/computing-legendrian-mosaic-numbers.pdf).)
 
-_Editor-Reviewed Publications_
+**Editor-Reviewed Publications**
 
 Integer sequences “[A383144](https://oeis.org/A383144)”–“[A383146](https://oeis.org/A383146)” and “[A383828](https://oeis.org/A383828)”–“[A383831](https://oeis.org/A383831)” related to generalized Legendrian racks and symmetric racks. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
 
