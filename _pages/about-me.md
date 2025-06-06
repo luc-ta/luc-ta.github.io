@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior at Yale University studying mathematics on the intensive track and ethnic studies. Starting this fall, I'll be a Ph.D. student in mathematics at the University of Pittsburgh supported by the K. Leroy Irvis Fellowship. I plan to become a mathematics professor in the future.
+I'm an incoming mathematics Ph.D. student at the University of Pittsburgh. My work is supported by the K. Leroy Irvis Fellowship, and I hope to become a mathematics professor in the future. I'm a proud first-generation college grad, and I received my bachelor's in mathematics on the intensive track and ethnic studies at Yale.
 
-Broadly, I'm interested in algebra, category theory, geometry, topology, and the intersections of these areas. For information about my undergraduate research, please refer to my [CV](https://luc-ta.github.io/cv/).
+Broadly, I'm interested in algebra, category theory, geometry, topology, and how these all intersect. Before coming to Pitt, I studied varieties of nonassociative algebras and certain combinatorial objects originating in knot theory. For more information, please refer to my [CV](https://luc-ta.github.io/cv/).
 
 I also love teaching mathematics and have served for three years as a teaching assistant in Yale's math department. Accessibility, equity, and inclusivity form the center of my teaching ethos; I aim to foster welcoming and safe environments for mathematical exploration as a creative, communal, and human endeavor. Coupled with my research interests, the transformative power of mathematics in the hands of marginalized communities like my own forms a central part of my professional motivations.
 
