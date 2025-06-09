@@ -20,7 +20,7 @@ Publications
 
 _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages.
 
-_Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090). 2025. 13 pages.
+_Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 13 pages.
 
 _Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 39 pages.\
 Bachelor's thesis at Yale, advised by Sam Raskin.\
