@@ -31,13 +31,13 @@ author:
   pronouns         : "he/him"  
   bio              : "Math PhD student at Pitt"
   location         : "Tigard, OR"
-  employer         : "Yale University"
+  employer         : "University of Pittsburgh"
   uri              : # URL
-  email            : "luc.ta@yale.edu" 
+  email            : "ldt37@pitt.edu" 
 
   # Academic websites
   arxiv            : "https://arxiv.org/a/ta_l_6.html"
-  googlescholar    : #
+  googlescholar    : "https://scholar.google.com/citations?user=fGKbqfEAAAAJ"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0008-6824-186X"
   semantic         : # URL
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "luc-ta"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
