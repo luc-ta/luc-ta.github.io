@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an incoming mathematics Ph.D. student at the University of Pittsburgh. My work is supported by the K. Leroy Irvis Fellowship, and I hope to become a mathematics professor in the future. I'm a proud first-generation college grad, and I double majored in mathematics on the intensive track and ethnic studies at Yale.
+I'm an incoming mathematics PhD student at the University of Pittsburgh. My work is supported by the K. Leroy Irvis Fellowship, and I hope to become a mathematics professor in the future. I'm a proud first-generation college grad, and I double majored in mathematics on the intensive track and ethnic studies at Yale.
 
 Broadly, I'm interested in algebra, category theory, geometry, topology, and how these all intersect. Before coming to Pitt, I studied certain varieties of nonassociative algebras called _racks_ and _quandles_ and combinatorial objects called _knot mosaics_ originating from knot theory. For more information, please refer to my [CV](https://luc-ta.github.io/cv/).
 
