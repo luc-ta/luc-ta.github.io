@@ -31,7 +31,7 @@ Based on work conducted at the 2024 Moravian University REU.
 
 **Accepted for Publication**
 
-_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. To appear in the Journal of Knot Theory and Its Ramifications. [arXiv:2024.08064](https://doi.org/10.48550/arXiv.2410.08064), 2024. 46 pages.\
+_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. To appear in the Journal of Knot Theory and Its Ramifications. [doi:10.1142/S0218216525500555](https://doi.org/10.1142/S0218216525500555), 2025. 47 pages.\
 Based on work conducted at the 2024 Moravian University REU.\
 (Presentation slides: [JMM](../files/computing-legendrian-mosaic-numbers.pdf).)
 
