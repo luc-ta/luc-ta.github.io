@@ -26,7 +26,7 @@ _Generalized Legendrian racks: Classification, tensors, and knot coloring invari
 Bachelor's thesis at Yale, advised by Sam Raskin.\
 (Presentation slides: [Mellon Forum](../files/mellon.pdf) nontechnicalnontechnical, [HRUMC](../files/hrumc.pdf) technicaltechnical, [thesis defense](../files/defense.pdf) verytechnicalvery technical.)
 
-_Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265), 2025. 21 pages.\
+_Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265), 2025. 21 pages.
 
 **Accepted for Publication**
 
