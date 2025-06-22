@@ -24,7 +24,7 @@ _Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.0809
 
 _Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 39 pages.\
 Bachelor's thesis at Yale, advised by Sam Raskin.\
-(Presentation slides: [Mellon Forum](../files/mellon.pdf) nontechnicalnontechnical, [HRUMC](../files/hrumc.pdf) technicaltechnical, [thesis defense](../files/defense.pdf) verytechnicalvery technical.)
+(Presentation slides: [Mellon Forum](../files/mellon.pdf) \[nontechnical\], [HRUMC](../files/hrumc.pdf) \[technical\], [thesis defense](../files/defense.pdf) \[very technical\].)
 
 _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265), 2025. 21 pages.
 
