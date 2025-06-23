@@ -18,13 +18,15 @@ Publications
 
 **Submitted Preprints**
 
+_Enumeration of virtual quandles up to isomorphism._ [arXiv:2506.16536](https://arxiv.org/abs/2506.16536), 2025. 11 pages.
+
 _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages.
 
 _Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 13 pages.
 
 _Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 39 pages.\
 Bachelor's thesis at Yale, advised by Sam Raskin.\
-(Presentation slides: [Mellon Forum](../files/mellon.pdf) \[nontechnical\], [HRUMC](../files/hrumc.pdf) \[technical\], [thesis defense](../files/defense.pdf) \[very technical\].)
+(Presentation slides: [Mellon Forum](../files/mellon.pdf) nontechnicalnontechnical, [HRUMC](../files/hrumc.pdf) technicaltechnical, [thesis defense](../files/defense.pdf) verytechnicalvery technical.)
 
 _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265), 2025. 21 pages.
 
@@ -35,11 +37,11 @@ _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha 
 
 **Editor-Reviewed Publications**
 
-Integer sequences “[A383144](https://oeis.org/A383144)”–“[A383146](https://oeis.org/A383146)” and “[A383828](https://oeis.org/A383828)”–“[A383831](https://oeis.org/A383831)” related to generalized Legendrian racks and symmetric racks. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
+Integer sequences [A383144](https://oeis.org/A383144)–[A383146](https://oeis.org/A383146), [A383828](https://oeis.org/A383828)–[A383831](https://oeis.org/A383831), and [A385040](https://oeis.org/A385040)–[A385041](https://oeis.org/A385041) related to racks and quandles. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
 
-Integer sequences “[A375353](https://oeis.org/A375353),” “[A375355](https://oeis.org/A375355)”–“[A375357](https://oeis.org/A375357),” “[A375392](https://oeis.org/A375392),” “[A375619](https://oeis.org/A375619),” and “[A376155](https://oeis.org/A376155)” related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Integer sequences[A375353](https://oeis.org/A375353)–[A375357](https://oeis.org/A375357), [A375392](https://oeis.org/A375392), [A375619](https://oeis.org/A375619), and [A376155](https://oeis.org/A376155) related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
-Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Lực Ta, and Wing Hong Tony Wong. Integer sequences “[A374939](https://oeis.org/A374939),” “[A374942](https://oeis.org/A374942)”–“[A374947](https://oeis.org/A374947),” and “[A375354](https://oeis.org/A375354)” tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Lực Ta, and Wing Hong Tony Wong. Integer sequences [A374939](https://oeis.org/A374939), [A374942](https://oeis.org/A374942)–[A374947](https://oeis.org/A374947), and [A375354](https://oeis.org/A375354) tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
 ![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
 <p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
