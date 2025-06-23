@@ -37,11 +37,11 @@ _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha 
 
 **Editor-Reviewed Publications**
 
-Integer sequences [A383144](https://oeis.org/A383144)–[A383146](https://oeis.org/A383146), [A383828](https://oeis.org/A383828)–[A383831](https://oeis.org/A383831), and [A385040](https://oeis.org/A385040)–[A385041](https://oeis.org/A385041) related to racks and quandles. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
+Integer sequences [A383144](https://oeis.org/A383144)–[A383146](https://oeis.org/A383146), [A383828](https://oeis.org/A383828)–[A383831](https://oeis.org/A383831), and [A385040](https://oeis.org/A385040)–[A385041](https://oeis.org/A385041) relating to racks and quandles. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
 
-Integer sequences[A375353](https://oeis.org/A375353)–[A375357](https://oeis.org/A375357), [A375392](https://oeis.org/A375392), [A375619](https://oeis.org/A375619), and [A376155](https://oeis.org/A376155) related to knot mosaics, hyperbolic links, and extremal graphs. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Integer sequences [A375353](https://oeis.org/A375353)–[A375357](https://oeis.org/A375357), [A375392](https://oeis.org/A375392), [A375619](https://oeis.org/A375619), and [A376155](https://oeis.org/A376155) relating to various topics in knot theory and combinatorics. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
-Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Lực Ta, and Wing Hong Tony Wong. Integer sequences [A374939](https://oeis.org/A374939), [A374942](https://oeis.org/A374942)–[A374947](https://oeis.org/A374947), and [A375354](https://oeis.org/A375354) tabulating Legendrian knot/link mosaics and mosaic numbers of Legendrian knots. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
+Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, Lực Ta, and Wing Hong Tony Wong. Integer sequences [A374939](https://oeis.org/A374939), [A374942](https://oeis.org/A374942)–[A374947](https://oeis.org/A374947), and [A375354](https://oeis.org/A375354) relating to Legendrian knot mosaics. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2024.
 
 ![Giving a presentation on toric knot mosaics at UnKnot V](https://luc-ta.github.io/images/presenting.jpg)
 <p style="text-align: center;">Giving a presentation on toric knot mosaics at UnKnot V</p>
