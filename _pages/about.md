@@ -18,11 +18,11 @@ Publications
 
 **Submitted Preprints**
 
+_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 32 pages.
+
 _Enumeration of virtual quandles up to isomorphism._ [arXiv:2506.16536](https://arxiv.org/abs/2506.16536), 2025. 11 pages.
 
 _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages.
-
-_Equivalences of racks, Legendrian racks, and symmetric racks._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 13 pages.
 
 _Generalized Legendrian racks: Classification, tensors, and knot coloring invariants._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 39 pages.\
 Bachelor's thesis at Yale, advised by Sam Raskin.\
@@ -32,7 +32,7 @@ _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, M
 
 **Accepted for Publication**
 
-_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. To appear in the Journal of Knot Theory and Its Ramifications. [doi:10.1142/S0218216525500555](https://doi.org/10.1142/S0218216525500555), 2025. 47 pages. (Preprint available on [arXiv](https://arxiv.org/abs/2410.08064).)\
+_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. To appear in the Journal of Knot Theory and Its Ramifications, Paper No. 2550055. 52 pages. [doi:10.1142/S0218216525500555](https://doi.org/10.1142/S0218216525500555) (Preprint available on [arXiv](https://arxiv.org/abs/2410.08064).)\
 (Presentation slides: [JMM](../files/computing-legendrian-mosaic-numbers.pdf).)
 
 **Editor-Reviewed Publications**
