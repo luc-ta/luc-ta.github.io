@@ -32,7 +32,7 @@ _Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, M
 
 **Accepted for Publication**
 
-_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Wing Hong Tony Wong. To appear in the Journal of Knot Theory and Its Ramifications, Paper No. 2550055, [doi:10.1142/S0218216525500555](https://doi.org/10.1142/S0218216525500555). 52 pages.\
+_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Tony W. H. Wong. To appear in the Journal of Knot Theory and Its Ramifications, Paper No. 2550055, [doi:10.1142/S0218216525500555](https://doi.org/10.1142/S0218216525500555). 52 pages.\
 (Preprint available on [arXiv](https://arxiv.org/abs/2410.08064). JMM presentation slides [also available](../files/computing-legendrian-mosaic-numbers.pdf).)
 
 **Editor-Reviewed Publications**
