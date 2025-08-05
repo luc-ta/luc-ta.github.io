@@ -18,7 +18,7 @@ Publications
 
 **Submitted Preprints**
 
-_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 32 pages.
+_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 33 pages.
 
 _Enumeration of virtual quandles up to isomorphism._ [arXiv:2506.16536](https://arxiv.org/abs/2506.16536), 2025. 11 pages.
 
