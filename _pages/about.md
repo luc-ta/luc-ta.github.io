@@ -18,6 +18,8 @@ Publications
 
 **Submitted Preprints**
 
+_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages.
+
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ [arXiv:2508.16772](https://arxiv.org/abs/2508.16772), 2025. 18 pages.
 
 _Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 33 pages.
