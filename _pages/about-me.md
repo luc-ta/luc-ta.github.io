@@ -13,7 +13,7 @@ Before coming to Pitt, I double majored in mathematics on the intensive track an
 
 I also love teaching mathematics and served for three years as a teaching assistant in Yale's math department. Accessibility, equity, and inclusivity form the center of my teaching ethos; I aim to foster welcoming and safe environments for mathematical exploration as a creative, communal, and human endeavor. Coupled with my research interests, the transformative power of mathematics in the hands of marginalized communities like my own forms a central part of my professional motivations.
 
-Outside of my studirs, I'm a hobbyist [composer](https://luc-ta.github.io/music/) specializing in contemporary chamber music with a side interest in orchestral music for games. I'm more than happy to supply scores, parts, and arrangements to interested musicians for a small price; please reach out via email at luc (dot) ta (at) aya (dot) yale (dot) edu.
+Outside of mathematics, I'm a hobbyist [composer](https://luc-ta.github.io/music/) specializing in contemporary chamber music with a side interest in orchestral music for games. I'm more than happy to supply scores, parts, and arrangements to interested musicians for a small price; please reach out via email at luc (dot) ta (at) aya (dot) yale (dot) edu.
 
 [![Giving a beginner-friendly presentation at Yale about knot theory and my REU research](https://luc-ta.github.io/images/pizza_seminar.jpg)](https://luc-ta.github.io/images/pizza_seminar_mc.jpg)
 <p style="text-align: center;">Giving a beginner-friendly presentation at Yale about knot theory and my REU research</p>
