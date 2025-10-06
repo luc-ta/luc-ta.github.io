@@ -9,7 +9,7 @@ redirect_from:
 
 I'm a mathematics PhD student at the University of Pittsburgh. Broadly speaking, I'm interested in the relationships between algebra, category theory, geometry, and topology. I'm a proud first-generation college graduate, and my goal is to become a mathematics professor in the future. This year, I'm supported by the K. Leroy Irvis Fellowship.
 
-Before coming to Pitt, I double majored in mathematics on the intensive track and ethnic studies at Yale. My researched focused on group-theoretic and categorical aspects of racks and quandles, which are nonassociative algebraic structures used to construct knot invariants and pointed Hopf algebras. For more information, please refer to my [CV](https://luc-ta.github.io/cv/).
+Before coming to Pitt, I double majored in mathematics on the intensive track and ethnic studies at Yale. My research focused on group-theoretic and categorical aspects of racks and quandles, which are nonassociative algebraic structures used to construct knot invariants and pointed Hopf algebras. For more information, please refer to my [CV](https://luc-ta.github.io/cv/).
 
 I also love teaching mathematics and served for three years as a teaching assistant in Yale's math department. Accessibility, equity, and inclusivity form the center of my teaching ethos; I aim to foster welcoming and safe environments for mathematical exploration as a creative, communal, and human endeavor. Coupled with my research interests, the transformative power of mathematics in the hands of marginalized communities like my own forms a central part of my professional motivations.
 
