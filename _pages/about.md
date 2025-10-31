@@ -18,20 +18,21 @@ Publications
 
 **Submitted Preprints**
 
-_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages.
+_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages.
 
-_Good involutions of twisted conjugation subquandles and Alexander quandles._ [arXiv:2508.16772](https://arxiv.org/abs/2508.16772), 2025. 18 pages.
+_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages. Submitted.
 
-_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 33 pages.
+_Good involutions of twisted conjugation subquandles and Alexander quandles._ [arXiv:2508.16772](https://arxiv.org/abs/2508.16772), 2025. 18 pages. Submitted.
 
-_Enumeration of virtual quandles up to isomorphism._ [arXiv:2506.16536](https://arxiv.org/abs/2506.16536), 2025. 11 pages.
+_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 33 pages. Submitted.
+
+_Enumeration of virtual quandles up to isomorphism._ [arXiv:2506.16536](https://arxiv.org/abs/2506.16536), 2025. 11 pages. Submitted.
 
 _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages.
 
-_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 29 pages.\
-Bachelor's thesis at Yale, advised by Sam Raskin.
+_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 29 pages. Submitted.
 
-_Constructions of and bounds on the toric mosaic number_, with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265), 2025. 21 pages.
+_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. [arXiv:2504.02265](https://doi.org/10.48550/arXiv.2504.02265), 2025. 21 pages. Submitted.
 
 **Peer-Reviewed Articles**
 
