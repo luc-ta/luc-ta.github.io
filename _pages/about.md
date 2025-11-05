@@ -16,7 +16,7 @@ Publications
 
 
 
-**Submitted Preprints**
+**Preprints**
 
 _Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages.
 
