@@ -32,7 +32,7 @@ _Classification and structure of generalized Legendrian racks._ [arXiv:2504.1267
 
 **Peer-Reviewed Articles**
 
-_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology Appl. **377** (2026), Paper No. 109657, doi:10.1016/j.topol.2025.109657. 17 pages.\ \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
+_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology Appl. **377** (2026), Paper No. 109657, doi:10.1016/j.topol.2025.109657. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
 
 _Enumeration of virtual quandles up to isomorphism._ J. Integer Seq. **28** (2025), no. 8, Article 25.8.4. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
 
