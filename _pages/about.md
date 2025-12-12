@@ -32,14 +32,11 @@ _Classification and structure of generalized Legendrian racks._ [arXiv:2504.1267
 
 **Peer-Reviewed Articles**
 
-_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology Appl. **377** (2026), Paper No. 109657, [doi:10.1016/j.topol.2025.109657](https://doi.org/10.1016/j.topol.2025.109657). 17 pages.\
-(Preprint available on [arXiv](https://arxiv.org/abs/2504.02265).)
+_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology Appl. **377** (2026), Paper No. 109657, doi:10.1016/j.topol.2025.109657. 17 pages.\ \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
 
-_Enumeration of virtual quandles up to isomorphism._ J. Integer Seq. **28** (2025), no. 8, Article 25.8.4, [https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html). 11 pages.\
-(Preprint available on [arXiv](https://arxiv.org/abs/2506.16536).)
+_Enumeration of virtual quandles up to isomorphism._ J. Integer Seq. **28** (2025), no. 8, Article 25.8.4. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
 
-_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Tony W. H. Wong. J. Knot Theory Ramifications **34** (2025), no. 12, Paper No. 2550055, [doi:10.1142/S0218216525500555](https://doi.org/10.1142/S0218216525500555). 52 pages.\
-(Preprint available on [arXiv](https://arxiv.org/abs/2410.08064). JMM presentation slides [also available](../files/computing-legendrian-mosaic-numbers.pdf).)
+_Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Tony W. H. Wong. J. Knot Theory Ramifications **34** (2025), no. 12, Paper No. 2550055, doi:10.1142/S0218216525500555. 52 pages. \[[journal](https://doi.org/10.1142/S0218216525500555)\] \[[arXiv](https://arxiv.org/abs/2410.08064)\]
 
 **Editor-Reviewed Publications**
 
