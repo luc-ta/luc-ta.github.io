@@ -18,6 +18,8 @@ Publications
 
 **Preprints**
 
+_From affine algebraic racks to Leibniz algebras._ [arXiv:2512.15909](https://arxiv.org/abs/2512.15909), 2025. 24 pages.
+
 _Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages.
 
 _Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages. Submitted.
