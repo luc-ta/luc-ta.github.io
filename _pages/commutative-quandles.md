@@ -27,7 +27,7 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multipl
 
 ### 1.1. Discussion
 
-Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain notions from convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\].
+Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\].
 
 One motivation for this blog post is to connect the theory of cancellative midpoint algebras to the theory of quandles. Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of quandle rings \[BE26\]. 
 
