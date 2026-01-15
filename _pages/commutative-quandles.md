@@ -110,9 +110,11 @@ _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a 
 
 _Proof._ By Theorem 3.1, every commutative quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). By commutativity, we have \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
+_Remark 3.3._ The "converses" of Theorems 3.1 and 3.2 also hold. Precisely, if \\(\mathrm{Alex}(A,\varphi)\\) is an Alexander quandle such that \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is medial and Latin. Moreover, every averaging quandle is commutative.
+
 ## 4. Equivalences of categories
 
-In the following, let \\(\mathsf{AffMod}\_{k}\\) be the category whose objects are \\(k\\)-modules and whose morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1] Let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms.
+Theorems 3.1 and 3.2 allow us to give an alternative perspective on the classification of medial Latin quandles and commutative quandles. In the following, let \\(\mathsf{AffMod}\_{k}\\) be the category whose objects are \\(k\\)-modules and whose morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1] Let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms.
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
