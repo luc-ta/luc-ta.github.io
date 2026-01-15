@@ -31,7 +31,7 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 
 One motivation for this blog post is to connect the theory of cancellative midpoint algebras to the theory of quandles. Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of quandle rings \[BE26\]. 
 
-The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\]
+The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] Another important class of quandles are _core quandles_ of groups \\(G\\), defined to be \\(\mathrm{Core}(G):=(G,\ast)\\) with \\[g\ast h:=hg^{-1}h.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\] 
 
 ### 1.2. Lemmas
 
@@ -51,6 +51,16 @@ _Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasig
 The following result requires a more involved argument. In \[BE26\], the authors start with a fixed element \\(x\in X\\) and show that \\(X-\\{x\\}\\) consists of \\(2n\\) elements \\(\\{y_1,\dots,y_n,z_1,\dots,z_n\\}\\) such that \\(z_i\ast y_i=x\\) for all \\(1\leq i\leq n\\).
 
 **Lemma 1.3** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
+
+Finally, we solve to part (2) of \[BE26, Question 7.1\].
+
+**Proposition 1.4.** Let \\(G\\) be a group. Then:
+(1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group.
+(2) \\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\).
+
+_Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast g=e\\] for all \(g\in G\), so \\(G=\\{e\\}\\). The converse is trivial.
+
+(2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\) we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so right-multiplying by \\(g\\) yields \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
 
 ## 2. Averaging quandles
 
