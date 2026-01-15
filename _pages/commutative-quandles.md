@@ -92,7 +92,7 @@ _Proof._ By Theorem 3.1, every commutative quandle is isomorphic to an Alexander
 
 _Remark 3.3._ The "converses" of Theorems 3.1 and 3.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
 
-In light of Lemma 1.2, the construction of Bauer \[Ba24\] can be viewed as a way to recover the \\(k\\)-module corresponding to a commutative quandle under Theorem 3.2. Although we will not use this construction, it is worth describing in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer shows that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
+In light of Lemma 1.2, the construction of Bauer \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding to a given commutative quandle under Theorem 3.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
 
 $$
     \begin{aligned}
