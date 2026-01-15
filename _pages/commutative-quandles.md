@@ -42,7 +42,7 @@ The following two lemmas are straightforward and left to the reader.
 
 **Lemma 1.2** (cf. \[Ba24\])**.** 
 * _Every commutative magma is medial._
-* _Let \\(X,\ast\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is a quasigroup._
+* _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is a quasigroup._
 * _Every commutative quandle is a cancellative midpoint algebra. Conversely, every finite cancellative midpoint algebra is a commutative quandle._
 
 _Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, they are not necessarily quandles. See Remark 2.5 for a counterexample.
