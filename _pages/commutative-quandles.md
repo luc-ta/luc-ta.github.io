@@ -13,7 +13,7 @@ In the following, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic
 
 ## 1. Preliminaries
 
-First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\)) equipped with a binary operation \\(\ast\colon X\to X\)) called _multiplication_. If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
+First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\)) equipped with a binary operation \\(\ast\colon X\to X\)) called _multiplication_. The cardinality of \\(X\\) is called its _order._ If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multiplication_ map \\(R_x\colon X\to X\\) given by \\(y\mapsto y\ast x\\) and the _left multiplication map_ \\(L_x\colon X\to X\\) given by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called _Latin_ or a _quasigroup_ if for all \\(x\in X\\), the multiplication maps \\(R_x\\) and \\(L_x\\) are permutations.
@@ -30,9 +30,9 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 
 One motivation for this blog post is to connect the theory of cancellative midpoint algebras to the theory of quandles. Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of quandle rings \[BE26\]. 
 
-The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) where \\[h\ast g:=ghg^{-1}.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[a\ast b:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\]
+The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) where \\[h\ast g:=ghg^{-1}.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\]
 
-The following are straightforward and left to the reader.
+The following two lemmas are straightforward and left to the reader.
 
 **Lemma 1.1.** 
 * _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
@@ -45,9 +45,15 @@ The following are straightforward and left to the reader.
 
 _Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, they are not necessarily quandles. See Remark 2.5 for a counterexample.
 
-## 2. Commutative quandles
+The following result requires a more involved argument. In \[BE26\], the authors start with a fixed element \\(x\in X\\) and show that \\(X-\\{x\\}\\) consists of \\(2n\\) elements \\(\\{y_1,\dots,y_n,z_1,\dots,z_n\\}\\) such that \\(z_i\ast y_i=x\\) for all \\(1\leq i\leq n\\).
 
-### 2.1. Averaging quandles
+**Lemma 1.3** (\[BE26, Prop. 5.2\]) **.** _The order of every finite commutative quandle is odd._
+
+## 2. Medial Latin quandles
+
+### 2.1. Commutative quandles
+
+We define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of free commutative quandles and certain finite averaging quandles \\(C_{2n+1}\\).
 
 **Definition 2.1.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
