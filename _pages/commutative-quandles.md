@@ -101,7 +101,7 @@ Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+
 
 **Theorem 2.7**(\[Br24\])**.** Every commutative quandle is isomorphic to an averaging quandle.
 
-_Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Lemmas 1.1 and 1.2 and Theorem 2.6, \\(X\\) is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\) such that \\(\varphi\\). Since \\( \mathrm{Alex}(A,\varphi)\\) is commutative, we have \\[\varphi(x)=x\ast 0=0\ast x=x-\varphi(x)\\] for all \\(x\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
+_Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Theorem 2.6, \\(X\\) is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\) such that \\(\varphi\\). Since \\( \mathrm{Alex}(A,\varphi)\\) is commutative, we have \\[\varphi(x)=x\ast 0=0\ast x=x-\varphi(x)\\] for all \\(x\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
 ## Markdown guide
 
