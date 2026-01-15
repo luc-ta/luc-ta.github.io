@@ -301,7 +301,7 @@ This allows you to denote <var>variables</var>.
 
 ## References
 
-\[Ba24\] K. J. Bauer, _quasigroup midpoint algebras = Z[1/2]-modules,_ Frank Blog, 2024. https://frank-9976.github.io/midpoint.html (accessed: 1-14-2026).
+\[Ba24\] K. J. Bauer, _quasigroup midpoint algebras = Z[1/2]-modules,_ Frank Blog, 2024. [https://frank-9976.github.io/midpoint.html](https://frank-9976.github.io/midpoint.html) (accessed: 1-14-2026).
 
 \[BE26\] V. Bardakov and M. Elhamdadi. _Idempotents and powers of ideals in quandle rings,_ 2026. arXiv:2601.07057
 
