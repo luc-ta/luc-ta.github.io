@@ -25,20 +25,24 @@ _Remark._ Averaging quandles are a special class of so-called _Alexander quandle
 
 **Lemma.** _For all \\(n\geq 1\\), the quandle \\(\mathrm{Free}\_n\\) is isomorphic to the averaging quandle \\( k[t\_1,\dots,t\_{n-1}]\_{\mathrm{avg}}\\)._
 
-_Proof._ Denote the generators of \\(\mathrm{Free}\_n\\) by \\(\\{x_1,\dots,x_n\\}\\) maps     
-    $$
+_Proof._ Denote the generators of \\(\mathrm{Free}\_n\\) by \\(\\{x_1,\dots,x_n\\}\\). Define maps  
+
+$$
     \begin{aligned}
-    \mathrm{Free}\_n & \to k[t\_1,\dots,t\_{n-1}]\_{\mathrm{avg}} \\
+    \mathrm{Free}\_n & \to k[t_1,\dots,t_{n-1}]\_{\mathrm{avg}} \\
    \sum^n_{i=1}\lambda_i x_i &\mapsto \sum^{n-1}_{i=1}\lambda_i t_i 
     \end{aligned}
     $$
-    and
-    $$
+    
+and
+    
+$$
     \begin{aligned}
-    k[t\_1,\dots,t\_{n-1}]\_{\mathrm{avg}}&\to\mathrm{Free}\_n  \\
-   \sum^{n-1}_{i=1}\lambda_i t_i &\mapsto \left(1-\sum^{n-1}\_{i=1}\lambda_i \right)x_n + \sum^{n-1}_{i=1}\lambda_i x_i .
+    k[t_1,\dots,t_{n-1}]\_{\mathrm{avg}}&\to\mathrm{Free}\_n  \\
+   \sum^{n-1}\_{i=1}\lambda_i t_i &\mapsto \left(1-\sum^{n-1}\_{i=1}\lambda_i \right)x_n + \sum^{n-1}_{i=1}\lambda_i x_i .
     \end{aligned}
     $$
+    
 The reader may verify that these maps are mutually inverse quandle homomorphisms. $$\tag*{$\Box$}$$
 
 ## Markdown guide
