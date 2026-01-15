@@ -17,7 +17,7 @@ In the following, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic
 
 **Example.** Let \\(A\\) be a unital ring in which \\(2\\\) is invertible. Define a quandle operation on \\(A\\) by averaging: \\[a\ast b:=(n+1)(a+b).\\] Then \\( A_{\mathrm{avg}}:=(A,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(A\\). 
 
-In particular, if \\(A=\mathbb{Z}/(2n-1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=\mathbb{Z}/(2n-1)\mathbb{Z}\_{\mathrm{avg}})\\). The reader can verify that this definition of \\(C_{2n+1}\\) coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
+In particular, if \\(A=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=(\mathbb{Z}/(2n+1)\mathbb{Z})\_{\mathrm{avg}})\\). The reader can verify that this definition of \\(C_{2n+1}\\) coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
 
 _Remark._ Averaging quandles are a special class of so-called _Alexander quandles_, which are not generally commutative.
 
@@ -30,7 +30,7 @@ _Proof._ Denote the generators of \\(\mathrm{Free}\_n\\) by \\(\\{x_1,\dots,x_n\
 $$
     \begin{aligned}
     \mathrm{Free}_n & \to k[t_1,\dots,t_{n-1}]_{\mathrm{avg}} \\
-   \sum^n\_{i=1}\lambda_i x_i &\mapsto \sum^{n-1}\_{i=1}\lambda_i t_i 
+   \sum^n_{i=1}\lambda_i x_i &\mapsto \sum^{n-1}_{i=1}\lambda_i t_i 
     \end{aligned}
     $$
     
@@ -38,8 +38,8 @@ and
     
 $$
     \begin{aligned}
-    k[t_1,\dots,t_{n-1}]\_{\mathrm{avg}}&\to\mathrm{Free}\_n  \\
-   \sum^{n-1}\_{i=1}\lambda_i t_i &\mapsto \left(1-\sum^{n-1}\_{i=1}\lambda_i \right)x_n + \sum^{n-1}_{i=1}\lambda_i x_i .
+    k[t_1,\dots,t_{n-1}]_{\mathrm{avg}}&\to\mathrm{Free}_n  \\
+   \sum^{n-1}_{i=1}\lambda_i t_i &\mapsto \left(1-\sum^{n-1}_{i=1}\lambda_i \right)x_n + \sum^{n-1}_{i=1}\lambda_i x_i .
     \end{aligned}
     $$
     
