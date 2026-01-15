@@ -25,6 +25,7 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multipl
 * A _midpoint algebra_ is an idempotent medial commutative magma.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 
+## 1.1. Discussion
 
 Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain notions from convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\].
 
@@ -49,9 +50,7 @@ The following result requires a more involved argument. In \[BE26\], the authors
 
 **Lemma 1.3** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
-## 2. Medial Latin quandles
-
-### 2.1. Commutative quandles
+## 2. Averaging quandles
 
 We define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of free commutative quandles and certain finite averaging quandles \\(C_{2n+1}\\).
 
@@ -87,22 +86,6 @@ The reader may verify that these maps are mutually inverse quandle homomorphisms
 
 _Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( x\mapsto x\ast 1\\) does not restrict to a permutation of \\(X\\).
 
-### Classification
-
-We completely describe medial Latin quandles and commutative quandles. The following results were already shown in \[Br24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
-
-Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
-
-**Theorem 2.6** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
-
-_Proof._ Let \\(X,\ast)\\) be a medial Latin quandle, so there exist \\(A,c,\varphi\\), and \\(\psi\\) as described above. Then \\(X,\ast)\cong(A,\cdot\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) in \\(A\\) shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (X,\ast)\cong(A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired.
-
-Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
-
-**Theorem 2.7** (\[Br24\])**.** Every commutative quandle is isomorphic to an averaging quandle.
-
-_Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Theorem 2.6, \\(X\\) is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\) such that \\(\varphi\\). Since \\( \mathrm{Alex}(A,\varphi)\\) is commutative, we have \\[\varphi(x)=x\ast 0=0\ast x=x-\varphi(x)\\] for all \\(x\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
-
 ## Markdown guide
 
 ### Header three
@@ -113,23 +96,39 @@ _Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Theorem 2.6, \\(X\\) i
 
 ###### Header six
 
-## Equivalences of categories
+## 3. Medial Latin quandles
+
+We completely describe medial Latin quandles and commutative quandles. The following results were already shown in \[Br24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
+
+Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
+
+**Theorem 3.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
+
+_Proof._ Let \\(X,\ast)\\) be a medial Latin quandle, so there exist \\(A,c,\varphi\\), and \\(\psi\\) as described above. Then \\(X,\ast)\cong(A,\cdot\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) in \\(A\\) shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (X,\ast)\cong(A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired.
+
+Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
+
+**Theorem 3.2** (\[Br24\])**.** Every commutative quandle is isomorphic to an averaging quandle.
+
+_Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Theorem 3.1, \\(X\\) is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\) such that \\(\varphi\\). Since \\( \mathrm{Alex}(A,\varphi)\\) is commutative, we have \\[\varphi(x)=x\ast 0=0\ast x=x-\varphi(x)\\] for all \\(x\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
+
+## 4. Equivalences of categories
 
 In the following, let \\(\mathsf{AffMod}\_{k}\\) be the category whose objects are \\(k\\)-modules and whose morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1] Let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms.
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
-**Proposition.** \\(\mathrm{avg}\\) is a functor.
+**Proposition 4.1.** \\(\mathrm{avg}\\) is a functor.
 
 _Proof._ By direct computation. QED.
 
-**Proposition.** \\(\mathrm{avg}\\) is fully faithful.
+**Proposition 4.2.** \\(\mathrm{avg}\\) is fully faithful.
 
 _Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N\\) be \\(k\\)-modules, and let \\(f\colon M_{\mathrm{avg}}\to N_{\mathrm{avg}}\\) be a quandle homomorphism. Define \\(T\colon M\to N\\) by \\(T:= f-f(0)\\). It suffices to show that \\(T\\) is \\(k\\)-linear, since then \\(f=\mathrm{avg}(T+f(0))\\). 
 
 Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
 
-Combined with Theorem 2.7, these theorems show the following.
+Combined with Theorem 3.2, these theorems show the following.
 
 **Theorem.** \\(\mathrm{avg}\\) is an equivalence of categories.
 
