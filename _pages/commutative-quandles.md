@@ -16,7 +16,7 @@ _Commutative quandles_ and _cancellative midpoint algebras_ are nonassociative a
 Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of certain nonassociative rings called _quandle rings_ \[BE26\]. 
 Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \[Ba24, Fr08\].
 
-### 1.1. Preliminaries
+### 1.1. Definitions
 
 Throughout this blogpost, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals.
 
@@ -32,11 +32,9 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multipl
 * A _midpoint algebra_ is an idempotent medial commutative magma.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 
-### 1.1. Discussion
-
 The archetypal example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] Another important class of quandles are _core quandles_ of groups \\(G\\), defined to be \\(\mathrm{Core}(G):=(G,\ast)\\) with \\[g\ast h:=hg^{-1}h.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\] 
 
-### 1.2. Lemmas
+### 1.2. Preliminary results
 
 The following two lemmas are straightforward and left to the reader.
 
