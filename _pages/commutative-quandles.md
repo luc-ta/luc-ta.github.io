@@ -25,13 +25,15 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multipl
 * A _midpoint algebra_ is an idempotent medial commutative magma.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 
-## 1.1. Discussion
+### 1.1. Discussion
 
 Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain notions from convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\].
 
 One motivation for this blog post is to connect the theory of cancellative midpoint algebras to the theory of quandles. Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of quandle rings \[BE26\]. 
 
 The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) where \\[h\ast g:=ghg^{-1}.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\]
+
+### 1.2. Lemmas
 
 The following two lemmas are straightforward and left to the reader.
 
