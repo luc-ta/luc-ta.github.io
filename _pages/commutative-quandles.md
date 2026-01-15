@@ -27,6 +27,8 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multipl
 * A _midpoint algebra_ is an idempotent medial commutative magma.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 
+Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain notions from convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\]. 
+
 ## Commutative quandles
 
 **Example.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
@@ -267,6 +269,16 @@ Still sticking with science and Isaac Newton's E = MC<sup>2</sup>, which should 
 ### Variable Tag
 
 This allows you to denote <var>variables</var>.
+
+## References
+
+\[Ba24\] K. J. Bauer, _quasigroup midpoint algebras = Z[1/2]-modules._ Frank Blog, 2024. https://frank-9976.github.io/midpoint.html (accessed: 1-14-2026).
+
+\[ES01\] M. H. Escardo and A. K. Simpson, _A universal characterization of the closed Euclidean interval._ Proc. 16th Annual IEEE Symposium on Logic in Computer Science, 115–125, 2001. doi:10.1109/LICS.2001.932488.
+
+\[Fr08\] P. Freyd, _Algebraic real analysis._ Theory Appl. Categ., No. 10, 215–306, 2008. MR2425550
+
+\[Si70\] K. Sigmon. _Cancellative medial means are arithmetic._ Duke Math J., 37:439–445, 1970. MR274644
 
 ***
 **Footnotes**
