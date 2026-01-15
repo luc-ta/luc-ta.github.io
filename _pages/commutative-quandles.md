@@ -102,11 +102,11 @@ We completely describe medial Latin quandles and commutative quandles. The follo
 
 Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
 
-**Theorem 3.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
+**Theorem 3.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
 
 _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a quasigroup of the form \\( (A,\cdot)\\) described above. By assumption, \\( (A,\cdot)\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) above shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired. Finally, since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
-**Theorem 3.2** (\[Ba24\])**.** Every commutative quandle is isomorphic to an averaging quandle.
+**Theorem 3.2** (\[Ba24\])**.** _Every commutative quandle is isomorphic to an averaging quandle._
 
 _Proof._ By Theorem 3.1, every commutative quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). By commutativity, we have \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
@@ -118,11 +118,11 @@ Theorems 3.1 and 3.2 allow us to give an alternative perspective on the classifi
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
-**Proposition 4.1.** \\(\mathrm{avg}\\) is a functor.
+**Proposition 4.1.** _\\(\mathrm{avg}\\) is a functor._
 
 _Proof._ By direct computation. QED.
 
-**Proposition 4.2.** \\(\mathrm{avg}\\) is fully faithful.
+**Proposition 4.2.** _\\(\mathrm{avg}\\) is fully faithful._
 
 _Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N\\) be \\(k\\)-modules, and let \\(f\colon M_{\mathrm{avg}}\to N_{\mathrm{avg}}\\) be a quandle homomorphism. Define \\(T\colon M\to N\\) by \\(T:= f-f(0)\\). It suffices to show that \\(T\\) is \\(k\\)-linear, since then \\(f=\mathrm{avg}(T+f(0))\\). 
 
@@ -130,7 +130,7 @@ Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to 
 
 Combined with Theorem 3.2, these theorems show the following.
 
-**Theorem.** \\(\mathrm{avg}\\) is an equivalence of categories.
+**Theorem.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
 ## Structure theorems
 
