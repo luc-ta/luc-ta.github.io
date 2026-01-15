@@ -13,6 +13,20 @@ In this blogpost, we describe an equivalence of categories between medial Latin 
 
 In the following, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic rationals.
 
+## Prerequisites
+
+First, we recall definitions Recall that a _magma_ is a set \\(X\)) equipped with a binary operation \\(\ast\colon X\to X\)). If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
+
+Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multiplication_ map \\(R_x\colon X\to X\\) given by \\(y\mapsto y\ast x\\) and the _left multiplication map_ \\(L_x\colon X\to X\\) given by \\(y\mapsto x\ast y\\).
+* \\(X\\) is called _Latin_ or a _quasigroup_ if for all \\(x\in X\\), the multiplication maps \\(R_x\\) and \\(L_x\\) are permutations.
+* \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism.
+* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\).
+* A _quandle_ is an idempotent rack.
+* \\(X\\) is called _medial_ if \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
+* \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
+* A _midpoint algebra_ is an idempotent medial commutative magma.
+* \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
+
 ## Commutative quandles
 
 **Example.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
