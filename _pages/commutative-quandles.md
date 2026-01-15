@@ -131,7 +131,7 @@ _Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N
 
 Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
 
-Combined with Theorem 3.2, these theorems show the following.
+Combined with Theorem 3.2, Propositions 4.1 and 4.2 show the following.
 
 **Theorem.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
