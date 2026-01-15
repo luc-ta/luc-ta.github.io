@@ -89,7 +89,7 @@ _Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 ### Classification
 
-We completely describe medial Latin quandles and commutative quandles. Thanks to Lemmas 1.1 and 1.2, we can appeal to the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
+We completely describe medial Latin quandles and commutative quandles. Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
 
 **Theorem 2.6.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
 
@@ -98,6 +98,8 @@ _Proof._ Let \\(X,\ast)\\ be a medial Latin quandle, so there exist \\(A,c,\varp
 Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are permutations. Since addition by \\(\varphi(a)\\) is also a permutation, it follows that \\(\mathrm{id}-\varphi\\) is also a permutation. QED.
 
 **Theorem 2.7.** Every commutative quandle is isomorphic to an averaging quandle.
+
+_Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Lemmas 1.1 and 1.2 and Theorem 2.6, \\(X\\) is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\) such that \\(\varphi\\). Since \\( \mathrm{Alex}(A,\varphi)\\) is commutative, we have \\[\varphi(x)=x\ast 0=0\ast x=x-\varphi(x)\\] for all \\(x\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
 ## Markdown guide
 
