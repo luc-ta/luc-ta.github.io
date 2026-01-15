@@ -7,7 +7,7 @@ redirect_from:
 
 ## Introduction
 
-In this blogpost, we describe an equivalence of categories between medial Latin (resp. commutative) quandles and affine modules over the ring of integral Laurent polynomials (resp. dyadic rationals). As an application, we obtain structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\], which were heretofore open.
+In this blogpost, we describe an equivalence of categories between medial Latin (resp. commutative) quandles and affine modules over the ring of integral Laurent polynomials (resp. dyadic rationals). As an application, we obtain structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\].
 
 In the following, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic rationals.
 
