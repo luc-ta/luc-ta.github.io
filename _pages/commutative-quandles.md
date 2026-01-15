@@ -65,7 +65,7 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 
 Henceforth, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals.
 
-We define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of free commutative quandles and certain finite averaging quandles \\(C_{2n+1}\\).
+In this section, we define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of free commutative quandles and certain finite averaging quandles \\(C_{2n+1}\\).
 
 **Definition 2.1.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
