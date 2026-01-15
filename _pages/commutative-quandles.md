@@ -5,13 +5,20 @@ sitemap: false
 date: 2026-01-15
 ---
 
-## Introduction
+## Abstract
 
 In this blogpost, we describe an equivalence of categories between medial Latin (resp. commutative) quandles and affine modules over the ring of integral Laurent polynomials (resp. dyadic rationals). As an application, we obtain structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\].
 
-Throughout this blogpost, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic rationals.
+## 1. Introduction
 
-## 1. Preliminaries
+_Commutative quandles_ and _cancellative midpoint algebras_ are nonassociative algebraic structures appearing in topology and analysis. Although these structures originated independently of one another, they coincide in the finite case and turn out to be closely related to affine modules over the ring of dyadic rationals \\(k=\mathbb{Z}[\frac{1}{2}]\\). The purpose of this blogpost is to collect various results describing these relationships. In particular, we show that the category of commutative quandles is equivalent to the category of affine modules over the dyadic rationals, and we deduce structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves two problems of Bardakov and Elhamdadi \[BE26\].
+
+Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of certain nonassociative rings called _quandle rings_ \[BE26\]. 
+Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \[Ba24, Fr08\].
+
+### 1.1. Preliminaries
+
+Throughout this blogpost, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals.
 
 First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
@@ -26,10 +33,6 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multipl
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 
 ### 1.1. Discussion
-
-Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\].
-
-One motivation for this blog post is to connect the theory of cancellative midpoint algebras to the theory of quandles. Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of quandle rings \[BE26\]. 
 
 The archetypal example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] Another important class of quandles are _core quandles_ of groups \\(G\\), defined to be \\(\mathrm{Core}(G):=(G,\ast)\\) with \\[g\ast h:=hg^{-1}h.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\] 
 
