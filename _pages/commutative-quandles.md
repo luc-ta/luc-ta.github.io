@@ -54,8 +54,8 @@ The following result requires a more involved argument. In \[BE26\], the authors
 
 Finally, we solve to part (2) of \[BE26, Question 7.1\].
 
-**Proposition 1.4.** Let \\(G\\) be a group. Then:
-(1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group.
+**Proposition 1.4.** Let \\(G\\) be a group. Then: \
+(1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
 (2) \\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\).
 
 _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast g=e\\] for all \(g\in G\), so \\(G=\\{e\\}\\). The converse is trivial.
