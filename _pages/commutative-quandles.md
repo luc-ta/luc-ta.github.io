@@ -88,7 +88,19 @@ _Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 ## Equivalences of categories
 
-In the following, 
+In the following, let \\(\mathsf{AffMod}\_{k}\\) be the category whose objects are \\(k\\)-modules and whose morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1] Let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms.
+
+Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
+
+**Proposition.** \\(\mathrm{avg}\\) is a functor.
+
+_Proof._ By direct computation. QED.
+
+**Proposition.** \\(\mathrm{avg}\\) is fully faithful.
+
+_Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N\\) be \\(k\\)-modules, and let \\(f\colon M_{\mathrm{avg}}\to N_{\mathrm{avg}}\\) be a quandle homomorphism. Define \\(T\colon M\to N\\) by \\(T:= f-f(0)\\). It suffices to show that \\(T\\) is \\(k\\)-linear, since then \\(f=\mathrm{avg}(T+f(0))\\). 
+
+Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
 
 ## Structure theorems
 
@@ -159,7 +171,7 @@ which wil render as:
 
 ### Footnotes
 
-Footnotes can be useful for clarifying points in the text, or citing information.[^1] Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
+Footnotes can be useful for clarifying points in the text, or citing information. Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
 
 ```markdown
 This is the regular text.[^1] This is more regular text.[^note]
@@ -168,7 +180,7 @@ This is the regular text.[^1] This is more regular text.[^note]
 [^note]: This is another footnote.
 ```
 
-[^1]: Such as this footnote.
+[^1]: There are many equivalent ways to define the category of affine modules over a commutative ring. The reader can verify that when the ground ring is \\(k\\), then our definition is equivalent to these other ways.
 [^note]: When using text for footnotes markers, no spaces are permitted in the name.
 
 ## HTML Tags
