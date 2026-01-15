@@ -2,7 +2,7 @@
 permalink: /commutative-quandles/
 title: "Structure theory of commutative quandles"
 sitemap: false
-redirect_from: 
+date: 01/15/2026
 ---
 
 ## Introduction
