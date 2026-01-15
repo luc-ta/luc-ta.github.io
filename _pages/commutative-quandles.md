@@ -89,15 +89,17 @@ _Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 ### Classification
 
-We completely describe medial Latin quandles and commutative quandles. Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
+We completely describe medial Latin quandles and commutative quandles. The following results were already shown in \[Br24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
 
-**Theorem 2.6.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
+Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
+
+**Theorem 2.6**\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
 
 _Proof._ Let \\(X,\ast)\\) be a medial Latin quandle, so there exist \\(A,c,\varphi\\), and \\(\psi\\) as described above. Then \\(X,\ast)\cong(A,\cdot\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) in \\(A\\) shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (X,\ast)\cong(A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired.
 
 Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
-**Theorem 2.7.** Every commutative quandle is isomorphic to an averaging quandle.
+**Theorem 2.7**(\[Br24\])**.** Every commutative quandle is isomorphic to an averaging quandle.
 
 _Proof._ Let \\( (X,\ast)\\) be a commutative quandle. By Lemmas 1.1 and 1.2 and Theorem 2.6, \\(X\\) is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\) such that \\(\varphi\\). Since \\( \mathrm{Alex}(A,\varphi)\\) is commutative, we have \\[\varphi(x)=x\ast 0=0\ast x=x-\varphi(x)\\] for all \\(x\in A\\), so \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
@@ -309,6 +311,8 @@ This allows you to denote <var>variables</var>.
 \[ES01\] M. H. Escardo and A. K. Simpson, _A universal characterization of the closed Euclidean interval._ Proc. 16th Annual IEEE Symposium on Logic in Comp. Sci. (2001), 115–125. doi:10.1109/LICS.2001.932488.
 
 \[Fr08\] P. Freyd, _Algebraic real analysis,_ Theory Appl. Categ. **20** (2008), no. 10, 215–306. MR2425550
+
+\[JPSZ15\] P. Jedlička, A. Pilitowska, D. Stanovský, and A. Zamojska-Dzienio, _The structure of medial quandles,_ J. Algebra **443** (2015), 300–334. MR3400403
 
 \[Jo82\] D. Joyce, _A classifying invariant of knots, the knot quandle,_ J. Pure Appl. Algebra **23** (1982), no. 1, 37–65. MR638121
 
