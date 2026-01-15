@@ -101,7 +101,7 @@ _Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 In the following, let \\(\mathsf{AffMod}\_{k}\\) be the category whose objects are \\(k\\)-modules and whose morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1] Let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms.
 
-Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
+Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
 **Proposition.** \\(\mathrm{avg}\\) is a functor.
 
