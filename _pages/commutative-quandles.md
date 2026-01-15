@@ -95,7 +95,7 @@ We completely describe medial Latin quandles and commutative quandles. Recall fr
 
 _Proof._ Let \\(X,\ast)\\) be a medial Latin quandle, so there exist \\(A,c,\varphi\\), and \\(\psi\\) as described above. Then \\(X,\ast)\cong(A,\cdot\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) in \\(A\\) shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (X,\ast)\cong(A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired.
 
-Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are permutations. Since addition by \\(\varphi(a)\\) is also a permutation, it follows that \\(\mathrm{id}-\varphi\\) is also a permutation. QED.
+Since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
 **Theorem 2.7.** Every commutative quandle is isomorphic to an averaging quandle.
 
