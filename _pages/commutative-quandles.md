@@ -109,8 +109,8 @@ To write \\(H_X\\) itself as an averaging quandle, fix a basepoint \\(x_0\in X\\
 
 $$
     \begin{aligned}
-    H_X & \to (k[X-\\{x\\}])_{\mathrm{avg}} \\
-   \sum^n_{i=0}\lambda_i x_i &\mapsto \sum^n_{i=1}\lambda_i x_i).
+    H_X & \to (k[X-\{x\}])_{\mathrm{avg}} \\
+   \sum^n_{i=0}\lambda_i x_i &\mapsto \sum^n_{i=1}\lambda_i x_i.
     \end{aligned}
     $$
 
