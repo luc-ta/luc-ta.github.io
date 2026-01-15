@@ -18,9 +18,9 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 
 ### 1.1. Definitions
 
-First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
+First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ Given magmas \\( (X,\ast_X)\\) and \\( (Y,\ast_Y)\\), functions \\(f\colon X\to Y\\) are called _magma homomorphisms_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
-Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multiplication_ map \\(R_x\colon X\to X\\) given by \\(y\mapsto y\ast x\\) and the _left multiplication map_ \\(L_x\colon X\to X\\) given by \\(y\mapsto x\ast y\\).
+Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called _Latin_ or a _quasigroup_ if for all \\(x\in X\\), the multiplication maps \\(R_x\\) and \\(L_x\\) are permutations.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\).
@@ -34,6 +34,7 @@ The archetypal example of a quandle is the _conjugation quandle_ of a group \\(G
 
 ### 1.2. Preliminary results
 
+Commutativity turns out to be a very strong condition for quandles. 
 The following two lemmas are straightforward and left to the reader.
 
 **Lemma 1.1.** 
@@ -59,19 +60,19 @@ The following solves part (2) of \[BE26, Question 7.1\]; we solve part (1) in Se
 
 _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast g=e\\] for all \\(g\in G\\), so \\(G=\\{e\\}\\). The converse is trivial.
 
-(2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\) we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
+(2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\), we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
 
 ## 2. Averaging quandles
 
 Henceforth, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals. All abelian groups are denoted additively.
 
-In this section, we define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of free commutative quandles and certain finite averaging quandles \\(C_{2n+1}\\).
+In this section, we define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of a free commutative averaging quandle and certain finite averaging quandles \\(C_{2n+1}\\).
 
 **Definition 2.1.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
 In particular, if \\(M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
 
-_Remark 2.2._ Averaging quandles are a special class of Alexander quandles, which are not commutative in general.
+_Remark 2.2._ Averaging quandles are a special class of Alexander quandles; if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In general, though, Alexander quandles are not necessarily commutative.
 
 **Example 2.3.** Given a set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) as a subset of the free \\(k\\)-module \\(k[X]\\) generated by \\(X\\): \\[H_X:= \left\\{\sum^n_{i=1}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=1}\lambda_i=1 \right\\}\subset k[X].\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( k[X]_{\mathrm{avg}}\\). We denote this subquandle by \\(\mathrm{Free}_X\\); if \\(\\# H=n<\infty\\), then we denote \\(\mathrm{Free}_n:=\mathrm{Free}_X\\). (Later, we show that \\(\mathrm{Free}_X\\) is isomorphic to the free commutative quandle generated by \\(X\\), which justifies the notation.) Note that \\(\mathrm{Free}_0\\) is the empty quandle.
 
