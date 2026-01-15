@@ -60,7 +60,7 @@ Finally, we solve to part (2) of \[BE26, Question 7.1\].
 
 _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast g=e\\] for all \(g\in G\), so \\(G=\\{e\\}\\). The converse is trivial.
 
-(2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\) we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so right-multiplying by \\(g\\) yields \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
+(2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\) we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
 
 ## 2. Averaging quandles
 
