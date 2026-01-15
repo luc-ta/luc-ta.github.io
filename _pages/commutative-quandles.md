@@ -17,7 +17,7 @@ In the following, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic
 
 **Example.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
-In particular, if \\(A=M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). The reader can verify that this definition of \\(C_{2n+1}\\) coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
+In particular, if \\(A=M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \((2^{-1}=n+1\)) in \((M\)), this definition of \\(C_{2n+1}\\) coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
 
 _Remark._ Averaging quandles are a special class of so-called _Alexander quandles_, which are not generally commutative.
 
