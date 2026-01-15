@@ -11,13 +11,13 @@ In this blogpost, we describe an equivalence of categories between medial Latin 
 
 ## Introduction 
 
-In the following, let $k:=\mathbb{Z}[\frac{1}{2}]$ denote the ring of dyadic rationals.
+In the following, let \((k:=\mathbb{Z}[\frac{1}{2}]\)) denote the ring of dyadic rationals.
 
 ## Commutative quandles
 
 **Example.** Let \((A\)) be a unital ring in which \((2\)) is invertible. Define a quandle operation on \((A\)) by averaging: \\[a\ast b:=(n+1)(a+b).\\] Then \(( A_{\mathrm{avg}}:=(A,\ast) \)) is a commutative quandle called the _averaging quandle_ on \\(A\)). 
 
-In particular, if \((A=\mathbb{Z}/n\mathbb(2n-1){Z}\)) is the cyclic group of order \((2n+1\)) with \((n\geq 0\)), then we denote the averaging quandle by \((C_{2n+1}:=\mathbb{Z}/n\mathbb(2n-1){Z}_{\mathrm{avg}})\)). The reader can verify that this definition of \((C_{2n+1}\)) coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
+In particular, if <p>\((A=\mathbb{Z}/n(2n-1)\mathbb{Z}\))</p> is the cyclic group of order \((2n+1\)) with \((n\geq 0\)), then we denote the averaging quandle by <p>\((C_{2n+1}:=\mathbb{Z}/n(2n-1)\mathbb{Z}_{\mathrm{avg}})\))</p>. The reader can verify that this definition of <p>\((C_{2n+1}\))</p> coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
 
 _Remark._ Averaging quandles are a special class of so-called _Alexander quandles_, which are not generally commutative.
 
