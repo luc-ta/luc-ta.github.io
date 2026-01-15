@@ -29,8 +29,8 @@ _Proof._ Denote the generators of \\(\mathrm{Free}\_n\\) by \\(\\{x_1,\dots,x_n\
 
 $$
     \begin{aligned}
-    \mathrm{Free}\_n & \to k[t_1,\dots,t_{n-1}]\_{\mathrm{avg}} \\
-   \sum^n_{i=1}\lambda_i x_i &\mapsto \sum^{n-1}_{i=1}\lambda_i t_i 
+    \mathrm{Free}_n & \to k[t_1,\dots,t_{n-1}]\_{\mathrm{avg}} \\
+   \sum^n\_{i=1}\lambda_i x_i &\mapsto \sum^{n-1}\_{i=1}\lambda_i t_i 
     \end{aligned}
     $$
     
@@ -43,7 +43,7 @@ $$
     \end{aligned}
     $$
     
-The reader may verify that these maps are mutually inverse quandle homomorphisms. $$\tag*{$\Box$}$$
+The reader may verify that these maps are mutually inverse quandle homomorphisms. QED.
 
 ## Markdown guide
 
