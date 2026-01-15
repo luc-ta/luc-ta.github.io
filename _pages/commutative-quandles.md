@@ -44,17 +44,17 @@ The following two lemmas are straightforward and left to the reader.
 **Lemma 1.2** (cf. \[Ba24\])**.** 
 * _Every commutative magma is medial._
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is a quasigroup._
-* _Every commutative quandle is a cancellative midpoint algebra. Conversely, every finite cancellative midpoint algebra is a commutative quandle._
+* _Commutative quandles are the same as Latin midpoint algebras. In particular, finite commutative quandles are the same as finite cancellative midpoint algebras._
 
-_Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, they are not necessarily quandles. See Remark 2.3 for a counterexample.
+_Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, Lemma 1.1 implies they are not necessarily quandles. See Remark 2.3 for a counterexample.
 
 The following result requires a more involved argument. In \[BE26\], the authors start with a fixed element \\(x\in X\\) and show that \\(X-\\{x\\}\\) consists of \\(2n\\) elements \\(\\{y_1,\dots,y_n,z_1,\dots,z_n\\}\\) such that \\(z_i\ast y_i=x\\) for all \\(1\leq i\leq n\\).
 
-**Lemma 1.3** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
+**Lemma 1.4** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
 The following solves part (2) of \[BE26, Question 7.1\]; we solve part (1) in Section 5.
 
-**Proposition 1.4.** Let \\(G\\) be a group. Then: \
+**Proposition 1.5.** Let \\(G\\) be a group. Then: \
 (1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
 (2) \\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\).
 
@@ -104,7 +104,7 @@ $$
     \end{aligned}
     $$
 
-The reader can check that this map is a quandle isomorphism. In particular, if \\(\\# X=n+1\\) with \\(n\geq 1\\) a positive integer, then \\(H_X\cong k^n_{\mathrm{avg}}\\).
+The reader can check that this map is a quandle isomorphism. In particular, if \\(\\# X=n+1\\) with \\(n\geq 0\\) a nonnegative integer, then \\(H_X\cong k^n_{\mathrm{avg}}\\).
 
 ## 4. Equivalences of categories
 
