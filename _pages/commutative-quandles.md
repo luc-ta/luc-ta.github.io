@@ -47,7 +47,7 @@ _Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasig
 
 The following result requires a more involved argument. In \[BE26\], the authors start with a fixed element \\(x\in X\\) and show that \\(X-\\{x\\}\\) consists of \\(2n\\) elements \\(\\{y_1,\dots,y_n,z_1,\dots,z_n\\}\\) such that \\(z_i\ast y_i=x\\) for all \\(1\leq i\leq n\\).
 
-**Lemma 1.3** (\[BE26, Prop. 5.2\]) **.** _The order of every finite commutative quandle is odd._
+**Lemma 1.3** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
 ## 2. Medial Latin quandles
 
@@ -88,6 +88,8 @@ The reader may verify that these maps are mutually inverse quandle homomorphisms
 _Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( x\mapsto x\ast 1\\) does not restrict to a permutation of \\(X\\).
 
 ### Classification
+
+We completely describe medial Latin quandles and commutative quandles. Thanks to Lemmas 1.1 and 1.2, we can appeal to the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot)\\, where \\[a\cdot b := \varphi(x)+\psi(y)+c.\\]
 
 **Theorem 2.6.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
 
