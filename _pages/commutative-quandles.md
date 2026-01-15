@@ -5,41 +5,53 @@ sitemap: false
 redirect_from: 
 ---
 
-## Abstract
+## Introduction
 
-In this blogpost, we describe an equivalence of categories between medial Latin (resp. commutative) quandles and affine modules over the ring of integral Laurent polynomials (resp. dyadic rationals). As an application, we obtain structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves two open problems of Bardakov and Elhamdadi in "Idempotents and Powers of Ideals in Quandle Rings" [\[arXiv:2601.07057\]](https://arxiv.org/abs/2601.07057).
-
-## Introduction 
+In this blogpost, we describe an equivalence of categories between medial Latin (resp. commutative) quandles and affine modules over the ring of integral Laurent polynomials (resp. dyadic rationals). As an application, we obtain structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\], which were heretofore open.
 
 In the following, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring of dyadic rationals.
 
-## Prerequisites
+## 1. Preliminaries
 
-First, we recall definitions Recall that a _magma_ is a set \\(X\)) equipped with a binary operation \\(\ast\colon X\to X\)) called _multiplication_. If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
+First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\)) equipped with a binary operation \\(\ast\colon X\to X\)) called _multiplication_. If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multiplication_ map \\(R_x\colon X\to X\\) given by \\(y\mapsto y\ast x\\) and the _left multiplication map_ \\(L_x\colon X\to X\\) given by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called _Latin_ or a _quasigroup_ if for all \\(x\in X\\), the multiplication maps \\(R_x\\) and \\(L_x\\) are permutations.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\).
 * A _quandle_ is an idempotent rack.
-* \\(X\\) is called _medial_ if \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
+* Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
 * \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
 * A _midpoint algebra_ is an idempotent medial commutative magma.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 
-Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain notions from convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\]. 
+The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) where \\[h\ast g:=ghg^{-1}.\\]
 
-## Commutative quandles
+On the other hand, Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain notions from convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over the dyadic rationals \\(k\\) \[Ba24, Fr08\]. 
 
-**Example.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
+The following are straightforward and left to the reader.
 
-In particular, if \\(A=M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from [\[BE24\]](https://arxiv.org/abs/2601.07057).
+**Lemma 1.1.** \
+* _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
+* _Every commutative rack is Latin and, in particular, a quandle._
 
-_Remark._ Averaging quandles are a special class of so-called _Alexander quandles_, which are not generally commutative.
+**Lemma 1.2** (cf. \[Ba24\])**.** \
+* _Every commutative magma is medial._
+* _Every commutative quandle is a cancellative midpoint algebra. Conversely, every finite cancellative midpoint algebra is a commutative quandle._
 
-**Example.** Given a set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) as a subset of the free \\(k\\)-module \\(k[X]\\) generated by \\(X\\): \\[H_X:= \left\\{\sum^n_{i=1}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=1}\lambda_i=1 \right\\}\subset k[X].\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( k[X]_{\mathrm{avg}}\\). We denote this subquandle by \\(\mathrm{Free}_X\\); if \\(\\# H=n<\infty\\), then we denote \\(\mathrm{Free}_n:=\mathrm{Free}_X\\). (Later, we show that \\(\mathrm{Free}_X\\) is isomorphic to the free commutative quandle generated by \\(X\\), which justifies the notation.) Note that \\(\mathrm{Free}_0\\) is the empty quandle.
+_Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, they are not necessarily quandles. See Remark 2.5 for a counterexample.
 
-**Lemma.** _For all \\(n\geq 1\\), the quandle \\(\mathrm{Free}\_n\\) is isomorphic to the averaging quandle \\( (k^{n-1})\_{\mathrm{avg}}\\)._
+## 2. Commutative quandles
+
+**Example 2.1.** Let \\(A\\) be a unital commutative ring in which \\(2\\\) is invertible, and let \\(M\\) be an \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
+
+In particular, if \\(A=M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
+
+_Remark 2.2._ Averaging quandles are a special class of so-called _Alexander quandles_, which are not generally commutative.
+
+**Example 2.3.** Given a set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) as a subset of the free \\(k\\)-module \\(k[X]\\) generated by \\(X\\): \\[H_X:= \left\\{\sum^n_{i=1}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=1}\lambda_i=1 \right\\}\subset k[X].\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( k[X]_{\mathrm{avg}}\\). We denote this subquandle by \\(\mathrm{Free}_X\\); if \\(\\# H=n<\infty\\), then we denote \\(\mathrm{Free}_n:=\mathrm{Free}_X\\). (Later, we show that \\(\mathrm{Free}_X\\) is isomorphic to the free commutative quandle generated by \\(X\\), which justifies the notation.) Note that \\(\mathrm{Free}_0\\) is the empty quandle.
+
+**Lemma 2.4.** _For all \\(n\geq 1\\), the quandle \\(\mathrm{Free}\_n\\) is isomorphic to the averaging quandle \\( (k^{n-1})\_{\mathrm{avg}}\\)._
 
 _Proof._ Denote the generators of \\(\mathrm{Free}\_n\\) by \\(\\{e_1,\dots,e_n\\}\\). Define maps  
 
@@ -61,7 +73,7 @@ $$
     
 The reader may verify that these maps are mutually inverse quandle homomorphisms. QED.
 
-_Remark._ Contrary to Example 5.1(3) and Question 7.3 of [\[BE24\]](https://arxiv.org/abs/2601.07057), the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( x\mapsto x\ast 1\\) does not restrict to a permutation of \\(X\\).
+_Remark 2.5._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( x\mapsto x\ast 1\\) does not restrict to a permutation of \\(X\\).
 
 ## Markdown guide
 
@@ -73,38 +85,14 @@ _Remark._ Contrary to Example 5.1(3) and Question 7.3 of [\[BE24\]](https://arxi
 
 ###### Header six
 
+## Equivalences of categories
+
+In the following, 
+
 ## Structure theorems
 
 **Theorem.** 
 
-## Blockquotes
-
-Single line blockquote:
-
-> Quotes are cool.
-
-## Tables
-
-### Table 1
-
-| Entry            | Item   |                                                              |
-| --------         | ------ | ------------------------------------------------------------ |
-| [John Doe](#)    | 2016   | Description of the item in the list                          |
-| [Jane Doe](#)    | 2019   | Description of the item in the list                          |
-| [Doe Doe](#)     | 2022   | Description of the item in the list                          |
-
-### Table 2
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | ce
-ll5   | cell6   |
-|-----------------------------|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=============================|
-| Foot1   | Foot2   | Foot3   |
 
 ## Definition Lists
 
@@ -273,6 +261,8 @@ This allows you to denote <var>variables</var>.
 ## References
 
 \[Ba24\] K. J. Bauer, _quasigroup midpoint algebras = Z[1/2]-modules._ Frank Blog, 2024. https://frank-9976.github.io/midpoint.html (accessed: 1-14-2026).
+
+\[BE26\] V. Bardakov and M. Elhamdadi. _Idempotents and powers of ideals in quandle rings._ 2026. arXiv:2601.07057
 
 \[ES01\] M. H. Escardo and A. K. Simpson, _A universal characterization of the closed Euclidean interval._ Proc. 16th Annual IEEE Symposium on Logic in Computer Science, 115–125, 2001. doi:10.1109/LICS.2001.932488.
 
