@@ -52,7 +52,7 @@ The following result requires a more involved argument. In \[BE26\], the authors
 
 **Lemma 1.3** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
-The following solves part (2) of \[BE26, Question 7.1\]; part (1) is solved in Section 5.
+The following solves part (2) of \[BE26, Question 7.1\]; we solve part (1) in Section 5.
 
 **Proposition 1.4.** Let \\(G\\) be a group. Then: \
 (1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
