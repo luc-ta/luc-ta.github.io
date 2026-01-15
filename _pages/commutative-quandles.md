@@ -18,8 +18,6 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 
 ### 1.1. Definitions
 
-Throughout this blogpost, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals.
-
 First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multiplication_ map \\(R_x\colon X\to X\\) given by \\(y\mapsto y\ast x\\) and the _left multiplication map_ \\(L_x\colon X\to X\\) given by \\(y\mapsto x\ast y\\).
@@ -64,6 +62,8 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 (2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\) we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
 
 ## 2. Averaging quandles
+
+Henceforth, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals.
 
 We define a class of commutative quandles called _averaging quandles_. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of free commutative quandles and certain finite averaging quandles \\(C_{2n+1}\\).
 
