@@ -93,7 +93,7 @@ We completely describe medial Latin quandles and commutative quandles. The follo
 
 Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the magma \\(A,\cdot\\), where \\[a\cdot b := \varphi(x)+\psi(y)+c\\] for all \\(a,b\in A\\).
 
-**Theorem 2.6** \[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
+**Theorem 2.6** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\).
 
 _Proof._ Let \\(X,\ast)\\) be a medial Latin quandle, so there exist \\(A,c,\varphi\\), and \\(\psi\\) as described above. Then \\(X,\ast)\cong(A,\cdot\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) in \\(A\\) shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (X,\ast)\cong(A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired.
 
