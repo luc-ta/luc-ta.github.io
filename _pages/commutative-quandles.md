@@ -31,11 +31,11 @@ On the other hand, Sigmon \[S70\] introduced cancellative midpoint algebras unde
 
 The following are straightforward and left to the reader.
 
-**Lemma 1.1.** \
+**Lemma 1.1.** 
 * _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
 * _Every commutative rack is Latin and, in particular, a quandle._
 
-**Lemma 1.2** (cf. \[Ba24\])**.** \
+**Lemma 1.2** (cf. \[Ba24\])**.** 
 * _Every commutative magma is medial._
 * _Every commutative quandle is a cancellative midpoint algebra. Conversely, every finite cancellative midpoint algebra is a commutative quandle._
 
