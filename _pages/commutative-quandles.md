@@ -39,7 +39,7 @@ _Proof._ Denote the generators of \\(\mathrm{Free}\_n\\) by \\(\\{x_1,\dots,x_n\
    \sum^{n-1}_{i=1}\lambda_i t_i &\mapsto \left(1-\sum^{n-1}\_{i=1}\lambda_i \right)x_n + \sum^{n-1}_{i=1}\lambda_i x_i .
     \end{aligned}
     $$
-The reader may verify that these maps are mutually inverse quandle homomorphisms. 
+The reader may verify that these maps are mutually inverse quandle homomorphisms. $$\tag*{$\Box$}$$
 
 ## Markdown guide
 
