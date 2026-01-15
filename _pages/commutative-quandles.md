@@ -13,7 +13,7 @@ Throughout this blogpost, let \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denote the ring o
 
 ## 1. Preliminaries
 
-First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\)) equipped with a binary operation \\(\ast\colon X\to X\)) called _multiplication_. The cardinality of \\(X\\) is called its _order._ If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
+First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ If \\(X,\ast_X\\) and \\(Y,\ast_Y\\) are magmas, then a function \\(f\colon X\to Y\\) is called a _magma homomorphism_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), consider the _right multiplication_ map \\(R_x\colon X\to X\\) given by \\(y\mapsto y\ast x\\) and the _left multiplication map_ \\(L_x\colon X\to X\\) given by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called _Latin_ or a _quasigroup_ if for all \\(x\in X\\), the multiplication maps \\(R_x\\) and \\(L_x\\) are permutations.
