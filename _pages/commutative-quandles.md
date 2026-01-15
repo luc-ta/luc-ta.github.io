@@ -45,7 +45,7 @@ $$
     
 The reader may verify that these maps are mutually inverse quandle homomorphisms. QED.
 
-_Remark._ Contrary to Example 5.1(3) and Question 7.3 of [\[BE24\]](https://arxiv.org/abs/2601.07057), the subset \\(X:=\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( x\mapsto x\ast 1\\) does not restrict to a permutation of \\((X\\).
+_Remark._ Contrary to Example 5.1(3) and Question 7.3 of [\[BE24\]](https://arxiv.org/abs/2601.07057), the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( x\mapsto x\ast 1\\) does not restrict to a permutation of \\(X\\).
 
 ## Markdown guide
 
