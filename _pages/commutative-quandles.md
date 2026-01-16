@@ -17,7 +17,9 @@ _Commutative quandles_ and _cancellative midpoint algebras_ are two families of 
 Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of certain nonassociative rings called _quandle rings_ \[BE26\]. 
 Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], they have connections to (affine) modules over the dyadic rationals \[Ba24, Fr08\].
 
-### 1.1. Definitions
+## 2. Preliminaries
+
+### 2.1. Definitions
 
 First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ Given magmas \\( (X,\ast_X)\\) and \\( (Y,\ast_Y)\\), functions \\(f\colon X\to Y\\) are called _magma homomorphisms_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
@@ -33,29 +35,29 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplic
 
 The archetypal example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] Another important class of quandles are _core quandles_ of groups \\(G\\), defined to be \\(\mathrm{Core}(G):=(G,\ast)\\) with \\[g\ast h:=hg^{-1}h.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\] 
 
-### 1.2. Preliminary results
+### 2.2. Preliminary results
 
 Commutativity turns out to be a very strong condition for quandles. 
 The following two lemmas are straightforward and left to the reader.
 
-**Lemma 1.1.** 
+**Lemma 2.1.** 
 * _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
 * _Every commutative rack is Latin and, in particular, a quandle._
 
-**Lemma 1.2** (cf. \[Ba24\])**.** 
+**Lemma 2.2** (cf. \[Ba24\])**.** 
 * _Every commutative magma is medial._
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
 * _Commutative quandles are the same as Latin midpoint algebras. In particular, finite commutative quandles are the same as finite cancellative midpoint algebras._
 
-_Remark 1.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, Lemma 1.1 implies they are not necessarily quandles. See Remark 2.3 for a counterexample.
+_Remark 2.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, Lemma 2.1 implies they are not necessarily quandles. See Remark 3.3 for a counterexample.
 
 The following result requires a more involved argument. In \[BE26\], the authors start with a fixed element \\(x\in X\\) and show that \\(X-\\{x\\}\\) consists of \\(2n\\) elements \\(\\{y_1,\dots,y_n,z_1,\dots,z_n\\}\\) such that \\(z_i\ast y_i=x\\) for all \\(1\leq i\leq n\\).
 
-**Lemma 1.4** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
+**Lemma 2.4** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
-The following solves part (2) of \[BE26, Question 7.1\]; we solve part (1) in Section 5.
+The following solves part (2) of \[BE26, Question 7.1\]; we solve part (1) in Section 6.
 
-**Proposition 1.5.** Let \\(G\\) be a group. Then: \
+**Proposition 2.5.** Let \\(G\\) be a group. Then: \
 (1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
 (2) \\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\).
 
@@ -63,37 +65,37 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 
 (2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\), we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
 
-## 2. Averaging quandles
+## 3. Averaging quandles
 
 Henceforth, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals. All abelian groups are denoted additively.
 
 In this section, we define a class of commutative quandles called _averaging quandles_. The quandles in parts (1) and (2) of \[BE26, Ex. 5.1\] are special classes of averaging quandles. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of a free commutative averaging quandle and certain finite averaging quandles \\(C_{2n+1}\\).
 
-**Definition 2.1.** Let \\(A\\) be a unital ring in which \\(2\\\) is invertible, and let \\(M\\) be a left \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
+**Definition 3.1.** Let \\(A\\) be a unital ring in which \\(2\\\) is invertible, and let \\(M\\) be a left \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
 In particular, if \\(M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
 
-_Remark 2.2._ Averaging quandles are a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In general, though, Alexander quandles are not necessarily commutative.
+_Remark 3.2._ Averaging quandles are a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In general, though, Alexander quandles are not necessarily commutative.
 
-_Remark 2.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
+_Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
 
-## 3. Medial Latin quandles
+## 4. Medial Latin quandles
 
 We completely describe medial Latin quandles and commutative quandles. The following results were already shown in \[Ba24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
 
-Recall from Lemmas 1.1 and 1.2 that every commutative quandle is medial and Latin, and every Latin quandle is a quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
+Recall from Lemmas 2.1 and 2.2 that every commutative quandle is in particular a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
 
-**Theorem 3.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
+**Theorem 4.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
 
 _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a quasigroup of the form \\( (A,\cdot)\\) described above. By assumption, \\( (A,\cdot)\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) above shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired. Finally, since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
-**Theorem 3.2** (\[Ba24\])**.** _Every commutative quandle is isomorphic to an averaging quandle._
+**Theorem 4.2** (\[Ba24\])**.** _Every commutative quandle is isomorphic to an averaging quandle._
 
-_Proof._ By Theorem 3.1, every commutative quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
+_Proof._ By Theorem 4.1, every commutative quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
-_Remark 3.3._ The "converses" of Theorems 3.1 and 3.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
+_Remark 4.3._ The "converses" of Theorems 4.1 and 4.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
 
-In light of Lemma 1.2, the construction of Bauer \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding to a given commutative quandle under Theorem 3.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
+In light of Lemma 2.2, the construction of Bauer \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding to a given commutative quandle under Theorem 4.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
 
 $$
     \begin{aligned}
@@ -105,7 +107,7 @@ $$
 
 The following example gives an alternative but equivalent construction in a special case. Given a set \\(X\\), let \\(k^{(X)}\\) denote the free \\(k\\)-module generated by \\(X\\).
 
-**Example 3.4.** Given a nonempty set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) in \\(k^{(X)}\\): \\[H_X:= \left\\{\sum^n_{i=1}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=1}\lambda_i=1 \right\\}\subset k^{(X)}.\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( (k^{(X)})_{\mathrm{avg}}\\). 
+**Example 4.4.** Given a nonempty set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) in \\(k^{(X)}\\): \\[H_X:= \left\\{\sum^n_{i=1}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=1}\lambda_i=1 \right\\}\subset k^{(X)}.\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( (k^{(X)})_{\mathrm{avg}}\\). 
 To write \\(H_X\\) itself as an averaging quandle, fix a basepoint \\(x_0\in X\\), and consider the map
 
 $$
@@ -117,23 +119,23 @@ $$
 
 The reader can check that this map is a quandle isomorphism. In particular, if \\(\\# X=n+1\\) with \\(n\geq 0\\) a nonnegative integer, then we obtain a quandle isomorphism \\(H_X\cong k^n_{\mathrm{avg}}\\).
 
-## 4. Equivalences of categories
+## 5. Equivalences of categories
 
-Theorems 3.1 and 3.2 allow us to give an alternative perspective on the classification of medial Latin quandles and commutative quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
+Theorems 4.1 and 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles and commutative quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
-**Proposition 4.1.** _\\(\mathrm{avg}\\) is a functor._
+**Proposition 5.1.** _\\(\mathrm{avg}\\) is a functor._
 
 _Proof._ By direct computation. QED.
 
-**Proposition 4.2.** _\\(\mathrm{avg}\\) is fully faithful._
+**Proposition 5.2.** _\\(\mathrm{avg}\\) is fully faithful._
 
 _Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N\\) be \\(k\\)-modules, and let \\(f\colon M_{\mathrm{avg}}\to N_{\mathrm{avg}}\\) be a quandle homomorphism. Define \\(T\colon M\to N\\) by \\(T:= f-f(0)\\). It suffices to show that \\(T\\) is \\(k\\)-linear, since then \\(f=\mathrm{avg}(T+f(0))\\). 
 
 Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
 
-Combined with Theorem 3.2, Propositions 4.1 and 4.2 show the following.
+Combined with Theorem 4.2, Propositions 5.1 and 5.2 show the following.
 
 **Theorem.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
@@ -152,7 +154,7 @@ This is the regular text.[^1] This is more regular text.[^note]
 [^note]: This is another footnote.
 ```
 
-[^1]: There are many equivalent ways to define the category of affine modules over a commutative ring. The reader can verify that when the ground ring is \\(k\\), then our definition is equivalent to these other ways.
+[^1]: There are many equivalent ways to define the category of affine modules over a commutative ring, some of which come from treating affine modules as a variety in the sense of universal algebra. The reader can verify that when the ground ring is \\(k\\), then our definition is equivalent to these other definitions. 
 [^note]: When using text for footnotes markers, no spaces are permitted in the name.
 
 ## References
