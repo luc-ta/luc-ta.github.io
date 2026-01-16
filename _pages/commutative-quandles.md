@@ -1,8 +1,9 @@
 ---
-permalink: /commutative-quandles/
+permalink: /blog/2026/commutative-quandles/
 title: "Structure theory of commutative quandles"
 sitemap: false
 date: 2026-01-15
+redirect_from: /commutative-quandles/
 ---
 
 ## Abstract
@@ -118,7 +119,7 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 4. Equivalences of categories
 
-Theorems 3.1 and 3.2 allow us to give an alternative perspective on the classification of medial Latin quandles and commutative quandles. In the following, let \\(\mathsf{AffMod}\_{k}\\) be the category whose objects are \\(k\\)-modules and whose morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1] Let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms.
+Theorems 3.1 and 3.2 allow us to give an alternative perspective on the classification of medial Latin quandles and commutative quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
