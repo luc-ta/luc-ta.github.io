@@ -117,7 +117,7 @@ $$
     \end{aligned}
     $$
 
-The reader can check that this map is a quandle isomorphism. In particular, if \\(\\# X=n+1\\) with \\(n\geq 0\\) a nonnegative integer, then we obtain a quandle isomorphism \\(H_X\cong k^n_{\mathrm{avg}}\\).
+The reader can check that this map is a quandle isomorphism. In particular, if \\(\\# X=n+1\\) with \\(0\leq n\leq\infty\\), then we obtain a quandle isomorphism \\(H_X\cong k^n_{\mathrm{avg}}\\).
 
 ## 5. Equivalences of categories
 
