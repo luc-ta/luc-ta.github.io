@@ -24,11 +24,10 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ Given magmas \\( (X,\ast_X)\\) and \\( (Y,\ast_Y)\\), functions \\(f\colon X\to Y\\) are called _magma homomorphisms_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
-* \\(X\\) is called _Latin_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible.
-* A Latin rack \\(X\\) is called a _quasigroup_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is invertible.
-* \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
+* \\(X\\) is called a _right quasigroup_ (resp. _Latin_ or a _left quasigroup_) if for all \\(x\in X\\), the right (resp. left) multiplication map \\(R_x\\) (resp. \\(L_x\\)) is invertible.
+* \\(X\\) is called a _shelf_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma endomorphism. Equivalently, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\).
-* A _quandle_ is an idempotent rack.
+* A _rack_ is a right quasigroup that is also a shelf. A _spindle_ is an idempotent shelf. A _quandle_ is an idempotent rack (equivalently, a right quasigroup that is also a spindle).
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
 * \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
 * A _midpoint algebra_ is an idempotent medial commutative magma.
@@ -39,14 +38,47 @@ The prototypical example of a quandle is the _conjugation quandle_ of a group \\
 ### 2.2. Preliminary results
 
 Commutativity turns out to be a very strong condition for quandles. 
-The following two lemmas are straightforward and left to the reader.
+The following lemma is straightforward and left to the reader.
 
 **Lemma 2.1.** 
 * _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
 * _Every commutative rack is Latin and, in particular, a quandle._
+* _If \\((X,\ast)\\) is a commutative shelf, then for all \\(x\in X\\), the left multiplication map \\(L_x\\) is a magma endomorphism. Equivalently, the multiplication \\(\ast\\) is right-distributive: \\[x\ast (y\ast z)=(x\ast y)\ast (x\ast z).\\] 
+
+The following auxiliary result seems to be new.
+
+**Proposition 2.2.** _Every commutative spindle is medial._
+
+_Proof._ Let \\(w,x,y,z\\) be elements of a commutative spindle \\((X,\ast)\\). In this proof, given elements \\(a,b\in X\\), denote \\(ab:=(a\ast b)\\), parentheses included. Let 
+
+$$
+    \begin{aligned}
+A:=wy, B:=wz, &C:=xy, D:=xz,\\
+E:=AC, F:= AD,&G := BC, H:=BD.
+    \end{aligned}
+    $$
+    
+We have to show that \\(wx\ast yz=AD\\). We compute
+
+$$
+    \begin{aligned}
+    wx \ast yz &= (w\ast yz)\ast(x\ast yz) \\
+  &= AB\ast CD & \text{by Lemma 1.1} \\
+   &= (A\ast CD) \ast (B\ast CD)\\
+   &= (AC \ast AD)\ast (BC \ast BD) &\text{by Lemma 1.1}\\
+   &= EF\ast GH \\
+   &= (E \ast GH) \ast (F \ast GH) \\
+   &= (EG \ast EH) \ast (FG \ast FH) &\text{by Lemma 1.1}\\
+   &= (EG \ast (FG \ast FH)) \ast (EH \ast (FG \ast FH)) \\
+   &= ((EG\ast FG)\ast (EG\ast FH)) \ast ((EH\ast FG)\ast (EH\ast FH)) &\text{by Lemma 1.1} \\
+   &= [(EG\ast (EG\ast FH))\ast (FG\ast(EG\ast FH))] \ast [(EH\ast (EH\ast FH))\ast (FG\ast(EH\ast FH))] \\
+   &= [((EG\ast EG)\ast(EG\ast FH))\ast ((FG\ast EG)\ast(FG\ast FH))] \ast [((EH\ast EH)\ast(EH\ast FH))\ast ((FG\ast EH)\ast(FG\ast FH))]  &\text{by Lemma 1.1} \\
+   &= [(EG\ast(EG\ast FH))\ast ((FG\ast EG)\ast(FG\ast FH))] \ast [(EH\ast(EH\ast FH))\ast ((FG\ast EH)\ast(FG\ast FH))]\\
+   & \dots
+    \end{aligned}
+
 
 **Lemma 2.2** (cf. \[Ba24\])**.** 
-* _Every commutative magma is medial._
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
 * _Commutative quandles are the same as Latin midpoint algebras. In particular, finite commutative quandles are the same as finite cancellative midpoint algebras._
 
