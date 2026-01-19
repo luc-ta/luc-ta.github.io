@@ -125,7 +125,7 @@ _Proof._ First, note that (2) is equivalent to the statement that \\[x\ast(x\ast
 as desired.
 
 "\\(\impliedby\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
-\\[ R_x(z)= z\ast x = z\ast(R_y(z)) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
+\\[ R_x(z)= z\ast x = z\ast R_y(z) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
 
 **Corollary 4.2.** Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
 
@@ -192,6 +192,8 @@ Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to 
 Combined with Theorem 5.2, Propositions 6.1 and 6.2 show the following.
 
 **Theorem 6.3.** _\\(\mathrm{avg}\\) is an equivalence of categories._
+
+_Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators. In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The author conjectures that \\(F\\) is not medial.
 
 ## Structure theorems
 
