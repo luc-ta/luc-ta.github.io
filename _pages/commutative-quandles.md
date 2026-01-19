@@ -81,7 +81,7 @@ _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 ### 3.2. An obstruction to structure theorems
 
-In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form $C_{2n+1}$. In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
+In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
 
 To give a negative answer to \[BE26, Question 7.1\], it suffices to find a finite commutative quandle that is not medial. This is because the averaging quandles \\(C_{2n+1}\\) are medial, and the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups of order 81. (They also showed that these are the smallest such examples.) In particular, these examples are quandles, and the following of their examples is commutative. 
 
