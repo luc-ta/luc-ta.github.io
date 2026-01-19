@@ -43,7 +43,7 @@ The following lemma is straightforward and left to the reader.
 
 **Lemma 2.1.** 
 * _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._ 
-* _Every commutative rack is Latin and, in particular, a quandle._
+* _Every commutative rack is distributive and Latin—in particular, a quasigroup and a quandle._
 * _Every distributive quasigroup is a Latin quandle._
 
 **Lemma 2.2** (cf. \[Ba24\])**.** 
@@ -193,7 +193,7 @@ Combined with Theorem 5.2, Propositions 6.1 and 6.2 show the following.
 
 **Theorem 6.3.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
-_Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators. In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The author conjectures that \\(F\\) is not medial.
+_Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators, say \\(x,y\in F\\). In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. In fact, this is true: taking \\(x\ast y= y\ast x\\), taking \\(a,d:=x\\) and \\(b,c:=y\\) in \[JK83\] shows that \\(F\\) is medial. 
 
 ## Structure theorems
 
