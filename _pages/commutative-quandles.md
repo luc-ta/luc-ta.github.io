@@ -45,42 +45,9 @@ The following lemma is straightforward and left to the reader.
 * _Every commutative rack is Latin and, in particular, a quandle._
 * _If \\((X,\ast)\\) is a commutative shelf, then for all \\(x\in X\\), the left multiplication map \\(L_x\\) is a magma endomorphism. Equivalently, the multiplication \\(\ast\\) is right-distributive: \\[x\ast (y\ast z)=(x\ast y)\ast (x\ast z).\\] 
 
-The following auxiliary result seems to be new.
-
-**Proposition 2.2.** _Every commutative spindle is medial._
-
-_Proof._ Let \\(w,x,y,z\\) be elements of a commutative spindle \\((X,\ast)\\). In this proof, given elements \\(a,b\in X\\), denote \\(ab:=(a\ast b)\\), parentheses included. Let 
-
-$$
-    \begin{aligned}
-A:=wy, B:=wz, &C:=xy, D:=xz,\\
-E:=AC, F:= AD,&G := BC, H:=BD.
-    \end{aligned}
-    $$
-    
-We have to show that \\(wx\ast yz=AD\\). We compute
-
-$$
-    \begin{aligned}
-    wx \ast yz &= (w\ast yz)\ast(x\ast yz) \\
-  &= AB\ast CD & \text{by Lemma 1.1} \\
-   &= (A\ast CD) \ast (B\ast CD)\\
-   &= (AC \ast AD)\ast (BC \ast BD) &\text{by Lemma 1.1}\\
-   &= EF\ast GH \\
-   &= (E \ast GH) \ast (F \ast GH) \\
-   &= (EG \ast EH) \ast (FG \ast FH) &\text{by Lemma 1.1}\\
-   &= (EG \ast (FG \ast FH)) \ast (EH \ast (FG \ast FH)) \\
-   &= ((EG\ast FG)\ast (EG\ast FH)) \ast ((EH\ast FG)\ast (EH\ast FH)) &\text{by Lemma 1.1} \\
-   &= [(EG\ast (EG\ast FH))\ast (FG\ast(EG\ast FH))] \ast [(EH\ast (EH\ast FH))\ast (FG\ast(EH\ast FH))] \\
-   &= [((EG\ast EG)\ast(EG\ast FH))\ast ((FG\ast EG)\ast(FG\ast FH))] \ast [((EH\ast EH)\ast(EH\ast FH))\ast ((FG\ast EH)\ast(FG\ast FH))]  &\text{by Lemma 1.1} \\
-   &= [(EG\ast(EG\ast FH))\ast ((FG\ast EG)\ast(FG\ast FH))] \ast [(EH\ast(EH\ast FH))\ast ((FG\ast EH)\ast(FG\ast FH))]\\
-   & \dots
-    \end{aligned}
-
-
 **Lemma 2.2** (cf. \[Ba24\])**.** 
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
-* _Commutative quandles are the same as Latin midpoint algebras. In particular, finite commutative quandles are the same as finite cancellative midpoint algebras._
+* _Medial commutative quandles are the same as Latin midpoint algebras. In particular, finite medial commutative quandles are the same as finite cancellative midpoint algebras._
 
 _Remark 2.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, Lemma 2.1 implies they are not necessarily quandles. See Remark 3.3 for a counterexample.
 
