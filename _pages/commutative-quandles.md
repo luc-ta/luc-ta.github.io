@@ -193,7 +193,7 @@ Combined with Theorem 5.2, Propositions 6.1 and 6.2 show the following.
 
 **Theorem 6.3.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
-_Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators, say \\(x,y\in F\\). In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The latter condition is in fact true. By Lemma 2.1, \\(F\\) is distributive. Hence, taking \\(x\ast y= y\ast x\\), taking \\(a,d:=x\\) and \\(b,c:=y\\) in \[JK83\] shows that \\(F\\) is medial. 
+_Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators, say \\(x,y\in F\\). In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The latter condition is true by the following nonelementary argument. By Lemma 2.1, \\(F\\) is distributive. Since \\(x\ast y= y\ast x\\), taking \\(a,d:=x\\) and \\(b,c:=y\\) in the statement of \[JK83\] shows that \\(F\\) is medial. 
 
 ## Structure theorems
 
