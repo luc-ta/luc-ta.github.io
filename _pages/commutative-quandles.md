@@ -143,9 +143,9 @@ Recall from Lemmas 2.1 and 2.2 that every commutative quandle is in particular a
 
 _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a quasigroup of the form \\( (A,\cdot)\\) described above. By assumption, \\( (A,\cdot)\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) above shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired. Finally, since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
-**Theorem 5.2** (\[Ba24\])**.** _Every commutative medial quandle is isomorphic to an averaging quandle._
+**Corollary 5.2** (\[Ba24\])**.** _Every commutative medial quandle is isomorphic to an averaging quandle._
 
-_Proof._ By Theorem 4.1, every commutative quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
+_Proof._ By Theorem 4.1, every commutative medial quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
 _Remark 5.3._ The "converses" of Theorems 4.1 and 4.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
 
@@ -175,7 +175,7 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 6. Equivalences of categories
 
-Theorems 5.1 and 5.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
+Theorem 5.1 and Corollary 5.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
@@ -189,7 +189,7 @@ _Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N
 
 Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
 
-Combined with Theorem 5.2, Propositions 6.1 and 6.2 show the following.
+Combined with Corollary 5.2, Propositions 6.1 and 6.2 show the following.
 
 **Theorem 6.3.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
@@ -226,6 +226,8 @@ This is the regular text.[^1] This is more regular text.[^note]
 \[JPSZ15\] P. Jedlička, A. Pilitowska, D. Stanovský, and A. Zamojska-Dzienio, _The structure of medial quandles,_ J. Algebra **443** (2015), 300–334. MR3400403
 
 \[Jo82\] D. Joyce, _A classifying invariant of knots, the knot quandle,_ J. Pure Appl. Algebra **23** (1982), no. 1, 37–65. MR638121
+
+\[JK83\] J. Ježek and T. Kepka, _Notes on distributive groupoids,_ Comment. Math. Univ. Carolin. **24** (1983), no. 2, 237–249. MR0711262
 
 \[KN81\] T. Kepka and P. Němec, _Commutative Moufang loops and distributive groupoids of small orders,_ Czechoslovak Math. J. **31(106)** (1981), no. 4, 633–669. MR0631607
 
