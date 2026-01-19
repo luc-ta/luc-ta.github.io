@@ -25,6 +25,7 @@ First, we recall definitions coming from nonassociative algebra. Recall that a _
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) is called a _quasigroup_.
+* \\(X\\) is called _distributive_ if for all \\(x\in X\\), the left and right multiplication maps \\(L_x,R_x\\) are magma endomorphisms.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). A _quandle_ is an idempotent rack.
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
@@ -40,8 +41,9 @@ Commutativity turns out to be a very strong condition for quandles.
 The following lemma is straightforward and left to the reader.
 
 **Lemma 2.1.** 
-* _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
+* _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._ 
 * _Every commutative rack is Latin and, in particular, a quandle._
+* _Every distributive quasigroup is a Latin quandle._
 
 **Lemma 2.2** (cf. \[Ba24\])**.** 
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
@@ -83,7 +85,7 @@ _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
 
-To give a negative answer to \[BE26, Question 7.1\], it suffices to find a finite commutative quandle that is not medial. This is because the averaging quandles \\(C_{2n+1}\\) are medial, and the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups (_a fortiori_ quandles) of order 81. (They also showed that these are the smallest such examples.) Of their examples, the following is in fact a commutative quandle. 
+To give a negative answer to \[BE26, Question 7.1\], it suffices to find a finite commutative quandle that is not medial. This is because the averaging quandles \\(C_{2n+1}\\) are medial, and the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
 Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triaddtive function \\(f\\) via 
 
