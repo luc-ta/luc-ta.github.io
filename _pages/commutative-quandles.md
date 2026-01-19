@@ -112,7 +112,7 @@ $$
 In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
 (For a proof that the dual quandle is a quandle, see ...) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
-We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide necessary and sufficient conditions under which \\(X\\) is cocommutative. In particular, we completely describe quandle that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
+We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
 **Theorem 4.1.** Let \\((X,\ast)\\) be a quandle. Then the following are equivalent: \
 (1) \\(X\\) is cocommutative. \
