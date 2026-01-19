@@ -25,13 +25,13 @@ First, we recall definitions coming from nonassociative algebra. Recall that a _
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) a _quasigroup_.
-* \\(X\\) is called _distributive_ if for all \\(x\in X\\), the left and right multiplication maps \\(L_x,R_x\\) are magma endomorphisms.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). A _quandle_ is an idempotent rack.
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
 * \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
 * A _midpoint algebra_ is an idempotent medial commutative magma.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
+* \\(X\\) is called _distributive_ if for all \\(x\in X\\), the left and right multiplication maps \\(L_x,R_x\\) are magma endomorphisms.
 
 The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] Another important class of quandles are _core quandles_ of groups \\(G\\), defined to be \\(\mathrm{Core}(G):=(G,\ast)\\) with \\[g\ast h:=hg^{-1}h.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\] 
 
