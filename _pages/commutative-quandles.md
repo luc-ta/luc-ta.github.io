@@ -131,7 +131,7 @@ as desired.
 
 _Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, Theorem 4.1 yields the claim. QED.
 
-_Remark 4.3._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
+_Remark 4.3._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures that correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
 
 ## 5. Medial Latin quandles
 
