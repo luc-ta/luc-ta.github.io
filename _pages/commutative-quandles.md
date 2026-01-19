@@ -120,12 +120,12 @@ We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op
 
 _Proof._ First, note that (2) is equivalent to the statement that \\[x\ast(x\ast y)=y\\] for all \\(x,y\in X\\).
 
-"\\(\implies\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, we have \\(z:=R_x^{-1}(y)\\), so
-\\[x\ast(x\ast y)=R_y(z)\ast (x\ast y)=(z\ast y)\ast (x\ast y)=(z\ast x)\ast y=R_x(z)\ast y=y\ast y=y,\\]
+"\\(\implies\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, we have \\(z:=R_x^{-1}(y)\\). Since \\(X\\) is a quandle, it folloes that
+\\[x\ast(x\ast y)=(z\ast y)\ast (x\ast y)=(z\ast x)\ast y=y\ast y=y,\\]
 as desired.
 
 "\\(\impliedby\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
-\\[ R_x(z)= z\ast x = z\ast R_y(z) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
+\\[ R_x(z)= R_{R_y(z)}(z) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
 
 **Corollary 4.2.** Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
 
