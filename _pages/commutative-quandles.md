@@ -121,13 +121,13 @@ We will say that \\(X\\) is _cocommutative_ if the dual rack \\(X^{\mathrm{op}}\
 
 _Proof._ Condition (3) is just a restatement of (2), so it suffices to show that (1) and (3) are equivalent.
 
-\\("(1)\implies(3)''\\):
+"\\((1)\implies(3)\\)":
 
-\\("(3)\implies(1)''\\):
+"\\((3)\implies(1)\\)":
 
 **Corollary 4.2.** Let \\((X,\ast)\\) be a commutative rack. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
 
-_Proof._ \\("\implies''\\) Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, the claim follows from Lemma 2.1 and Theorem 4.1. QED.
+_Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, the claim follows from Lemma 2.1 and Theorem 4.1. QED.
 
 ## 4. Medial Latin quandles
 
