@@ -116,7 +116,7 @@ We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op
 
 **Theorem 4.1.** Let \\((X,\ast)\\) be a quandle. Then the following are equivalent: \
 (1) \\(X\\) is cocommutative. \
-(2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution. \
+(2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution. 
 
 _Proof._ First, note that (2) is equivalent to the statement that \\[x\ast(x\ast y)=y\\] for all \\(x,y\in X\\).
 
