@@ -90,13 +90,9 @@ Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say tha
 $$ f(e_i,e_j,e_k) = \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,4)\\ 0, & \text{otherwise.} \end{cases}$$
 
 Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\] (This commutative Moufang loop is called \\(L(1)\\) in \[KN81\] and \\((G_1,\cdot)\\) in \[St15\].) 
-Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
+Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] (This quandle is called \\(D(1)\\) in \[KN81\].) Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
 
-Although it is already shown in \[KN81\] that \\((A,\ast)\\) is not medial, we provide a direct verification for the reader's convenience.
-
-**Proposition 3.4.** \\((A,\ast)\\) is not medial.
-
-_Proof._ By direct computation, we have
+Although it is already shown in \[KN81\] that \\((A,\ast)\\) is not medial, we provide a direct verification for the reader's convenience:
 
 $$
     \begin{aligned}
@@ -104,11 +100,9 @@ $$
    &= e_2+e_3+e_4 \\
   &\neq e_1+e_2+e_3+e_4 \\
   &= (-e_3) \ast -(e_4+e_2)\\
-  &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2),
+  &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2).
     \end{aligned}
     $$
-
-so \\((A,\ast)\\) is not medial. QED.
 
 ## 4. Medial Latin quandles
 
