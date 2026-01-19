@@ -26,7 +26,8 @@ First, we recall definitions coming from nonassociative algebra. Recall that a _
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) a _quasigroup_.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
-* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). A _quandle_ is an idempotent rack.
+* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). 
+* A _quandle_ is an idempotent rack. A _kei_ is a quandle such that all right multiplication maps \\(R_x\\) are involutions.
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
 * \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
 * A _midpoint algebra_ is an idempotent medial commutative magma.
@@ -55,7 +56,7 @@ The following result requires a more involved argument. In \[BE26\], the authors
 
 **Lemma 2.4** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
-The following solves part (2) of \[BE26, Question 7.1\]; we solve part (1) in Section 6.
+The following solves part (2) of \[BE26, Question 7.1\]; we answer parts (1) and (3) in Sections 3.2 and 4, respectively.
 
 **Proposition 2.5.** Let \\(G\\) be a group. Then: \
 (1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
@@ -105,6 +106,28 @@ $$
   &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2).
     \end{aligned}
     $$
+
+## 4. Cocommutative quandles
+
+In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a rack, denoted simply by \\(X\\). Recall that the _dual rack_ is the rack \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{ast}y:=R_y^{-1}(x).\\]
+(For a proof that the dual rack is a rack, see ...) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\). Moreover, \\(X\\) is a quandle if and only if \\(X^{\mathrm{op}}\\) is a quandle.
+
+We will say that \\(X\\) is _cocommutative_ if the dual rack \\(X^{\mathrm{op}}\\) is commutative. Below, we provide necessary and sufficient conditions under which \\(X\\) is cocommutative. In particular, we completely describe racks that are both commutative and cocommutative (which are necessarily quandles by Lemma 2.1); this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
+
+**Theorem 4.1.** Let \\((X,\ast)\\) be a rack. Then the following are equivalent: \
+(1) \\(X\\) is cocommutative. \
+(2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involutory magma endomorphism. \
+(3) For all \\(x,y,z\in X\\), we have \\[x\ast(y\ast z)=(x\ast y)\ast(x\ast z),\qquad x\ast(x\ast y)=y.\\]
+
+_Proof._ Condition (3) is just a restatement of (2), so it suffices to show that (1) and (3) are equivalent.
+
+\\("(1)\implies(3)''\\):
+
+\\("(3)\implies(1)''\\):
+
+**Corollary 4.2.** Let \\((X,\ast)\\) be a commutative rack. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
+
+_Proof._ \\("\implies''\\) Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, the claim follows from Lemma 2.1 and Theorem 4.1. QED.
 
 ## 4. Medial Latin quandles
 
