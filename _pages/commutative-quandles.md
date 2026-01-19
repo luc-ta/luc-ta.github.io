@@ -86,13 +86,13 @@ _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
 
-To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 3.2 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
+To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 3.2 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
 Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triaddtive function \\(f\\) via 
 
 $$ f(e_i,e_j,e_k) = \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,4)\\ 0, & \text{otherwise.} \end{cases}$$
 
-Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\] (This commutative Moufang loop is called \\(L(1)\\) in \[KN81\] and \\((G_1,\cdot)\\) in \[St15\].) 
+Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\] (This commutative Moufang loop is called \\(L(1)\\) in \[KN81\] and \\((G_1,\cdot)\\) in \[St15A\].) 
 Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] (This quandle is called \\(D(1)\\) in \[KN81\].) Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
 
 Although it is already shown in \[KN81\] that \\((A,\ast)\\) is not medial, we provide a direct verification for the reader's convenience:
@@ -134,21 +134,21 @@ _Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\
 
 _Remark 4.3._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
 
-## 4. Medial Latin quandles
+## 5. Medial Latin quandles
 
 We completely describe medial Latin quandles and commutative quandles. The following results were already shown in \[Ba24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
 
 Recall from Lemmas 2.1 and 2.2 that every commutative quandle is in particular a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
 
-**Theorem 4.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
+**Theorem 5.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
 
 _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a quasigroup of the form \\( (A,\cdot)\\) described above. By assumption, \\( (A,\cdot)\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) above shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired. Finally, since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
-**Theorem 4.2** (\[Ba24\])**.** _Every commutative quandle is isomorphic to an averaging quandle._
+**Theorem 5.2** (\[Ba24\])**.** _Every commutative medial quandle is isomorphic to an averaging quandle._
 
 _Proof._ By Theorem 4.1, every commutative quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
-_Remark 4.3._ The "converses" of Theorems 4.1 and 4.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
+_Remark 5.3._ The "converses" of Theorems 4.1 and 4.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
 
 In light of Lemma 2.2, the construction of Bauer \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding to a given commutative quandle under Theorem 4.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
 
@@ -162,7 +162,7 @@ $$
 
 The following example gives an alternative but equivalent construction in a special case. Given a set \\(X\\), let \\(k^{(X)}\\) denote the free \\(k\\)-module generated by \\(X\\).
 
-**Example 4.4.** Given a nonempty set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) in \\(k^{(X)}\\): \\[H_X:= \left\\{\sum^n_{i=0}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=0}\lambda_i=1 \right\\}\subset k^{(X)}.\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( (k^{(X)})_{\mathrm{avg}}\\). 
+**Example 5.4.** Given a nonempty set \\(X\\), consider the affine hull \\(H_X\\) of \\(X\\) in \\(k^{(X)}\\): \\[H_X:= \left\\{\sum^n_{i=0}\lambda_i x_i: n\geq 1,\, \lambda_i\in k,\, x_i\in X,\, \sum^n_{i=0}\lambda_i=1 \right\\}\subset k^{(X)}.\\] Then \\(H_X\\) is a subquandle of the averaging quandle \\( (k^{(X)})_{\mathrm{avg}}\\). 
 To write \\(H_X\\) itself as an averaging quandle, fix a basepoint \\(x_0\in X\\), and consider the map
 
 $$
@@ -174,25 +174,25 @@ $$
 
 The reader can check that this map is a quandle isomorphism. In particular, if \\(\\# X=n+1\\) with \\(0\leq n\leq\infty\\), then we obtain a quandle isomorphism \\(H_X\cong k^n_{\mathrm{avg}}\\).
 
-## 5. Equivalences of categories
+## 6. Equivalences of categories
 
-Theorems 4.1 and 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles and commutative quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
+Theorems 5.1 and 5.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
-**Proposition 5.1.** _\\(\mathrm{avg}\\) is a functor._
+**Proposition 6.1.** _\\(\mathrm{avg}\\) is a functor._
 
 _Proof._ By direct computation. QED.
 
-**Proposition 5.2.** _\\(\mathrm{avg}\\) is fully faithful._
+**Proposition 6.2.** _\\(\mathrm{avg}\\) is fully faithful._
 
 _Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N\\) be \\(k\\)-modules, and let \\(f\colon M_{\mathrm{avg}}\to N_{\mathrm{avg}}\\) be a quandle homomorphism. Define \\(T\colon M\to N\\) by \\(T:= f-f(0)\\). It suffices to show that \\(T\\) is \\(k\\)-linear, since then \\(f=\mathrm{avg}(T+f(0))\\). 
 
 Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
 
-Combined with Theorem 4.2, Propositions 5.1 and 5.2 show the following.
+Combined with Theorem 5.2, Propositions 6.1 and 6.2 show the following.
 
-**Theorem.** _\\(\mathrm{avg}\\) is an equivalence of categories._
+**Theorem 6.3.** _\\(\mathrm{avg}\\) is an equivalence of categories._
 
 ## Structure theorems
 
