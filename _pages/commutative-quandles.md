@@ -79,7 +79,7 @@ _Remark 3.2._ Averaging quandles are a special class of Alexander quandles. Inde
 
 _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
 
-### 3.2. A counterexample to \[BE26, Question 7.1\].
+### 3.2. An obstruction to structure theorems
 
 In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form $C_{2n+1}$. In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
 
