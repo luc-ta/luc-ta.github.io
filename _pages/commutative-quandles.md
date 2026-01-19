@@ -117,15 +117,14 @@ We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op
 **Theorem 4.1.** Let \\((X,\ast)\\) be a quandle. Then the following are equivalent: \
 (1) \\(X\\) is cocommutative. \
 (2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution. \
-(3) For all \\(x,y\in X\\), we have \\[x\ast(x\ast y)=y.\\]
 
-_Proof._ Condition (3) is just a restatement of (2), so it suffices to show that (1) and (3) are equivalent.
+_Proof._ First, note that (2) is equivalent to the statement that \\[x\ast(x\ast y)=y\\] for all \\(x,y\in X\\).
 
-"\\((1)\implies(3)\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, we have \\(z:=R_x^{-1}(y)\\), so
+"\\(\implies\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, we have \\(z:=R_x^{-1}(y)\\), so
 \\[x\ast(x\ast y)=R_y(z)\ast (x\ast y)=(z\ast y)\ast (x\ast y)=(z\ast x)\ast y=R_x(z)\ast y=y\ast y=y,\\]
 as desired.
 
-"\\((3)\implies(1)\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
+"\\(\impliedby\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
 \\[ R_x(z)= z\ast x = z\ast(R_y(z)) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
 
 **Corollary 4.2.** Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
