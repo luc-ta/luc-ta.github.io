@@ -89,7 +89,9 @@ In particular, let \\(A\coloneq (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_
 Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\]
 Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
 
-We claim that \\((A,\ast)\\) is not medial. In particular, since the averaging quandles \\(C_{2n+1}\\) are medial, this will show that \\((A,\ast)\\) is a finite commutative quandle that does not decompose as the direct product of averaging quandles \\(C_{2n+1}\\). Indeed, we compute
+**Proposition 3.4.** \\((A,\ast)\\) is not medial.
+
+_Proof._ By direct computation, we have
 
 $$
     \begin{aligned}
@@ -97,10 +99,13 @@ $$
    &= e_2+e_3+e_4 \\
   &\neq e_1+e_2+e_3+e_4 \\
   &= (-e_3) \ast -(e_4+e_2)\\
-  &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2).
+  &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2),
     \end{aligned}
     $$
-    
+
+so \\((A,\ast)\\) is not medial. QED.
+
+In particular, since the averaging quandles \\(C_{2n+1}\\) are medial, Proposition 3.4 shows that \\((A,\ast)\\) is a finite commutative quandle that does not decompose as the direct product of averaging quandles \\(C_{2n+1}\\).
 
 ## 4. Medial Latin quandles
 
