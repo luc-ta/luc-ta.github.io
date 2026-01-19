@@ -77,7 +77,7 @@ In this section, we define a class of commutative quandles called _averaging qua
 
 In particular, if \\(M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
 
-_Remark 3.2._ Averaging quandles are a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In general, though, Alexander quandles are not necessarily commutative.
+_Remark 3.2._ Averaging quandles are a special class of Alexander quandles; in particular, all averaging quandles are medial. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In general, though, Alexander quandles are not necessarily commutative.
 
 _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
 
@@ -85,7 +85,7 @@ _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
 
-To give a negative answer to \[BE26, Question 7.1\], it suffices to find a finite commutative quandle that is not medial. This is because the averaging quandles \\(C_{2n+1}\\) are medial, and the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
+To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 3.2 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
 Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triaddtive function \\(f\\) via 
 
