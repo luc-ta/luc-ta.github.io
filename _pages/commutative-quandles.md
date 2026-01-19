@@ -233,7 +233,7 @@ This is the regular text.[^1] This is more regular text.[^note]
 
 \[Si70\] K. Sigmon, _Cancellative medial means are arithmetic,_ Duke Math J. **37** (1970), 439–445. MR274644
 
-\[St15A\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems *23* (2015), no. 1, 91–128. MR3353113
+\[St15A\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems **23** (2015), no. 1, 91–128. MR3353113
 
 \[St15T\] —, _The origins of involutory quandles,_ 2015. arXiv:1506.02389
 
