@@ -83,7 +83,7 @@ _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form $C_{2n+1}$. In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
 
-In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups of order 81. (They also showed that these are the smallest such examples.) In particular, these examples are quandles, and the following of their examples is commutative. 
+To give a negative answer to \[BE26, Question 7.1\], it suffices to find a finite commutative quandle that is not medial. This is because the averaging quandles \\(C_{2n+1}\\) are medial, and the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups of order 81. (They also showed that these are the smallest such examples.) In particular, these examples are quandles, and the following of their examples is commutative. 
 
 Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triaddtive function \\(f\\) via 
 
@@ -91,6 +91,8 @@ $$ f(e_i,e_j,e_k) = \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,
 
 Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\] (This commutative Moufang loop is called \\(L(1)\\) in \[KN81\] and \\((G_1,\cdot)\\) in \[St15\].) 
 Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
+
+Although it is already shown in \[KN81\] that \\((A,\ast)\\) is not medial, we provide a direct verification for the reader's convenience.
 
 **Proposition 3.4.** \\((A,\ast)\\) is not medial.
 
@@ -107,8 +109,6 @@ $$
     $$
 
 so \\((A,\ast)\\) is not medial. QED.
-
-In particular, since the averaging quandles \\(C_{2n+1}\\) are medial, Proposition 3.4 shows that \\((A,\ast)\\) is a finite commutative quandle that does not decompose as the direct product of averaging quandles \\(C_{2n+1}\\).
 
 ## 4. Medial Latin quandles
 
