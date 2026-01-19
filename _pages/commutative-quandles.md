@@ -8,7 +8,7 @@ redirect_from: /commutative-quandles/
 
 ## Abstract
 
-In this blogpost, we solve Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\]. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials).
+In this blogpost, we solve Question 7.1 and partially solve Question 7.3 of Bardakov and Elhamdadi \[BE26\]. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials).
 
 ## 1. Introduction
 
