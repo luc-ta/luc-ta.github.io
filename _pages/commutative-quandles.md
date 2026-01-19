@@ -56,7 +56,7 @@ The following result requires a more involved argument. In \[BE26\], the authors
 
 **Lemma 2.4** (\[BE26, Prop. 5.2\])**.** _The order of every finite commutative quandle is odd._
 
-The following solves part (2) of \[BE26, Question 7.1\]; we answer parts (1) and (3) in Sections 3.2 and 4, respectively.
+The following solves part (2) of \[BE26, Question 7.1\]; we answer parts (1) and (3) in Section 3.2 and Corollary 4.2, respectively.
 
 **Proposition 2.5.** Let \\(G\\) be a group. Then: \
 (1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
@@ -109,25 +109,30 @@ $$
 
 ## 4. Cocommutative quandles
 
-In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a rack, denoted simply by \\(X\\). Recall that the _dual rack_ is the rack \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
-(For a proof that the dual rack is a rack, see ...) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\). Moreover, \\(X\\) is a quandle if and only if \\(X^{\mathrm{op}}\\) is a quandle.
+In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
+(For a proof that the dual quandle is a quandle, see ...) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
-We will say that \\(X\\) is _cocommutative_ if the dual rack \\(X^{\mathrm{op}}\\) is commutative. Below, we provide necessary and sufficient conditions under which \\(X\\) is cocommutative. In particular, we completely describe racks that are both commutative and cocommutative (which are necessarily quandles by Lemma 2.1); this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
+We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide necessary and sufficient conditions under which \\(X\\) is cocommutative. In particular, we completely describe quandle that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
-**Theorem 4.1.** Let \\((X,\ast)\\) be a rack. Then the following are equivalent: \
+**Theorem 4.1.** Let \\((X,\ast)\\) be a quandle. Then the following are equivalent: \
 (1) \\(X\\) is cocommutative. \
-(2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involutory magma endomorphism. \
-(3) For all \\(x,y,z\in X\\), we have \\[x\ast(y\ast z)=(x\ast y)\ast(x\ast z),\qquad x\ast(x\ast y)=y.\\]
+(2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution. \
+(3) For all \\(x,y\in X\\), we have \\[x\ast(x\ast y)=y.\\]
 
 _Proof._ Condition (3) is just a restatement of (2), so it suffices to show that (1) and (3) are equivalent.
 
-"\\((1)\implies(3)\\)":
+"\\((1)\implies(3)\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, we have \\(z:=R_x^{-1}(y)\\), so
+\\[x\ast(x\ast y)=R_y(z)\ast (x\ast y)=(z\ast y)\ast (x\ast y)=(z\ast x)\ast y=R_x(z)\ast y=y\ast y=y,\\]
+as desired.
 
-"\\((3)\implies(1)\\)":
+"\\((3)\implies(1)\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
+\\[ R_x(z)= z\ast x = z\ast(R_y(z)) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
 
-**Corollary 4.2.** Let \\((X,\ast)\\) be a commutative rack. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
+**Corollary 4.2.** Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
 
-_Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, the claim follows from Lemma 2.1 and Theorem 4.1. QED.
+_Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, Theorem 4.1 yields the claim. QED.
+
+_Remark 4.3._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
 
 ## 4. Medial Latin quandles
 
@@ -225,9 +230,13 @@ This is the regular text.[^1] This is more regular text.[^note]
 
 \[Ma82\] S. V. Matveev, _Distributive groupoids in knot theory,_ Mat. Sb. (N.S.) **119**(161) (1982), no. 1, 78–88, 160. MR672410
 
+\[NP06\] M. Niebrzydowski and J. H. Przytycki, _Burnside kei,_ Fund. Math. **190** (2006), 211–229. 2232860
+
 \[Si70\] K. Sigmon, _Cancellative medial means are arithmetic,_ Duke Math J. **37** (1970), 439–445. MR274644
 
-\[St15\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems *23* (2015), no. 1, 91–128. MR3353113
+\[St15A\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems *23* (2015), no. 1, 91–128. MR3353113
+
+\[St15T\] —, _The origins of involutory quandles,_ 2015. arXiv:1506.02389
 
 ***
 **Footnotes**
