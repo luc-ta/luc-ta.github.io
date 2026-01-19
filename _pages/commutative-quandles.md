@@ -24,7 +24,7 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ Given magmas \\( (X,\ast_X)\\) and \\( (Y,\ast_Y)\\), functions \\(f\colon X\to Y\\) are called _magma homomorphisms_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
-* \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) is called a _quasigroup_.
+* \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) a _quasigroup_.
 * \\(X\\) is called _distributive_ if for all \\(x\in X\\), the left and right multiplication maps \\(L_x,R_x\\) are magma endomorphisms.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). A _quandle_ is an idempotent rack.
