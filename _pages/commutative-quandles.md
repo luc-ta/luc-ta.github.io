@@ -8,7 +8,7 @@ redirect_from: /commutative-quandles/
 
 ## Abstract
 
-In this blogpost, we describe an equivalence of categories between medial Latin (resp. commutative) quandles and affine modules over the ring of integral Laurent polynomials (resp. dyadic rationals). As an application, we obtain structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\].
+In this blogpost, we solve Questions 7.1 and 7.3 of Bardakov and Elhamdadi \[BE26\]. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials).
 
 ## 1. Introduction
 
@@ -24,10 +24,9 @@ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial 
 First, we recall definitions coming from nonassociative algebra. Recall that a _magma_ is a set \\(X\\) equipped with a binary operation \\(\ast\colon X\to X\\) called _multiplication_. The cardinality of \\(X\\) is called its _order._ Given magmas \\( (X,\ast_X)\\) and \\( (Y,\ast_Y)\\), functions \\(f\colon X\to Y\\) are called _magma homomorphisms_ if \\(f(w\ast_X x)=f(w)\ast_Y f(x)\\) for all \\(w,x\in X\\). 
 
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
-* \\(X\\) is called a _right quasigroup_ (resp. _Latin_ or a _left quasigroup_) if for all \\(x\in X\\), the right (resp. left) multiplication map \\(R_x\\) (resp. \\(L_x\\)) is invertible.
-* \\(X\\) is called a _shelf_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma endomorphism. Equivalently, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
-* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\).
-* A _rack_ is a right quasigroup that is also a shelf. A _spindle_ is an idempotent shelf. A _quandle_ is an idempotent rack (equivalently, a right quasigroup that is also a spindle).
+* \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) is called a _quasigroup_.
+* \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
+* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). A _quandle_ is an idempotent rack.
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
 * \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
 * A _midpoint algebra_ is an idempotent medial commutative magma.
@@ -43,7 +42,6 @@ The following lemma is straightforward and left to the reader.
 **Lemma 2.1.** 
 * _Every Latin rack is an idempotent quasigroup and, in particular, a quandle._
 * _Every commutative rack is Latin and, in particular, a quandle._
-* _If \\((X,\ast)\\) is a commutative shelf, then for all \\(x\in X\\), the left multiplication map \\(L_x\\) is a magma endomorphism. Equivalently, the multiplication \\(\ast\\) is right-distributive: \\[x\ast (y\ast z)=(x\ast y)\ast (x\ast z).\\] 
 
 **Lemma 2.2** (cf. \[Ba24\])**.** 
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
@@ -65,9 +63,11 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 
 (2): If \\(\mathrm{Core}(G)\\) is commutative, then for all \\(g\in G\\), we have \\[g^2=e\ast g=g\ast e=g^{-1}\\] and, hence, \\(g^3=e\\). Conversely, suppose \\(\mathrm{exp}(G)=3\\). Then for all \\(g,h\in G\\), we have \\( (hg^{-1})^2 = (hg^{-1})^{-1} \\), so \\[ g\ast h= hg^{-1}h=(hg^{-1})^2 g = (hg^{-1})^{-1} g = gh^{-1}g=h\ast g, \\] as desired. QED.
 
-## 3. Averaging quandles
+## 3. Commutative quandles
 
 Henceforth, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals. All abelian groups are denoted additively.
+
+### 3.1. Averaging quandles
 
 In this section, we define a class of commutative quandles called _averaging quandles_. The quandles in parts (1) and (2) of \[BE26, Ex. 5.1\] are special classes of averaging quandles. Later, we show that every commutative quandle is isomorphic to an averaging quandle, and every finitely generated commutative quandle canonically decomposes as the Cartesian product of a free commutative averaging quandle and certain finite averaging quandles \\(C_{2n+1}\\).
 
@@ -78,6 +78,30 @@ In particular, if \\(M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of ord
 _Remark 3.2._ Averaging quandles are a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In general, though, Alexander quandles are not necessarily commutative.
 
 _Remark 3.3._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{n/2^k \mid n,k\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
+
+### 3.2. A counterexample to \[BE26, Question 7.1\].
+
+In 2026, Bardakov and Elhamdadi \[BE26, Question 7.1\] asked whether every finite commutative quandle can be written as a direct product of averaging quandles of the form $C_{2n+1}$. In this section, we show that the question has a negative answer. Later in this blogpost, we give an additional assumption (viz. mediality) under which this question has a positive answer.
+
+In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15, Ex. 3.4\]) constructed non-medial distributive quasigroups of order 81. (They also showed that these are the smallest such examples.) In particular, these examples are quandles, and the following of their examples is commutative. Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). 
+
+In particular, let \\(A\coloneq (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triaddtive function \\(f\\) via \\[ f(e_i,e_j,e_k) = \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,4)\\ 0, & \text{otherwise.} \end{cases} \\]
+Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\]
+Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
+
+We claim that \\((A,\ast)\\) is not medial. In particular, since the averaging quandles \\(C_{2n+1}\\) are medial, this will show that \\((A,\ast)\\) is a finite commutative quandle that does not decompose as the direct product of averaging quandles \\(C_{2n+1}\\). Indeed, we compute
+
+$$
+    \begin{aligned}
+    (\mathbf{0}\ast e_4) \ast (e_3\ast e_2) & = (-e_4) \ast -(e_2+e_3) \\
+   &= e_2+e_3+e_4 \\
+  &\neq \\
+  &= e_1+e_2+e_3+e_4 \\
+  &= (-e_3) \ast -(e_4+e_2)\\
+  &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2).
+    \end{aligned}
+    $$
+    
 
 ## 4. Medial Latin quandles
 
@@ -171,9 +195,13 @@ This is the regular text.[^1] This is more regular text.[^note]
 
 \[Jo82\] D. Joyce, _A classifying invariant of knots, the knot quandle,_ J. Pure Appl. Algebra **23** (1982), no. 1, 37–65. MR638121
 
+\[KN81\] T. Kepka and P. Němec, _Commutative Moufang loops and distributive groupoids of small orders,_ Czechoslovak Math. J. **31(106)** (1981), no. 4, 633–669. MR0631607
+
 \[Ma82\] S. V. Matveev, _Distributive groupoids in knot theory,_ Mat. Sb. (N.S.) **119**(161) (1982), no. 1, 78–88, 160. MR672410
 
-\[Si70\] K. Sigmon. _Cancellative medial means are arithmetic,_ Duke Math J. **37** (1970), 439–445. MR274644
+\[Si70\] K. Sigmon, _Cancellative medial means are arithmetic,_ Duke Math J. **37** (1970), 439–445. MR274644
+
+\[St15\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems *23* (2015), no. 1, 91–128. MR3353113
 
 ***
 **Footnotes**
