@@ -95,8 +95,7 @@ $$
     \begin{aligned}
     (\mathbf{0}\ast e_4) \ast (e_3\ast e_2) & = (-e_4) \ast -(e_2+e_3) \\
    &= e_2+e_3+e_4 \\
-  &\neq \\
-  &= e_1+e_2+e_3+e_4 \\
+  &\neq e_1+e_2+e_3+e_4 \\
   &= (-e_3) \ast -(e_4+e_2)\\
   &= (\mathbf{0}\ast e_3) \ast (e_4\ast e_2).
     \end{aligned}
