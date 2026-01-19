@@ -109,7 +109,7 @@ $$
 
 ## 4. Cocommutative quandles
 
-In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a rack, denoted simply by \\(X\\). Recall that the _dual rack_ is the rack \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{ast}y:=R_y^{-1}(x).\\]
+In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a rack, denoted simply by \\(X\\). Recall that the _dual rack_ is the rack \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
 (For a proof that the dual rack is a rack, see ...) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\). Moreover, \\(X\\) is a quandle if and only if \\(X^{\mathrm{op}}\\) is a quandle.
 
 We will say that \\(X\\) is _cocommutative_ if the dual rack \\(X^{\mathrm{op}}\\) is commutative. Below, we provide necessary and sufficient conditions under which \\(X\\) is cocommutative. In particular, we completely describe racks that are both commutative and cocommutative (which are necessarily quandles by Lemma 2.1); this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
