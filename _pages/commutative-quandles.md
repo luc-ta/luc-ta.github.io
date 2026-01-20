@@ -227,7 +227,7 @@ $$
     \end{aligned}
     $$
     
-for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[(a,b,c,d):=(\varphi^{-1}(x),0,0,(\mathrm{id}-\varphi)^{-1}(y).\\] Then \\(x=a\ast b\\) and \\( y=c\ast d\\), so \\[g(x,y)=g(a,c)\ast g(b,d)=g(\varphi^{-1}(x),0) \ast g(0,(\mathrm{id}-\varphi)^{-1}(y))=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(L\\) is \\(\Lambda\\)-linear. QED.
+for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varphi^{-1}(x),\quad b:= 0,\quad c:=0,\quad d:=(\mathrm{id}-\varphi)^{-1}(y).\\] Then \\(x=a\ast b\\) and \\( y=c\ast d\\), so \\[g(x,y)=g(a,c)\ast g(b,d)=g(\varphi^{-1}(x),0) \ast g(0,(\mathrm{id}-\varphi)^{-1}(y))=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(L\\) is \\(\Lambda\\)-linear. QED.
 
 ### Commutative medial quandles
 
