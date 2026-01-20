@@ -4,6 +4,9 @@ title: "Structure theory of commutative quandles and medial Latin quandles"
 sitemap: true
 date: 2026-01-20
 redirect_from: /commutative-quandles/
+tags:
+  - research
+  - racks-and-quandles
 ---
 
 ## Abstract
