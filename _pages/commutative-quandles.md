@@ -8,14 +8,15 @@ redirect_from: /commutative-quandles/
 
 ## Abstract
 
-In this blogpost, we solve Question 7.1 and partially solve Question 7.3 of Bardakov and Elhamdadi \[BE26\]. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials).
+In this blogpost, we solve Questions 7.1 and Question 7.3 of Bardakov and Elhamdadi \[BE26\]. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials in \\(s\\) and \\(1-s\\)).
 
 ## 1. Introduction
 
-_Commutative quandles_ and _cancellative midpoint algebras_ are two families of nonassociative algebraic structures appearing in topology. Although these structures originated independently of one another, they coincide in the finite case and turn out to be closely related to affine modules over the ring of dyadic rationals \\(k=\mathbb{Z}[\frac{1}{2}]\\). The purpose of this blogpost is to collect results describing these relationships. In particular, we show that the category of commutative quandles is equivalent to the category of affine modules over the dyadic rationals, and we deduce structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. This solves two problems of Bardakov and Elhamdadi \[BE26\].
+In 1982, Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced nonassociative algebraic structures called _quandles_ to develop complete invariants of knots. A special class of quandles, called _medial_ quandles, is particularly important in this topological setting. Other special classes of quandles, called _Latin_ quandles and _commutative_ quandles, are important to the theory of certain nonassociative rings called _quandle rings._ 
 
-Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced quandles in 1982 to develop complete invariants of knots. In particular, commutative quandles are important to the theory of certain nonassociative rings called _quandle rings_ \[BE26\]. 
-Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], they have connections to (affine) modules over the dyadic rationals \[Ba24, Fr08\].
+The purpose of this blogpost is to solve two open problems of Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. Along the way, we show that the category of commutative (resp. Latin) medial quandles is equivalent to the category of affine modules over the ring of dyadic rationals \\(k=\mathbb{Z}[\frac{1}{2}]\\) (resp. the ring \\(\mathbb{Z}[s^{\pm 1},(1-s)^{-1}]\\)), and we deduce structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. 
+
+Another goal of this blogpost is to clarify the relationships quandles, affine modules over \\(k\\), and a family of algebraic structures called _cancellative midpoint algebras._ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], they have connections to (affine) modules over the dyadic rationals \[Ba24, Fr08\].
 
 ## 2. Preliminaries
 
@@ -26,11 +27,10 @@ First, we recall definitions coming from nonassociative algebra. Recall that a _
 Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplication_ map \\(R_x\colon X\to X\\) by \\(y\mapsto y\ast x\\), and define the _left multiplication map_ \\(L_x\colon X\to X\\) by \\(y\mapsto x\ast y\\).
 * \\(X\\) is called a _Latin_ or a _left quasigroup_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is invertible. If in addition the right multiplication maps \\(L_x\\) are all invertible, then we call \\(X\\) a _quasigroup_.
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
-* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). 
-* A _quandle_ is an idempotent rack. A _kei_ is a quandle such that all right multiplication maps \\(R_x\\) are involutions.
+* \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). _Quandles_ are idempotent racks, and _kei_ are quandles such that all right multiplication maps \\(R_x\\) are involutions.
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
 * \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
-* A _midpoint algebra_ is an idempotent medial commutative magma.
+* _Midpoint algebras_ are idempotent medial commutative magmas.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 * \\(X\\) is called _distributive_ if for all \\(x\in X\\), the left and right multiplication maps \\(L_x,R_x\\) are magma endomorphisms.
 
