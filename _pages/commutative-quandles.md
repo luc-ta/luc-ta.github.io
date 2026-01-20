@@ -76,9 +76,9 @@ _Remark 2.7._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subse
 
 In this section, we solve Question 7.1 of Bardakov and Elhamdadi \[BE26\]. Of the question's three parts, the second can be solved fairly quickly.
 
-**Proposition 2.5** (cf. \[BE26, Question 7.1\]) **.** Let \\(G\\) be a group. Then: \
-(1) \\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group. \
-(2) \\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\).
+**Proposition 3.1** (cf. \[BE26, Question 7.1\])**.** _Let \\(G\\) be a group. Then:_ \
+(1) _\\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group._ \
+(2) _\\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\)._
 
 _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast g=e\\] for all \\(g\in G\\), so \\(G=\\{e\\}\\). The converse is trivial.
 
@@ -111,14 +111,14 @@ $$
 
 ### 3.2. Cocommutative quandles
 
-In this section, we answer the third part of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
-(For a proof that the dual quandle is a quandle, see \[WB26\].) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
+In this section, we solve the third part of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
+(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see \[WB26\].) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
 We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
-**Theorem 3.1.** Let \\((X,\ast)\\) be a quandle. Then the following are equivalent: \
-(1) \\(X\\) is cocommutative. \
-(2) For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution. 
+**Theorem 3.2.** _Let \\((X,\ast)\\) be a quandle. Then the following are equivalent:_ \
+(1) _\\(X\\) is cocommutative._ \
+(2) _For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution._ 
 
 _Proof._ First, note that (2) is equivalent to the statement that \\[x\ast(x\ast y)=y\\] for all \\(x,y\in X\\).
 
@@ -129,9 +129,9 @@ as desired.
 "\\(\impliedby\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
 \\[ R_x(z)= R_{R_y(z)}(z) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
 
-**Corollary 3.2.** Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei.
+**Corollary 3.2.** _Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei._
 
-_Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, Theorem 4.1 yields the claim. QED.
+_Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, Theorem 3.2 yields the claim. QED.
 
 _Remark 3.3._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures that correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
 
@@ -141,15 +141,15 @@ In light of Section 3.1, it is natural to ask for necessary and sufficient condi
 
 Recall from Lemmas 2.1 and 2.2 that every medial Latin quandle (and, hence, every commutative medial quandle) is a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
 
-**Theorem 4.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
+**Proposition 4.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
 
 _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a quasigroup of the form \\( (A,\cdot)\\) described above. By assumption, \\( (A,\cdot)\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) above shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired. Finally, since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
 **Corollary 4.2** (\[Ba24\])**.** _Every commutative medial quandle is isomorphic to an averaging quandle._
 
-_Proof._ By Theorem 4.1, every commutative medial quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
+_Proof._ By Proposition 4.1, every commutative medial quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
-_Remark 5.3._ The "converses" of Theorems 4.1 and 4.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
+_Remark 4.3._ The "converses" of Proposition 4.1 and Corollary 4.2 also hold. Precisely, every Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) is medial, and if \\(\mathrm{id}-\varphi\\) is invertible, then \\(\mathrm{Alex}(A,\varphi)\\) is also Latin. Moreover, every averaging quandle is commutative.
 
 ### 4.1. Constructions
 
@@ -181,15 +181,15 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 5. Equivalences of categories
 
-Theorem 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should also relate to such modules. This turns out to be the case.
+Proposition 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should also relate to such modules. This turns out to be the case.
 
 ### 5.1. Medial Latin quandles
 
-In the following, denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}],\\]. Denote the category of _affine modules_ over \\(\Lambda\\) by \\(\mathsf{AffMod}\_{\Lambda}\\). Namely, the objects of \\(\mathsf{AffMod}\_{\Lambda}\\) are \\(\Lambda\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(\Lambda\\)-linear maps and constant functions).[^1] On the other hand, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms. Building upon Theorem 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MedQnd}\\) are equivalent.
+In the following, denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}],\\]. Denote the category of _affine modules_ over \\(\Lambda\\) by \\(\mathsf{AffMod}\_{\Lambda}\\). Namely, the objects of \\(\mathsf{AffMod}\_{\Lambda}\\) are \\(\Lambda\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(\Lambda\\)-linear maps and constant functions).[^1] On the other hand, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms. Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MedQnd}\\) are equivalent.
 
 Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{-1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{-1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
 
-**Lemma 5.1.** The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor.
+**Lemma 5.1.** _The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor._
 
 _Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\varphi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T-c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(T\circ\varphi = \psi\circ T\\), so
 
@@ -205,13 +205,13 @@ $$
 
 for all \\(x,y\in M\\). Hence, \\(f\\) is a quandle homomorphism. QED.
 
-**Lemma 5.2.** Let \\(M\\) and \\(N\\) be \\(\Lambda\\)-modules, and let \\(T\colon M\to N\\) be a \\(\mathbb{Z}[s]\\)-linear map. Then \\(T\\) is \\(\Lambda\\)-linear.
+**Lemma 5.2.** _Let \\(M\\) and \\(N\\) be \\(\Lambda\\)-modules, and let \\(T\colon M\to N\\) be a \\(\mathbb{Z}[s]\\)-linear map. Then \\(T\\) is \\(\Lambda\\)-linear._
 
 _Proof._ Left to the reader; use the facts that \\(T\\) commutes with \\(s\\) and \\(1-s\\) and that multiplication by \\(s\\) and \\(1-s\\) are invertible. QED.
 
-**Theorem 5.3.** The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is an equivalence of categories.
+**Theorem 5.3.** _The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is an equivalence of categories._
 
-_Proof._ By Lemma 5.1, Theorem 4.1, and the above discussion, \\(\mathrm{Alex}\\) is an essentially surjective functor. Therefore, it suffices to show that \\(\mathrm{Alex}\\) is fully faithful. Faithfulness is clear. To show fullness, let \\(f\colon \mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\varphi)\\) be a homomorphism of Alexander quandles satisfying the conditions of Theorem 5.1, and view \\(M\\) and \\(N\\) as \\(\Lambda\\)-modules as in the above discussion. Let \\(c:= f(0)\\), and define \\(T\colon M\to N\\) by \\(T:= f-c\\). Then \\(f=T-c\\), so we only have to show that \\(T\\) is \\(\Lambda\\)-linear. By Lemma 6.2, it suffices to show that \\(T\\) is a homomorphism of abelian groups such that \\(T\circ\varphi=\psi\circ T\\). Clearly, \\(T(0)=0\\).
+_Proof._ By Lemma 5.1, Proposition 4.1, and the above discussion, \\(\mathrm{Alex}\\) is an essentially surjective functor. Therefore, it suffices to show that \\(\mathrm{Alex}\\) is fully faithful. Faithfulness is clear. To show fullness, let \\(f\colon \mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\varphi)\\) be a homomorphism of Alexander quandles satisfying the conditions of Theorem 5.1, and view \\(M\\) and \\(N\\) as \\(\Lambda\\)-modules as in the above discussion. Let \\(c:= f(0)\\), and define \\(T\colon M\to N\\) by \\(T:= f-c\\). Then \\(f=T-c\\), so we only have to show that \\(T\\) is \\(\Lambda\\)-linear. By Lemma 6.2, it suffices to show that \\(T\\) is a homomorphism of abelian groups such that \\(T\circ\varphi=\psi\circ T\\). Clearly, \\(T(0)=0\\).
 
 Since \\(f\\) is a quandle homomorphism, the reader can verify that \\(T\\) is also a quandle homomorphism. Equivalently,
 \\[T(\varphi(x-y)+y)=\psi(T(x))+(\mathrm{id}-\psi)(T(y))\\] for all \\(x,y\in M\\). In particular, for all \\(z\in M\\), taking \\((x,y):=(\varphi^{-1}(z),0)\\) shows that \\(T=\psi\circ T\circ\varphi^{-1}\\). Therefore, \\(T\circ\varphi=\psi\circ T\\), as desired. 
@@ -241,27 +241,15 @@ for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varp
 
 ### 5.2. Commutative medial quandles
 
- In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).
- 
-Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
+Similarly to Section 5.1, let \\(\mathsf{AffMod}\_{k}\\) be the category of (possibly empty) affine modules over the dyadic rationals \\(k=\mathbb{Z}[1/2]\\), and let \\(\mathsf{CommMedQnd}\\) be the category of commutative medial quandles and quandle homomorphisms. 
 
-**Proposition 6.1.** _\\(\mathrm{avg}\\) is a functor._
+Specializing Theorem 5.3 yields an equivalence of categories between \\(\mathsf{AffMod}\_{k}\\) and \\(\mathsf{CommQnd}\\). In more detail, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces (by restriction of scalars) a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Section 5.2 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CommMedQnd}\\). Summarizing, we have the following.
 
-_Proof._ By direct computation. QED.
-
-**Proposition 6.2.** _\\(\mathrm{avg}\\) is fully faithful._
-
-_Proof._ Faithfulness is straightforward. To show fullness, let \\(M\\) and \\(N\\) be \\(k\\)-modules, and let \\(f\colon M_{\mathrm{avg}}\to N_{\mathrm{avg}}\\) be a quandle homomorphism. Define \\(T\colon M\to N\\) by \\(T:= f-f(0)\\). It suffices to show that \\(T\\) is \\(k\\)-linear, since then \\(f=\mathrm{avg}(T+f(0))\\). 
-
-Certainly, \\(T(0)=0\\). Since \\(f\\) is a quandle homomorphism, it is easy to see that \\(T\\) is also a quandle homomorphism. In particular, \\(T(x/2)=T(x\ast 0)=T(x)/2\\) for all \\(x\in M\\), so \\[T(x+y)=2T\left(\frac{x+y}{2}\right)=2T(x\ast y)=2(T(x)\ast T(y))=T(x)+T(y)\\] for all \\(x,y\in M\\). In particular, we deduce that \\[T(nx)=nT(x)\\] for all \\(n\in\mathbb{Z}\\). Thererfore, it suffices to show that \\(T(x/2^k)=T(x)/2^k\\) for all \\(x\in M\\) and \\(k\geq 1\\); this follows by induction on \\(k\\). QED.
-
-Combined with Corollary 5.2, Propositions 6.1 and 6.2 show the following.
-
-**Theorem 6.3.** _\\(\mathrm{avg}\\) is an equivalence of categories._
+**Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CommMedQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
 _Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators, say \\(x,y\in F\\). In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The latter condition is true by the following nonelementary argument. By Lemma 2.1, \\(F\\) is distributive. Since \\(x\ast y= y\ast x\\), taking \\(a,d:=x\\) and \\(b,c:=y\\) in the statement of \[JK83, Prop. 3.2\] shows that \\(F\\) is medial. 
 
-## Structure theorems
+## 6. Structure theorems
 
 **Theorem.** 
 
