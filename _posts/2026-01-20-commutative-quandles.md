@@ -30,7 +30,7 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplic
 * \\(X\\) is called a _rack_ if for all \\(x\in X\\), the right multiplication map \\(R_x\\) is a magma automorphism. In particular, the multiplication \\(\ast\\) is right-distributive: \\[(x\ast y)\ast z=(x\ast z)\ast (y\ast z).\\]
 * \\(X\\) is called _idempotent_ if \\(x\ast x=x\\) for all \\(x\in X\\). _Quandles_ are idempotent racks, and _kei_ are quandles such that all right multiplication maps \\(R_x\\) are involutions.
 * Note that the Cartesian product \\(X\times X\\) is a magma. We call \\(X\\) _medial_ if the multiplication \\(\ast\colon X\times X\to X\\) is a magma homomorphism; that is,\\[(w\ast x)\ast(y\ast z)=(w\ast y)\ast(x\ast z)\\] for all \\(w,x,y,z\in X\\). 
-* \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\).
+* \\(X\\) is called _commutative_ if \\(x\ast y=y\ast x\\) for all \\(x,y\in X\\). That is, \\(L_x=R_x\\) for all \\(x\in X\\).
 * _Midpoint algebras_ are idempotent medial commutative magmas.
 * \\(X\\) is called _cancellative_ if for all \\(x\in X\\), the left multiplication map \\(L_x\\) is injective.
 * \\(X\\) is called _distributive_ if for all \\(x\in X\\), the left and right multiplication maps \\(L_x,R_x\\) are magma endomorphisms.
@@ -286,9 +286,9 @@ _Remark 6.2._ In the category of commutative quandles with quandle homomorphisms
 
 ### 6.3. Finitely generated commutative medial quandles
 
-As one last application of Corollary 5.4, we obtain a structure theorem for finitely generated commutative medial quandles. In Section 6.2, we found that if \\(X\\) is a set of cardinality \\(1\leq n<\infty\\), then the free commutative medial quandle \\(\mathrm{FCM}(X)\\) is isomorphic to the averaging quandle \\(k^{n-1}_{\mathrm{avg}}\\). On the other hand, \\(k\\) is a PID, and all finite \\(k\\)-modules must have odd order; otherwise, multiplication by \\(2\\) would not be invertible. Hence, combining Corollary 5.4 with the structure theorem for finitely generated modules over a PID yields the following.
+As one last application of Corollary 5.4, we obtain a structure theorem for finitely generated commutative medial quandles. In Section 6.2, we found that if \\(X\\) is a set of cardinality \\(1\leq n<\infty\\), then the free commutative medial quandle \\(\mathrm{FCM}(X)\\) is isomorphic to the averaging quandle \\(k^{n-1}_{\mathrm{avg}}\\). On the other hand, \\(k\\) is a PID, and all finite \\(k\\)-modules must have odd order; otherwise, multiplication by \\(2\\) would not be invertible. Hence, combining Lemma 2.1, Corollary 5.4, and the structure theorem for finitely generated modules over a PID yields the following.
 
-**Theorem 6.3.** (cf. \[BE26, Question 7.1\])**.** _Let \\(M\\) be a nonempty finitely generated quandle. Then \\(M\\) is commutative and medial if and only if_ \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] _for some nonnegative integers \\(r,n,m_1,\dots,m_n\geq 0\\)._
+**Theorem 6.3.** (cf. \[BE26, Question 7.1\])**.** _Let \\(M\\) be a nonempty finitely generated rack. Then \\(M\\) is commutative and medial if and only if_ \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] _for some nonnegative integers \\(r,n,m_1,\dots,m_n\geq 0\\)._
 
 _Remark 6.4._ By Lemma 2.2, Theorem 6.3 is also a structure theorem for finitely generated Latin midpoint algebras. Moreover, if \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclude that every finite commutative medial quandle—hence, by Lemma 2.2, every finite cancellative midpoint algebra—is the direct product of averaging quandles of the form \\(C_{2n+1}\\). This gives a complete characterization of quandles for which the conjecture in the first part of \[BE26, Question 7.1\] holds.
 
