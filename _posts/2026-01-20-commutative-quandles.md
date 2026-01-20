@@ -180,7 +180,7 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 5. Equivalences of categories
 
-Proposition 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should be related to these modules. We will show that, in fact, the respective categories are equivalent.
+Proposition 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should be related to these modules. We will formalize this idea using an equivalence of categories.
 
 Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The objects consist of the empty set and all left \\(R\\)-modules. The morphisms are affine transformations (that is, sums of \\(R\\)-module homomorphisms and constant functions). We call \\(\mathsf{AffMod}\_{\Lambda}\\) the category of _(left) affine modules_ over \\(R\\).[^1]
 
