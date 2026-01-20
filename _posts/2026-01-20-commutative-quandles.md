@@ -18,7 +18,7 @@ In this blogpost, we solve two open problems posed by Bardakov and Elhamdadi \[B
 
 In 1982, Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced nonassociative algebraic structures called _quandles_ to develop complete invariants of knots. A special class of quandles, called _medial_ quandles, is particularly important in this topological setting. Other special classes of quandles, called _Latin_ quandles and _commutative_ quandles, are important to the theory of certain nonassociative rings called _quandle rings._ 
 
-The purpose of this blogpost is to solve two open problems of Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. Along the way, we show that the category of commutative (resp. Latin) medial quandles is equivalent to the category of affine modules over the ring of dyadic rationals \\(k=\mathbb{Z}[1/2]\\) (resp. the ring \\(\Lambda=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}]\\)), and we deduce structure theorems for finitely generated commutative quandles and finite cancellative midpoint algebras. 
+The purpose of this blogpost is to solve two open problems of Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. Along the way, we show that the category of commutative (resp. Latin) medial quandles is equivalent to the category of affine modules over the ring of dyadic rationals \\(k=\mathbb{Z}[1/2]\\) (resp. the ring \\(\Lambda=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}]\\)), and we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. 
 
 Another goal of this blogpost is to clarify the relationships quandles have with affine modules over \\(k\\) and a family of algebraic structures called _cancellative midpoint algebras._ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over \\(k\\) \[Ba24, Fr08\].
 
@@ -48,7 +48,7 @@ In Section 4, we provide new proofs characterizing all medial Latin quandles as 
 
 In Section 5, we strengthen the results of Section 4 by showing that "taking the Alexander quandle" (resp. the averaging quandle) defines an equivalence of categories from affine modules over \\(\Lambda=\mathbb{Z}[s^{\pm 1}, (1-s)^{-1}]\\) (resp. \\(k=\mathbb{Z}[1/2]\\)) to Latin (resp. commutative) medial quandles.
 
-In Section 6, we completely describe free objects in the categories studied in Section 5. As an application, we deduce structure theorems for finitely generated commutative medial quandles and finite cancellative midpoint algebras. This solves Question 7.3 and resolves a conjectural structure theorem in Question 7.1 of \[BE26\].
+In Section 6, we completely describe free objects in the categories studied in Section 5. As an application, we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. This solves Question 7.3 and resolves a conjectural structure theorem in Question 7.1 of \[BE26\].
 
 ## 2. Preliminaries
 
@@ -291,7 +291,7 @@ As one last application of Corollary 5.4, we obtain a structure theorem for fini
 
 **Theorem 6.3.** (cf. \[BE26, Question 7.3\])**.** _Let \\(M\\) be a finitely generated commutative medial quandle. If \\(M\\) is nonempty, then there exists a quandle isomorphism_ \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] _for some nonnegative integers \\(r,n,m_1,\dots,m_n\geq 0\\)._
 
-_Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclude that every finite commutative medial quandle—hence, by Lemma 2.2, every finite cancellative midpoint algebra—is the direct product of averaging quandles of the form \\(C_{2n+1}\\). This gives a complete characterization of quandles for which the conjecture in the first part of \[BE26, Question 7.1\] holds.
+_Remark 6.4._ By Lemma 2.2, Theorem 6.3 is also a structure theorem for finitely generated Latin midpoint algebras. Moreover, if \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclude that every finite commutative medial quandle—hence, by Lemma 2.2, every finite cancellative midpoint algebra—is the direct product of averaging quandles of the form \\(C_{2n+1}\\). This gives a complete characterization of quandles for which the conjecture in the first part of \[BE26, Question 7.1\] holds.
 
 ## References
 
