@@ -7,6 +7,7 @@ redirect_from: /commutative-quandles/
 tags:
   - research
   - racks-and-quandles
+  - commutative-algebra
 ---
 
 ## Abstract
