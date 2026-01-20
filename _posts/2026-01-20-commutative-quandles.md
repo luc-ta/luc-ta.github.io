@@ -38,6 +38,18 @@ Let \\((X,\ast)\\) be a magma. For all \\(x\in X\\), define the _right multiplic
 
 The prototypical example of a quandle is the _conjugation quandle_ of a group \\(G\\), defined to be the pair \\(\mathrm{Conj}(G):=(G,\ast)\\) with \\[g\ast h:=hgh^{-1}.\\] Another important class of quandles are _core quandles_ of groups \\(G\\), defined to be \\(\mathrm{Core}(G):=(G,\ast)\\) with \\[g\ast h:=hg^{-1}h.\\] On the other hand, _Alexander quandles_ are important examples of medial quandles. Given an automorphism \\(\varphi\\) of an abelian group \\(A\\), the Alexander quandle \\(\mathrm{Alex}(A,\varphi)=(A,\ast)\\) is defined by \\[x\ast y:=\varphi(x)+(\mathrm{id}-\varphi)(y).\\] 
 
+### 1.2. Organization of this blogpost
+
+In Section 2, we record some lemmas and discuss a family of commutative medial quandles that we call _averaging quandles._ Averaging quandles turn out to model _all_ commutative medial quandles, as we show later on in Section 4.
+
+In Section 3, we solve Question 7.1 of \[BE26\]. In particular, we discuss an obstruction to a general structure theorem for commutative quandles, and we completely characterize both commutative and noncommutative quandles whose dual quandles are commutative.
+
+In Section 4, we provide new proofs characterizing all medial Latin quandles as certain Alexander quandles and, in particular, all commutative medial quandles as averaging quandles.
+
+In Section 5, we strengthen the results of Section 4 by showing that "taking the Alexander quandle" (resp. the averaging quandle) defines an equivalence of categories from affine modules over \\(\Lambda=\mathbb{Z}[s^{\pm 1}, (1-s)^{-1}]\\) (resp. \\(k=\mathbb{Z}[1/2]\\)) to Latin (resp. commutative) medial quandles.
+
+In Section 6, we completely describe free objects in the categories studied in Section 5. As an application, we deduce structure theorems for finitely generated commutative medial quandles and finite cancellative midpoint algebras. This solves Question 7.3 and resolves a conjectural structure theorem in Question 7.1 of \[BE26\].
+
 ## 2. Preliminaries
 
 In this section, we record some auxiliary results and consider a class of commutative medial quandles called _averaging quandles_ \\(M_{\mathrm{avg}}\\). (Later in this blogpost, we will show that _all_ commutative medial quandles are isomorphic to some averaging quandle.) 
