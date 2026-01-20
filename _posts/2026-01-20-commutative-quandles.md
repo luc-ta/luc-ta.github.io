@@ -309,6 +309,6 @@ _Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclud
 \[WB26\] W. Burrows and C. Tuffley, _The rack congruence condition and half congruences in racks,_ to appear in J. Knot Theory Ramifications. doi:10.1142/S0218216525500865.
 
 ***
-**Footnotes**
+**Footnote**
 
 [^1]: There are many equivalent ways to define the category of affine modules over a ground ring, some of which come from treating affine modules as a variety in the sense of universal algebra. The reader can verify that our definition is equivalent to these other definitions. 
