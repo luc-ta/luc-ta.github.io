@@ -183,9 +183,11 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 Proposition 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should also relate to such modules. This turns out to be the case.
 
+Given a ring \\(R\\), define a category \\(\mathsf{AffMod}_R\\) as follows. The objects consist of the empty set and all left \\(R\\)-modules. The morphisms are affine transformations (that is, sums of \\(R\\)-module homomorphisms and constant functions). We call \\(\mathsf{AffMod}\_{\Lambda}\\) the category of _(left) affine modules_ over \\(R\\).[^1]
+
 ### 5.1. Medial Latin quandles
 
-In the following, denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}].\\] Denote the category of _affine modules_ over \\(\Lambda\\) by \\(\mathsf{AffMod}\_{\Lambda}\\). Namely, the objects of \\(\mathsf{AffMod}\_{\Lambda}\\) are \\(\Lambda\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(\Lambda\\)-linear maps and constant functions).[^1] On the other hand, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms. Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MedQnd}\\) are equivalent.
+Henceforth, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms, and denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}].\\] Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MedQnd}\\) are equivalent.
 
 Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{-1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{-1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
 
@@ -242,33 +244,36 @@ for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varp
 
 ### 5.2. Commutative medial quandles
 
-Similarly to Section 5.1, let \\(\mathsf{AffMod}\_{k}\\) be the category of (possibly empty) affine modules over the dyadic rationals \\(k=\mathbb{Z}[1/2]\\), and let \\(\mathsf{CMQnd}\\) be the category of commutative medial quandles and quandle homomorphisms. 
+Let \\(\mathsf{CMQnd}\\) be the category of commutative medial quandles and quandle homomorphisms, and recall that \\(k=\mathbb{Z}[1/2]\\) denotes the ring of dyadic rationals. 
+Specializing Theorem 5.3 yields an equivalence of categories from \\(\mathsf{AffMod}\_{k}\\) to \\(\mathsf{CMQnd}\\). We give more details below.
 
-Specializing Theorem 5.3 yields an equivalence of categories from \\(\mathsf{AffMod}\_{k}\\) to \\(\mathsf{CMQnd}\\). In more detail, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces (by restriction of scalars) a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Section 5.2 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
+By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Section 5.2 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
 
-**Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
-
-_Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators, say \\(x,y\in F\\). In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The latter condition is true by the following nonelementary argument. By Lemma 2.1, \\(F\\) is distributive. Since \\(x\ast y= y\ast x\\), taking \\(a,d:=x\\) and \\(b,c:=y\\) in the statement of \[JK83, Prop. 3.2\] shows that \\(F\\) is medial. 
+**Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathrm{avg}\colon\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
 ## 6. Structure theorems
 
-Theorem 5.3 and Corollary 5.4
+As applications of Theorem 5.3 and Corollary 5.4, we describe free medial Latin quandles, free commutative medial quandles, and certain free medial quandles. We also obtain a structure theorem for finitely generated commutative medial quandles.
 
-**Theorem.** 
+### 6.1. Free affine modules
 
-### Footnotes
+We describe free affine modules over a ring \\(R\\). Since affine modules over \\(R\\) form a variety in the sense of universal algebra, it follows that free objects in \\(\mathsf{AffMod}_R\\) exist and satisfy the usual universal property. Namely, if \\(X\\) is a set, then the _free (left) affine \\(R\\)-module_ generated by \\(X\\) is the unique (up to isomorphism) affine \\(R\\)-module \\(F_R(X)\\) along with an injective map \\(\iota\colon X\hookrightarrow F(X)\\) such that for all affine \\(R\\)-modules \\(M\\) and all set-theoretic functions \\(f_0\colon X\to M\\), there exists a unique affine transformation \\(f\colon F_R(X)\to M\\) such that \\(f\circ\iota=f_0\\).
 
-Footnotes can be useful for clarifying points in the text, or citing information. Markdown support numeric footnotes, as well as text as long as the values are unique.[^note]
+More explicitly, we can construct affine modules as follows. Let \\(X\\) be a set. If \\(X\\) is empty, then \\(F_R(X)\\) is also empty. Otherwise, fix a basepoint \\(z\in X\\), and let \\(F_R(X):=R^{X\setminus\{z\}}}\\) be the free (left) \\(R\\)-module generated by the set \\(X\setminus\{z\}\\). Define \\(\iota\colon X\hookrightarrow F_R(X)\\) by \\(z\mapsto 0\\) and \\(x\mapsto x\\) for all \\(x\in X\setminus\{z\}\\). The reader can verify that \\(F_R(X)\\) satisfies the universal property of free affine modules with \\(f:=L+z\\), where \\(L\colon F_R(X)\to M\\) is the unique linear map obtained by extending the assignment \\(x\mapsto x-z\\) for all \\(x\in X\\).
 
-```markdown
-This is the regular text.[^1] This is more regular text.[^note]
+### 6.2. Free medial Latin quandles
 
-[^1]: This is the footnote itself.
-[^note]: This is another footnote.
-```
+Theorem 5.3 and Corollary 5.4 provide equivalences of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}_{\Lambda}\xrightarrow\mathsf{MedQnd}\\) and \\(\mathrm{avg}\colon\mathsf{AffMod}_k\xrightarrow{\sim}\mathsf{CMQnd}\\). Since equivalences of categories preserve universal properties, it follows that free objects in the target categories are precisely the images of the free objects in the source categories.
 
-[^1]: There are many equivalent ways to define the category of affine modules over a commutative ring, some of which come from treating affine modules as a variety in the sense of universal algebra. The reader can verify that when the ground ring is \\(k\\), then our definition is equivalent to these other definitions. 
-[^note]: When using text for footnotes markers, no spaces are permitted in the name.
+More explicitly, let \\(X\\) be a set. We construct the free medial Latin quandle \\(\mathrm{FML}(X)\\) and the free commuative medial quandle \\(\mathrm{FCM}(X)\\) as follows. If \\(X\\) is empty, then these quandles are also empty. Otherwise, fixing a basepoint \\(z\in X\\), recall that we have free affine modules \\(F_\Lambda(X)\\) and \\(F_k(X)\\). Then \\(\mathrm{FML}(X)\\) is the Alexander quandle \\(\mathrm{Alex}(F_\Lambda(X),\varphi)\\), where \\(\varphi\\) denotes multiplication by \\(s\\). On the other hand, \\(\mathrm{FCM}(X)\\) is the averaging quandle \\(F_k(X)_{\mathrm{avg}}\\).
+
+_Remark 6.1._ Given a nonempty set \\(X\\), Example 4.4 can be restated as an isomorphism between \\(\mathrm{FCM}(X)\\) and the affine hull \\(H_X\\) considered as a subquandle of \\(k^{(X)}_{\mathrm{avg}}\\). This aligns with the intuition that since \\(H_X\\) is the smallest affine subset of \\(k^{(X)}\\) containing \\(X\\), it should correspond to the free commutative medial quandle \\(\mathrm{FCM}(X)\\).
+
+_Remark 6.2._ In category of commutative quandles with quandle homomorphisms—which, as shown in Section 3.1, contains \\(\mathsf{CMQnd}\\) as a strictly smaller subcategory—the above discussion also characterizes free objects with three or fewer generators. Namely, \\(X\\) is a set with three or fewer elements, let \\(\mathrm{FC}(X)\\) be the free commutative quandle generated by \\(X\\). By Lemma 2.1, \\(F\\) is distributive. Since \\(\\# X\leq 3\\), it follows from \[JK83, Prop. 3.2\] that \\(F\\) is medial. Therefore, Remark 6.1 provides isomorphisms \\(\mathrm{FC}(X)\cong\mathrm{FCM}(X)\cong k^2_{\mathrm{avg}}\\). In particular, if \\(# X=2\\), then this solves an open problems of Bardakov and Elhamdadi \[BE26, Question 7.3\]; cf. Remark 2.7. (Note that this argument fails when \\(\\# X\geq 4\\). Indeed, in this case the non-medial commutative quandle \\((A,\ast)\\) from Section 3.1 is a quotient of \\(\mathrm{FC}(X)\\), so the latter quandle must also be non-medial.)
+
+### 6.3. Free commutative medial quandles
+
+
 
 ## References
 
@@ -303,4 +308,4 @@ This is the regular text.[^1] This is more regular text.[^note]
 ***
 **Footnotes**
 
-The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
+[^1]: There are many equivalent ways to define the category of affine modules over a ground ring, some of which come from treating affine modules as a variety in the sense of universal algebra. The reader can verify that our definition is equivalent to these other definitions. 
