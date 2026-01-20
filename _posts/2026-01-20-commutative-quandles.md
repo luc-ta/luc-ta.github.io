@@ -55,7 +55,7 @@ The following lemmas are straightforward and left to the reader.
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
 * _Commutative medial quandles are the same as Latin midpoint algebras. In particular, finite commutative medial quandles are the same as finite cancellative midpoint algebras._
 
-_Remark 2.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, Lemma 2.1 implies they are not necessarily quandles. See Remark 3.3 for a counterexample.
+_Remark 2.3._ Infinite cancellative midpoint algebras are not necessarily quasigroups; in particular, Lemma 2.1 implies they are not necessarily quandles. See Remark 2.7 for a counterexample.
 
 ### 2.2. Averaging quandles
 
