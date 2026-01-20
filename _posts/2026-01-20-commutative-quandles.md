@@ -96,7 +96,7 @@ $$ f(e_i,e_j,e_k) := \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2
 Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\] (This commutative Moufang loop is called \\(L(1)\\) in \[KN81\] and \\((G_1,\cdot)\\) in \[St15A\].) 
 Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] (This quandle is called \\(D(1)\\) in \[KN81\].) Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
 
-Although it is already shown in \[KN81\] that \\((A,\ast)\\) is not medial, we provide a direct verification for the reader's convenience:
+Although it is already shown in \[KN81, St15A\] that \\((A,\ast)\\) is not medial, we provide a direct verification for the reader's convenience:
 
 $$
     \begin{aligned}
@@ -110,10 +110,10 @@ $$
 
 ### 3.2. Cocommutative quandles
 
-In this section, we solve the third part of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
-(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see \[WB26\].) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
+In this section, we solve the third part of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ of \\(X\\) is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
+(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see \[WB26\].) The name is justified because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
-We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
+We will say that \\(X\\) is _cocommutative_ if its dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
 **Theorem 3.2.** _Let \\((X,\ast)\\) be a quandle. The following are equivalent:_ \
 (1) _\\(X\\) is cocommutative._ \
