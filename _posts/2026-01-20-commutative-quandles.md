@@ -274,7 +274,7 @@ _Remark 6.2._ In the category of commutative quandles with quandle homomorphisms
 
 As one last application of Corollary 5.4, we obtain a structure theorem for finitely generated commutative medial quandles. In Section 6.2, we found that if \\(X\\) is a set of cardinality \\(n<\infty\\), then the free commutative medial quandle \\(\mathrm{FCM}(X)\\) is isomorphic to the averaging quandle \\(k^{n-1}_{\mathrm{avg}}\\). On the other hand, \\(k\\) is a PID, and all finite \\(k\\)-modules must have odd order; otherwise, multiplication by \\(2\\) would not be invertible. Hence, combining Corollary 5.4 with the structure theorem for finitely generated modules over a PID yields the following.
 
-**Theorem 6.3.** (cf. \[BE26, Question 7.3\])**.** _Let \\(M\\) be a finitely generated commutative medial quandle. Then there exists a quandle isomorphism_ \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] _for some nonnegative integers \\(r,n,m_1,\dots,m_n\geq 0\\)._
+**Theorem 6.3.** (cf. \[BE26, Question 7.3\])**.** _Let \\(M\\) be a finitely generated commutative medial quandle. If \\(M\\) is nonempty, then there exists a quandle isomorphism_ \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] _for some nonnegative integers \\(r,n,m_1,\dots,m_n\geq 0\\)._
 
 _Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclude that every finite commutative medial quandle—hence, by Lemma 2.2, every finite cancellative midpoint algebra—is the direct product of averaging quandles of the form \\(C_{2n+1}\\). This gives a complete characterization of quandles for which the conjecture in the first part of \[BE26, Question 7.1\] holds.
 
