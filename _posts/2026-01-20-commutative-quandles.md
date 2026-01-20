@@ -112,7 +112,7 @@ $$
 ### 3.2. Cocommutative quandles
 
 In this section, we solve the third part of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ of \\(X\\) is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
-(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see \[WB26\].) The name is justified because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
+(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see \[BT26\].) The name is justified because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
 We will say that \\(X\\) is _cocommutative_ if its dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
@@ -189,7 +189,7 @@ Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The
 
 Henceforth, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms, and denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}].\\] Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MedQnd}\\) are equivalent.
 
-Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{-1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{-1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
+Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible; cf. \[BT26\]. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{-1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{-1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
 
 **Lemma 5.1.** _The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor._
 
@@ -210,6 +210,8 @@ for all \\(x,y\in M\\). Hence, \\(f\\) is a quandle homomorphism. QED.
 **Lemma 5.2.** _Let \\(M\\) and \\(N\\) be \\(\Lambda\\)-modules, and let \\(T\colon M\to N\\) be a \\(\mathbb{Z}[s]\\)-linear map. Then \\(T\\) is \\(\Lambda\\)-linear._
 
 _Proof._ Left to the reader; use the facts that \\(T\\) commutes with \\(s\\) and \\(1-s\\) and that multiplication by \\(s\\) and \\(1-s\\) are invertible. QED.
+
+Next, we prove the main result of this section.
 
 **Theorem 5.3.** _The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is an equivalence of categories._
 
@@ -247,7 +249,7 @@ for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varp
 Let \\(\mathsf{CMQnd}\\) be the category of commutative medial quandles and quandle homomorphisms, and recall that \\(k=\mathbb{Z}[1/2]\\) denotes the ring of dyadic rationals. 
 Specializing Theorem 5.3 yields an equivalence of categories from \\(\mathsf{AffMod}\_{k}\\) to \\(\mathsf{CMQnd}\\). We give more details below.
 
-By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Section 5.2 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
+By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Theorem 5.3 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
 
 **Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathrm{avg}\colon\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
@@ -285,6 +287,8 @@ _Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclud
 
 \[BE26\] V. Bardakov and M. Elhamdadi. _Idempotents and powers of ideals in quandle rings,_ 2026. arXiv:2601.07057
 
+\[BT26\] W. Burrows and C. Tuffley, _The rack congruence condition and half congruences in racks,_ to appear in J. Knot Theory Ramifications. doi:10.1142/S0218216525500865.
+
 \[ES01\] M. H. Escardo and A. K. Simpson, _A universal characterization of the closed Euclidean interval._ Proc. 16th Annual IEEE Symposium on Logic in Comp. Sci. (2001), 115–125. doi:10.1109/LICS.2001.932488.
 
 \[Fr08\] P. Freyd, _Algebraic real analysis,_ Theory Appl. Categ. **20** (2008), no. 10, 215–306. MR2425550
@@ -306,8 +310,6 @@ _Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclud
 \[St15A\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems **23** (2015), no. 1, 91–128. MR3353113
 
 \[St15T\] —, _The origins of involutory quandles,_ 2015. arXiv:1506.02389
-
-\[WB26\] W. Burrows and C. Tuffley, _The rack congruence condition and half congruences in racks,_ to appear in J. Knot Theory Ramifications. doi:10.1142/S0218216525500865.
 
 ***
 **Footnote**
