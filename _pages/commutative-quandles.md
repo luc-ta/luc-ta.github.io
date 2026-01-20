@@ -206,7 +206,7 @@ _Proof._ By Lemma 6.1, Theorem 5.1, and the above discussion, \\(\mathrm{Alex}\\
 Since \\(f\\) is a quandle homomorphism, the reader can verify that \\(T\\) is also a quandle homomorphism. Equivalently,
 \\[T(\varphi(x-y)+y)=\psi(T(x))+(\mathrm{id}-\psi)(T(y))\\] for all \\(x,y\in M\\). In particular, for all \\(z\in M\\), taking \\((x,y):=(\varphi^{-1}(z),0)\\) shows that \\(T=\psi\circ T\circ\varphi^{-1}\\). Therefore, \\(T\circ\varphi=\psi\circ T\\), as desired. 
 
-Now, define a function \\(g\colon M^2\to N\\) by \\[g(x,y):=T(x+y)-T(x)-T(y)\\] for all \\(x,y\in M\\). It remains to show that \\[g\equiv 0\\]. Since \\(T\\) is a quandle homomorphism and \\(\varphi\\) is a homomorphism of abelian groups, note first that
+Now, define a function \\(g\colon M^2\to N\\) by \\[g(x,y):=T(x+y)-T(x)-T(y)\\] for all \\(x,y\in M\\). It remains to show that \\(g\equiv 0\\). Since \\(T\\) is a quandle homomorphism and \\(\varphi\\) is a homomorphism of abelian groups, note first that
 
 $$
     \begin{aligned}
