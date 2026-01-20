@@ -207,7 +207,16 @@ Since \\(f\\) is a quandle homomorphism, the reader can verify that \\(T\\) is a
 \\[T(\varphi(x-y)+y)=\psi(T(x))+(\mathrm{id}-\psi)(T(y))\\] for all \\(x,y\in M\\). In particular, for all \\(z\in M\\), taking \\((x,y):=(\varphi^{-1}(z),0)\\) shows that \\(T=\psi\circ T\circ\varphi^{-1}\\). Therefore, \\(T\circ\varphi=\psi\circ T\\), as desired. 
 
 Now, define a function \\(g\colon M^2\to N\\) by \\[g(x,y):=T(x+y)-T(x)-T(y)\\] for all \\(x,y\in M\\). It remains to show that \\[g\equiv 0\\]. Since \\(T\\) is a quandle homomorphism and \\(\varphi\\) is a homomorphism of abelian groups, note first that
-\\[T((a\ast b)+(c\ast d))=T(\varphi(a+c)+(\mathrm{id}-\varphi)(b+d))=T((a+c)\ast(b+d))=T(a+c)\ast T(b+d)\\] for all \\(a,b,c,d\in M\\). Since \\T\\) is a quandle homomorphism and \\(\psi\\) is a homomorphism of abelian groups, it follows that
+
+$$
+    \begin{aligned}
+    T((a\ast b)+(c\ast d))&= T(\varphi(a+c)+(\mathrm{id}-\varphi)(b+d)) \\
+   &= T((a+c)\ast(b+d)) \\
+   &= T(a+c)\ast T(b+d)
+    \end{aligned}
+    $$
+
+for all \\(a,b,c,d\in M\\). Since \\(T\\) is a quandle homomorphism and \\(\psi\\) is a homomorphism of abelian groups, it follows that
 
 $$
     \begin{aligned}
@@ -218,7 +227,7 @@ $$
     \end{aligned}
     $$
     
-for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[(a,b,c,d):=(\varphi^{-1}(x),0,0,(\mathrm{id}-\varphi)^{-1}(y)\\]. Then \\[x=a\ast b,\qquad y=c\ast d,\\] so \\[g(x,y)=g(a,c)\ast g(b,d)=g(\varphi^{-1}(x),0) \ast g(0,(\mathrm{id}-\varphi)^{-1}(y))=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(L\\) is \\(\Lambda\\)-linear. QED.
+for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[(a,b,c,d):=(\varphi^{-1}(x),0,0,(\mathrm{id}-\varphi)^{-1}(y).\\] Then \\(x=a\ast b\\) and \\( y=c\ast d\\), so \\[g(x,y)=g(a,c)\ast g(b,d)=g(\varphi^{-1}(x),0) \ast g(0,(\mathrm{id}-\varphi)^{-1}(y))=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(L\\) is \\(\Lambda\\)-linear. QED.
 
 ### Commutative medial quandles
 
