@@ -231,7 +231,7 @@ for all \\(a,b,c,d\in M\\). Since \\(T\\) is a quandle homomorphism and \\(\psi\
 
 $$
     \begin{aligned}
-    g((a\ast b),(c\ast d))&= T((a\ast b)+(c\ast d)) - T(a\ast b) - T(d\ast d) \\
+    g((a\ast b),(c\ast d))&= T((a\ast b)+(c\ast d)) - T(a\ast b) - T(c\ast d) \\
    &= [T(a+c)\ast T(b+d)] - [T(a)\ast T(b)] - [T(c)\ast T(d)] \\
    &= \psi(T(a+c)-T(a)-T(c))+(\mathrm{id}-\psi)(T(b\ast d)-T(b)-T(d)) \\
    &= g(a,c)\ast g(b,d)
