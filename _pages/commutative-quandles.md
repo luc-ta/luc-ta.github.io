@@ -220,7 +220,8 @@ Now, define a function \\(g\colon M^2\to N\\) by \\[g(x,y):=T(x+y)-T(x)-T(y)\\] 
 
 $$
     \begin{aligned}
-    T((a\ast b)+(c\ast d))&= T(\varphi(a+c)+(\mathrm{id}-\varphi)(b+d)) \\
+    T((a\ast b)+(c\ast d)) &= T(\varphi(a)+(\mathrm{id}-\varphi)(b)+\varphi(c)+(\mathrm{id}-\varphi)(d)) \\
+    &= T(\varphi(a+c)+(\mathrm{id}-\varphi)(b+d)) \\
    &= T((a+c)\ast(b+d)) \\
    &= T(a+c)\ast T(b+d)
     \end{aligned}
@@ -237,7 +238,7 @@ $$
     \end{aligned}
     $$
     
-for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varphi^{-1}(x),\quad b:= 0,\quad c:=0,\quad d:=(\mathrm{id}-\varphi)^{-1}(y).\\] Then \\(x=a\ast b\\) and \\( y=c\ast d\\), so \\[g(x,y)=g(a,c)\ast g(b,d)=g(a,0) \ast g(0,d)=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(L\\) is \\(\Lambda\\)-linear. QED.
+for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varphi^{-1}(x),\quad b:= 0,\quad c:=0,\quad d:=(\mathrm{id}-\varphi)^{-1}(y).\\] Then \\(x=a\ast b\\) and \\( y=c\ast d\\), so \\[g(x,y)=g(a,c)\ast g(b,d)=g(a,0) \ast g(0,d)=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(T\\) is \\(\Lambda\\)-linear. QED.
 
 ### 5.2. Commutative medial quandles
 
