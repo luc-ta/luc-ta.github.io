@@ -140,7 +140,7 @@ as desired.
 "\\(\impliedby\\)": Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). We have to show that \\(z=R_x^{-1}(y)\\). Indeed,
 \\[ R_x(z)= R_{R_y(z)}(z) = z\ast(z\ast y)=y, \\] where in the last equality we have used the assumption. Since \\(R_x\\) is invertible, the claim follows. QED.
 
-**Corollary 3.3.** Every cocommutative quandle is Latin.
+**Corollary 3.3.** _Every cocommutative quandle is Latin._
 
 **Corollary 3.4** (cf. \[BE26, Question 7.1\])**.** _Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei._
 
