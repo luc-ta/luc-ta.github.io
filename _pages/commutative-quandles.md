@@ -90,9 +90,9 @@ The first part of \[BE26, Question 7.1\] asks whether every finite commutative q
 
 To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
-Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triadditive function \\(f\\) via 
+Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triadditive function \\(f\\) by extending 
 
-$$ f(e_i,e_j,e_k) = \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,4)\\ 0, & \text{otherwise.} \end{cases}$$
+$$ f(e_i,e_j,e_k) := \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,4)\\ 0, & \text{otherwise.} \end{cases}$$
 
 Make \\(A\\) into a _commutative Moufang loop_ via the operation \\[x\cdot y:=x+y+f(x,y,x-y).\\] (This commutative Moufang loop is called \\(L(1)\\) in \[KN81\] and \\((G_1,\cdot)\\) in \[St15A\].) 
 Then \\(A\\) is a quandle with respect to the operation \\[x\ast y := (-x)\cdot(-y).\\] (This quandle is called \\(D(1)\\) in \[KN81\].) Since \\((A,\cdot)\\) is commutative, it follows that \\((A,\ast)\\) is also commutative.
