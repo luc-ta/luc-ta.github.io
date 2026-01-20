@@ -181,13 +181,13 @@ Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is e
 
 **Lemma 6.1.** The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor.
 
-_Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\varphi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T-c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(L\circ\varphi = \psi\circ L\\), so
+_Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\varphi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T-c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(T\circ\varphi = \psi\circ T\\), so
 
 $$
     \begin{aligned}
     f(x\ast y)&= f(\varphi(x-y)+y) \\
-   &= (L\circ\varphi)(x-y)+L(y)+c\\
-   &= (\psi\circ L)(x-y) + f(y)\\
+   &= (T\circ\varphi)(x-y)+T(y)+c\\
+   &= (\psi\circ T)(x-y) + f(y)\\
    &= \psi(f(x)-f(y)) + f(y)\\
    &= f(x)\ast f(y),
     \end{aligned}
@@ -206,7 +206,19 @@ _Proof._ By Lemma 6.1, Theorem 5.1, and the above discussion, \\(\mathrm{Alex}\\
 Since \\(f\\) is a quandle homomorphism, the reader can verify that \\(T\\) is also a quandle homomorphism. Equivalently,
 \\[T(\varphi(x-y)+y)=\psi(T(x))+(\mathrm{id}-\psi)(T(y))\\] for all \\(x,y\in M\\). In particular, for all \\(z\in M\\), taking \\((x,y):=(\varphi^{-1}(z),0)\\) shows that \\(T=\psi\circ T\circ\varphi^{-1}\\). Therefore, \\(T\circ\varphi=\psi\circ T\\), as desired. 
 
-It remains to show that \\(T(x+y)=T(x)+T(y)\\) for all \\(x,y\in M\\).
+Now, define a function \\(g\colon M^2\to N\\) by \\[g(x,y):=T(x+y)-T(x)-T(y)\\] for all \\(x,y\in M\\). It remains to show that \\[g\equiv 0\\]. Since \\(T\\) is a quandle homomorphism and \\(\varphi\\) is a homomorphism of abelian groups, note first that
+\\[T((a\ast b)+(c\ast d))=T(\varphi(a+c)+(\mathrm{id}-\varphi)(b+d))=T((a+c)\ast(b+d))=T(a+c)\ast T(b+d)\\] for all \\(a,b,c,d\in M\\). Since \\T\\) is a quandle homomorphism and \\(\psi\\) is a homomorphism of abelian groups, it follows that
+
+$$
+    \begin{aligned}
+    g((a\ast b),(c\ast d))&= T((a\ast b)+(c\ast d)) - T(a\ast b) - T(d\ast d) \\
+   &= [T(a+c)\ast T(b+d)] - [T(a)\ast T(b)] - [T(c)\ast T(d)] \\
+   &= \psi(T(a+c)-T(a)-T(c))+(\mathrm{id}-\psi)(T(b\ast d)-T(b)-T(d)) \\
+   &= g(a,c)\ast g(b,d)
+    \end{aligned}
+    $$
+    
+for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[(a,b,c,d):=(\varphi^{-1}(x),0,0,(\mathrm{id}-\varphi)^{-1}(y)\\]. Then \\[x=a\ast b,\qquad y=c\ast d,\\] so \\[g(x,y)=g(a,c)\ast g(b,d)=g(\varphi^{-1}(x),0) \ast g(0,(\mathrm{id}-\varphi)^{-1}(y))=0\ast 0=0\\] because \\(g(-,0)\equiv 0\\) and \\(g(0,-)\equiv 0\\). Hence, \\(L\\) is \\(\Lambda\\)-linear. QED.
 
 ### Commutative medial quandles
 
