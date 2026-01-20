@@ -110,7 +110,7 @@ $$
 ## 4. Cocommutative quandles
 
 In this section, we answer part (3) of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
-(For a proof that the dual quandle is a quandle, see ...) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
+(For a proof that the dual quandle is a quandle, see \[WB26\].) The name is justfied because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
 We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
@@ -135,9 +135,9 @@ _Remark 4.3._ Commutative kei are the same as _distributive Steiner quasigroups,
 
 ## 5. Medial Latin quandles
 
-We completely describe medial Latin quandles and commutative quandles. The following results were already shown in \[Ba24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
+We completely describe medial Latin quandles and commutative medial quandles. The following results were already shown in \[Ba24, JPSZ15\]; we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
 
-Recall from Lemmas 2.1 and 2.2 that every commutative quandle is in particular a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
+Recall from Lemmas 2.1 and 2.2 that every medial Latin quandle (and, hence, every commutative medial quandle) is a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
 
 **Theorem 5.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
 
@@ -175,8 +175,43 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 6. Equivalences of categories
 
-Theorem 5.1 and Corollary 5.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).[^1]
+Theorem 5.1 and Corollary 5.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In the following, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms. Define the quotient ring \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}],\\] and denote the category of _affine modules_ over \\(\Lambda\\) by \\(\mathsf{AffMod}\_{\Lambda}\\). Namely, the objects of \\(\mathsf{AffMod}\_{\Lambda}\\) are \\(\Lambda\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(\Lambda\\)-linear maps and constant functions).[^1]
 
+Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) for all \\(m\in M\\); in particular, \\((1-s)^{-1}\cdot m=(\mathrm{id}-\varphi)^{-1}(m)\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
+
+**Lemma 6.1.** The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor.
+
+_Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathm{Alex}(M,\varphi)\to\mathm{Alex}(N,\varphi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T-c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(L\circ\varphi = \psi\circ L\\), so
+
+$$
+    \begin{aligned}
+    f(x\ast y)&= f(\varphi(x-y)+y) \\
+   &= (L\circ\varphi)(x-y)+L(y)+c\\
+   &= (\psi\circ L)(x-y) + f(y)\\
+   &= \psi(f(x)-f(y)) + f(y)\\
+   &= f(x)\ast f(y),
+    \end{aligned}
+    $$
+
+for all \\(x,y\in M\\). Hence, \\(f\\) is a quandle homomorphism. QED.
+
+**Lemma 6.2.** Let \\(M\\) and \\(N\\) be \\(\Lambda\\)-modules, and let \\(T\colon M\to N\\) be a \\(\mathbb{Z}[s]\\)-linear map. Then \\(T\\) is \\(\Lambda\\)-linear.
+
+_Proof._ Left to the reader; use the facts that \\(T\\) commutes with \\(s\\) and \\(1-s\\) and that multiplication by \\(s\\) and \\(1-s\\) are invertible. QED.
+
+**Proposition 6.3.** The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is an equivalence of categories.
+
+_Proof._ By Lemma 6.1, Theorem 5.1, and the above discussion, \\(\mathrm{Alex}\\) is an essentially surjective functor. Therefore, it suffices to show that \\(\mathrm{Alex}\\) is fully faithful. Faithfulness is clear. To show fullness, let \\(f\colon \mathm{Alex}(M,\varphi)\to\mathm{Alex}(N,\varphi)\\) be a homomorphism of Alexander quandles satisfying the conditions of Theorem 5.1, and view \\(M\\) and \\(N\\) as \\(\Lambda\\)-modules as in the above discussion. Let \\(c:= f(0)\\), and define \\(T\colon M\to N\\) by \\(T\coloneq f-c\\). Then \\(f=T-c\\), so we only have to show that \\(T\\) is \\(\Lambda\\)-linear. By Lemma 6.2, it suffices to show that \\(T\\) is a homomorphism of abelian groups such that \\(L\circ\varphi=\psi\circ L\\). Clearly, \\(T(0)=0\\).
+
+Since \\(f\\) is a quandle homomorphism, the reader can verify that \\(T\\) is also a quandle homomorphism. Equivalently,
+\\[T(\varphi(x-y)+y)=\psi(T(x))+(\mathrm{id}-\psi)(T(y))\\] for all \\(x,y\in M\\). In particular, for all \\(z\in M\\), taking \\((x,y):=(\varphi^{-1}(z),0)\\) shows that \\(T=\psi\circ T\circ\varphi^{-1}\\). Therefore, \\(L\circ\varphi=\psi\circ L\\), as desired. 
+
+It remains to show that \\(T(x+y)=T(x)+T(y)\\) for all \\(x,y\in M\\).
+
+### Commutative medial quandles
+
+ In the following, let \\(\mathsf{CommQnd}\\) be the category of commutative quandles and quandle homomorphisms. On the other hand, denote the category of _affine modules_ over \\(k\\) by \\(\mathsf{AffMod}\_{k}\\). Namely, the objects of \\(\mathsf{AffMod}\_{k}\\) are \\(k\\)-modules along with the empty set, and the morphisms are affine transformations (that is, sums of \\(k\\)-linear maps and constant functions).
+ 
 Attempt to define a functor \\(\mathrm{avg}\colon \mathsf{AffMod}_{k}\to \mathsf{CommQnd}\\) on objects by sending every \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\). Define the action on morphisms to be \\(f\mapsto f-f(0).\\)
 
 **Proposition 6.1.** _\\(\mathrm{avg}\\) is a functor._
@@ -225,9 +260,9 @@ This is the regular text.[^1] This is more regular text.[^note]
 
 \[JPSZ15\] P. Jedlička, A. Pilitowska, D. Stanovský, and A. Zamojska-Dzienio, _The structure of medial quandles,_ J. Algebra **443** (2015), 300–334. MR3400403
 
-\[Jo82\] D. Joyce, _A classifying invariant of knots, the knot quandle,_ J. Pure Appl. Algebra **23** (1982), no. 1, 37–65. MR638121
-
 \[JK83\] J. Ježek and T. Kepka, _Notes on distributive groupoids,_ Comment. Math. Univ. Carolin. **24** (1983), no. 2, 237–249. MR0711262
+
+\[Jo82\] D. Joyce, _A classifying invariant of knots, the knot quandle,_ J. Pure Appl. Algebra **23** (1982), no. 1, 37–65. MR638121
 
 \[KN81\] T. Kepka and P. Němec, _Commutative Moufang loops and distributive groupoids of small orders,_ Czechoslovak Math. J. **31(106)** (1981), no. 4, 633–669. MR0631607
 
@@ -240,6 +275,8 @@ This is the regular text.[^1] This is more regular text.[^note]
 \[St15A\] D. Stanovský, _A guide to self-distributive quasigroups, or Latin quandles,_ Quasigroups Related Systems **23** (2015), no. 1, 91–128. MR3353113
 
 \[St15T\] —, _The origins of involutory quandles,_ 2015. arXiv:1506.02389
+
+\[WB26\] W. Burrows and C. Tuffley, _The rack congruence condition and half congruences in racks,_ to appear in J. Knot Theory Ramifications. doi:10.1142/S0218216525500865.
 
 ***
 **Footnotes**
