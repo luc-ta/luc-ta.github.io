@@ -272,7 +272,7 @@ _Remark 6.2._ In the category of commutative quandles with quandle homomorphisms
 
 ### 6.3. Finitely generated commutative medial quandles
 
-As one last application of Corollary 5.4, we obtain a structure theorem for finitely generated commutative medial quandles. In Section 6.2, we found that if \\(X\\) is a set of cardinality \\(n<\infty\\), then the free commutative medial quandle \\(\mathrm{FCM}(X)\\) is isomorphic to the averaging quandle \\(k^{n-1}_{\mathrm{avg}}\\). On the other hand, \\(k\\) is a PID, and all finite \\(k\\)-modules must have odd order; otherwise, multiplication by \\(2\\) would not be invertible. Hence, combining Corollary 5.4 with the structure theorem for finitely generated modules over a PID yields the following.
+As one last application of Corollary 5.4, we obtain a structure theorem for finitely generated commutative medial quandles. In Section 6.2, we found that if \\(X\\) is a set of cardinality \\(1\leq n<\infty\\), then the free commutative medial quandle \\(\mathrm{FCM}(X)\\) is isomorphic to the averaging quandle \\(k^{n-1}_{\mathrm{avg}}\\). On the other hand, \\(k\\) is a PID, and all finite \\(k\\)-modules must have odd order; otherwise, multiplication by \\(2\\) would not be invertible. Hence, combining Corollary 5.4 with the structure theorem for finitely generated modules over a PID yields the following.
 
 **Theorem 6.3.** (cf. \[BE26, Question 7.3\])**.** _Let \\(M\\) be a finitely generated commutative medial quandle. If \\(M\\) is nonempty, then there exists a quandle isomorphism_ \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] _for some nonnegative integers \\(r,n,m_1,\dots,m_n\geq 0\\)._
 
