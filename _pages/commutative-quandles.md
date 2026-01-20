@@ -243,13 +243,15 @@ for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varp
 
 Similarly to Section 5.1, let \\(\mathsf{AffMod}\_{k}\\) be the category of (possibly empty) affine modules over the dyadic rationals \\(k=\mathbb{Z}[1/2]\\), and let \\(\mathsf{CMQnd}\\) be the category of commutative medial quandles and quandle homomorphisms. 
 
-Specializing Theorem 5.3 yields an equivalence of categories between \\(\mathsf{AffMod}\_{k}\\) and \\(\mathsf{CommQnd}\\). In more detail, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces (by restriction of scalars) a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Section 5.2 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
+Specializing Theorem 5.3 yields an equivalence of categories from \\(\mathsf{AffMod}\_{k}\\) to \\(\mathsf{CMQnd}\\). In more detail, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces (by restriction of scalars) a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{k}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Section 5.2 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
 
 **Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
 _Remark 6.4._ Let \\(F\\) be the free commutative quandle with two generators, say \\(x,y\in F\\). In \[BE26, Question 7.3\], Bardakov and Elhamdadi asked whether \\(F\cong \mathrm{Free}_2\\). By the above, this question has a positive answer if and only if \\(F\\) is medial. The latter condition is true by the following nonelementary argument. By Lemma 2.1, \\(F\\) is distributive. Since \\(x\ast y= y\ast x\\), taking \\(a,d:=x\\) and \\(b,c:=y\\) in the statement of \[JK83, Prop. 3.2\] shows that \\(F\\) is medial. 
 
 ## 6. Structure theorems
+
+Theorem 5.3 and Corollary 5.4
 
 **Theorem.** 
 
