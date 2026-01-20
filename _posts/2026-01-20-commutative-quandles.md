@@ -182,7 +182,7 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 Proposition 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should also relate to such modules. This turns out to be the case.
 
-Given a ring \\(R\\), define a category \\(\mathsf{AffMod}_R\\) as follows. The objects consist of the empty set and all left \\(R\\)-modules. The morphisms are affine transformations (that is, sums of \\(R\\)-module homomorphisms and constant functions). We call \\(\mathsf{AffMod}\_{\Lambda}\\) the category of _(left) affine modules_ over \\(R\\).[^1]
+Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The objects consist of the empty set and all left \\(R\\)-modules. The morphisms are affine transformations (that is, sums of \\(R\\)-module homomorphisms and constant functions). We call \\(\mathsf{AffMod}\_{\Lambda}\\) the category of _(left) affine modules_ over \\(R\\).[^1]
 
 ### 5.1. Medial Latin quandles
 
@@ -192,7 +192,7 @@ Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is e
 
 **Lemma 5.1.** _The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor._
 
-_Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\psi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T-c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(T\circ\varphi = \psi\circ T\\), so
+_Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\psi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T+c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(T\circ\varphi = \psi\circ T\\), so
 
 $$
     \begin{aligned}
