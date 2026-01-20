@@ -82,7 +82,7 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 
 ### 3.1. An obstruction to structure theorems
 
-The first part of \[BE26, Question 7.1\] asks whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost, we will give an additional assumption (namely, mediality) under which this question has a positive answer.
+The first part of \[BE26, Question 7.1\] asks whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost (see Theorem 6.3), we will give an additional assumption (namely, mediality) under which this question has a positive answer.
 
 To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
@@ -133,7 +133,7 @@ _Remark 3.3._ Commutative kei are the same as _distributive Steiner quasigroups,
 
 ## 4. Medial Latin quandles
 
-In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost, we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in \[Ba24, JPSZ15\], we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
+In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost (see Theorem 6.3), we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in \[Ba24, JPSZ15\], we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
 
 Recall from Lemmas 2.1 and 2.2 that every medial Latin quandle (and, hence, every commutative medial quandle) is a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
 
@@ -271,7 +271,7 @@ _Remark 6.2._ In the category of commutative quandles with quandle homomorphisms
 
 As one last application of Corollary 5.4, we obtain a structure theorem for finitely generated commutative medial quandles. In Section 6.2, we found that if \\(X\\) is a set of cardinality \\(n<\infty\\), then the free commutative medial quandle \\(\mathrm{FCM}(X)\\) is isomorphic to the averaging quandle \\(k^{n-1}_{\mathrm{avg}}\\). On the other hand, \\(k\\) is a PID, and all finite \\(k\\)-modules must have odd order (otherwise multiplication by \\(2\\) would not be invertible). Hence, combining Corollary 5.4 with the structure theorem for finitely generated modules over a PID yields the following.
 
-**Theorem 6.3.** Let \\(M\\) be a finitely generated commutative medial quandles. Then \\[M\cong k^r_{\mathrm{avg}} \prod^n_{i=1} C_{2m_i+1}\\] for some nonnegative integers \\(r,m_1,\dots,m_n\geq 0\\).
+**Theorem 6.3.** Let \\(M\\) be a finitely generated commutative medial quandles. Then \\[M\cong k^r_{\mathrm{avg}} \times\prod^n_{i=1} C_{2m_i+1}\\] for some nonnegative integers \\(r,m_1,\dots,m_n\geq 0\\).
 
 _Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclude that every finite commutative medial quandle—hence, by Lemma 2.2, every finite cancellative midpoint algebra—is the direct sum of averaging quandles of the form \\(C_{2n+1}\\). This gives a complete characterization of quandles for which the conjecture in the first part of \[BE26, Question 7.1\] holds.
 
