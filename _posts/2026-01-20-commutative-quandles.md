@@ -68,7 +68,7 @@ In this section, we define a class of commutative medial quandles called _averag
 
 In particular, if \\(M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the corresponding averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
 
-_Remark 2.6._ Averaging quandles are a special class of quandles called _weighted average quandles_ (see \[BT26\]), which are themselves a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle and \\(\varphi\\) denotes multiplication by \\(1/2\\), then \\(M_{\mathrm{avg}}=\mathrm{Alex}(M,\varphi)\\). In particular, all averaging quandles are medial. In general, though, Alexander quandles are not necessarily commutative.
+_Remark 2.6._ Averaging quandles are a special class of so-called _weighted average quandles_ (see \[BT26\]), which are themselves a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle, then multiplication by \\(1/2\\) defines an automorphism of \\(M\\) whose corresponding Alexander quandle is precisely \\(M_{\mathrm{avg}}\\). In particular, all averaging quandles are medial. In general, though, Alexander quandles are not necessarily commutative.
 
 _Remark 2.7._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{m/2^n \mid m,n\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
 
