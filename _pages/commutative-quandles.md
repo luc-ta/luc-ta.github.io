@@ -122,7 +122,7 @@ We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op
 
 _Proof._ First, note that (2) is equivalent to the statement that \\[x\ast(x\ast y)=y\\] for all \\(x,y\in X\\).
 
-"\\(\implies\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, we have \\(z:=R_x^{-1}(y)\\). Since \\(X\\) is a quandle, it follows that
+"\\(\implies\\)": Assume that \\(X\\) is cocommutative. Given \\(x,y\in X\\), let \\(z:=R_y^{-1}(x)\\). By assumption, \\(z=R_x^{-1}(y)\\). Since \\(X\\) is a quandle, it follows that
 \\[x\ast(x\ast y)=(z\ast y)\ast (x\ast y)=(z\ast x)\ast y=y\ast y=y,\\]
 as desired.
 
