@@ -1,8 +1,8 @@
 ---
-permalink: /blog/2026/commutative-quandles/
-title: "Structure theory of commutative quandles and medial Latin quandles"
+title: 'Structure theory of commutative quandles and medial Latin quandles'
 sitemap: true
 date: 2026-01-20
+permalink: /blog/2026/commutative-quandles/
 redirect_from: /commutative-quandles/
 tags:
   - research
