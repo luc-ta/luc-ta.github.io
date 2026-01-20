@@ -8,6 +8,9 @@ main:
 
   - title: "About"
     url: /about/
+    
+  - title: "Blog"
+    url: /blog/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -16,11 +19,7 @@ main:
     url: /teaching/    
     
   - title: "Music"
-    url: /music/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
+    url: /music/    
     
   # - title: "Guide"
   #   url: /markdown/
