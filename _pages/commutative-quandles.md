@@ -116,7 +116,7 @@ In this section, we solve the third part of \[BE26, Question 7.1\]. In the follo
 
 We will say that \\(X\\) is _cocommutative_ if the dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
 
-**Theorem 3.2.** _Let \\((X,\ast)\\) be a quandle. Then the following are equivalent:_ \
+**Theorem 3.2.** _Let \\((X,\ast)\\) be a quandle. The following are equivalent:_ \
 (1) _\\(X\\) is cocommutative._ \
 (2) _For all \\(x\in X\\), the left multiplication map \\(L_x\\) is an involution._ 
 
