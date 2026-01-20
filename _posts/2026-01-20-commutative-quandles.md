@@ -8,6 +8,7 @@ tags:
   - research
   - racks-and-quandles
   - commutative-algebra
+  - universal-algebra
 ---
 
 ## Abstract
