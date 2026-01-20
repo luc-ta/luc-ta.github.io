@@ -77,7 +77,7 @@ In this section, we define a class of commutative medial quandles called _averag
 
 **Definition 2.5.** Let \\(A\\) be a unital ring in which \\(2\\) is invertible, and let \\(M\\) be a left \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
-In particular, if \\(M=\mathbb{Z}/(2n+1)\mathbb{Z}\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the corresponding averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
+In particular, if \\(M=\mathbb{Z}/(2n+1)\\) is the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\), then we denote the corresponding averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].
 
 _Remark 2.6._ Averaging quandles are a special class of so-called _weighted average quandles_ (see \[BT26\]), which are themselves a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle, then multiplication by \\(1/2\\) defines an automorphism of \\(M\\) whose corresponding Alexander quandle is precisely \\(M_{\mathrm{avg}}\\). In particular, all averaging quandles are medial. In general, though, Alexander quandles are not necessarily commutative.
 
@@ -101,7 +101,7 @@ The first part of \[BE26, Question 7.1\] asks whether every finite commutative q
 
 To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
-Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(A:= (\mathbb{Z}/3\mathbb{Z})^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triadditive function \\(f\\) by extending 
+Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(\mathbb{Z}/3\\) denote the cyclic group of order 3, let \\(A:= (\mathbb{Z}/3)^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triadditive function \\(f\\) by extending 
 
 $$ f(e_i,e_j,e_k) := \begin{cases} e_1, & (i,j,k)=(2,3,4)\\ -e_1, & (i,j,k)=(3,2,4)\\ 0, & \text{otherwise.} \end{cases}$$
 
