@@ -137,9 +137,9 @@ _Remark 3.3._ Commutative kei are the same as _distributive Steiner quasigroups,
 
 ## 4. Classification of medial Latin quandles
 
-In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost (see Theorem 6.3), we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in \[Ba24, JPSZ15\], we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
+In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost (see Theorem 6.3), we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in \[Ba24, JPSZ15\], we provide new, much shorter proofs at the cost of using the Bruck–Murdoch–Toyoda theorem.
 
-Recall from Lemmas 2.1 and 2.2 that every medial Latin quandle (and, hence, every commutative medial quandle) is a medial quasigroup. These observations allow us to use the _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\), where \\[a\cdot b := \varphi(a)+\psi(b)+c\\] for all \\(a,b\in A\\).
+Recall from Lemma 2.1 that every Latin quandle (and, hence, every commutative quandle) is a quasigroup. In the medial case, this observation allow us to appeal to the well-known _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\) wwith multiplication \\[a\cdot b := \varphi(a)+\psi(b)+c.\\]
 
 **Proposition 4.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that \\(\mathrm{id}-\varphi\\) is a permutation of \\(A\\)._
 
@@ -153,7 +153,7 @@ _Remark 4.3._ The "converses" of Proposition 4.1 and Corollary 4.2 also hold. Pr
 
 ### 4.1. Constructions
 
-In light of Lemma 2.2, the construction of Bauer in \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding under Theorem 4.2 to a given commutative medial quandle. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
+In light of Lemma 2.2, the construction of Bauer in \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding to a given commutative medial quandle under Theorem 4.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
 
 $$
     \begin{aligned}
@@ -283,9 +283,9 @@ _Remark 6.4._ If \\(M\\) is finite in Theorem 6.3, then \\(r=0\\), so we conclud
 
 ## References
 
-\[Ba24\] K. J. Bauer, _quasigroup midpoint algebras = Z[1/2]-modules,_ Frank Blog, 2024. [https://frank-9976.github.io/midpoint.html](https://frank-9976.github.io/midpoint.html) (accessed: 1-14-2026).
-
 \[BE26\] V. Bardakov and M. Elhamdadi. _Idempotents and powers of ideals in quandle rings,_ 2026. arXiv:2601.07057
+
+\[Ba24\] K. J. Bauer, _quasigroup midpoint algebras = Z[1/2]-modules,_ Frank Blog, 2024. [https://frank-9976.github.io/midpoint.html](https://frank-9976.github.io/midpoint.html) (accessed: 1-14-2026).
 
 \[BT26\] W. Burrows and C. Tuffley, _The rack congruence condition and half congruences in racks,_ to appear in J. Knot Theory Ramifications. doi:10.1142/S0218216525500865.
 
