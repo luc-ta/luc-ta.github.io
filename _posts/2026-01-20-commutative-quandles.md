@@ -135,7 +135,7 @@ _Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\
 
 _Remark 3.3._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures that correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
 
-## 4. Medial Latin quandles
+## 4. Classification of medial Latin quandles
 
 In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost (see Theorem 6.3), we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in \[Ba24, JPSZ15\], we provide new, much shorter proofs at the cost of appealing to the Bruck–Murdoch–Toyoda theorem.
 
@@ -181,7 +181,7 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 5. Equivalences of categories
 
-Proposition 4.1 and Corollary 4.2 allow us to give an alternative perspective on the classification of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should be related to these modules. We will formalize this idea using an equivalence of categories.
+Proposition 4.1 and Corollary 4.2 allow us to give an alternative, commutative-algebraic perspective on the theory of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should be related to these modules. We will formalize this idea using an equivalence of categories.
 
 Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The objects consist of the empty set and all left \\(R\\)-modules. The morphisms are affine transformations (that is, sums of \\(R\\)-module homomorphisms and constant functions). We call \\(\mathsf{AffMod}\_{\Lambda}\\) the category of _(left) affine modules_ over \\(R\\).[^1]
 
@@ -251,7 +251,7 @@ By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lam
 
 **Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathrm{avg}\colon\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
-## 6. Structure theorems
+## 6. Free objects
 
 As applications of Theorem 5.3 and Corollary 5.4, we describe free medial Latin quandles, free commutative medial quandles, and certain free medial quandles. We also obtain a structure theorem for finitely generated commutative medial quandles.
 
