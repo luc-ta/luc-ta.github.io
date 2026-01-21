@@ -99,7 +99,7 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 
 The first part of \[BE26, Question 7.1\] asks whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost (see Theorem 6.3), we will give an additional assumption (namely, mediality) under which this question has a positive answer.
 
-To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that the direct product of medial quandles is necessarily medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
+To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that direct products of medial quandles are medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
 Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(\mathbb{Z}/3\\) denote the cyclic group of order 3, let \\(A:= (\mathbb{Z}/3)^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triadditive function \\(f\\) by extending 
 
@@ -200,11 +200,11 @@ Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The
 
 ### 5.1. Medial Latin quandles
 
-Henceforth, let \\(\mathsf{MedQnd}\\) be the category of medial quandles and quandle homomorphisms, and denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}].\\] Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MedQnd}\\) are equivalent.
+Henceforth, let \\(\mathsf{MLQnd}\\) be the category of medial Latin quandles and quandle homomorphisms, and denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}].\\] Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MLQnd}\\) are equivalent.
 
-Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible; cf. \[BT26\]. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{\pm 1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{\pm 1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
+Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible; cf. \[BT26\]. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{\pm 1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{\pm 1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
 
-**Lemma 5.1.** _The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is a functor._
+**Lemma 5.1.** _The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) is a functor._
 
 _Proof._ We only have to show that every affine transformation of \\(\Lambda\\)-modules \\(f\colon M\to N\\) is a quandle homomorphism \\(\mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\psi)\\). If \\(M\\) is empty, then the claim is trivial. Othewise, \\(f\\) factorizes as \\(f=T+c\\) for some \\(\Lambda\\)-linear map \\(T\colon M\to N\\) and some constant \\(c\in N\\). In particular, \\(T\circ\varphi = \psi\circ T\\), so
 
@@ -226,7 +226,7 @@ _Proof._ Left to the reader; use the facts that \\(T\\) commutes with \\(s\\) an
 
 Next, we prove the main result of this section.
 
-**Theorem 5.3.** _The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MedQnd}\\) is an equivalence of categories._
+**Theorem 5.3.** _The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) is an equivalence of categories._
 
 _Proof._ By Lemma 5.1, Proposition 4.1, and the above discussion, \\(\mathrm{Alex}\\) is an essentially surjective functor. Therefore, it suffices to show that \\(\mathrm{Alex}\\) is fully faithful. Faithfulness is clear. To show fullness, let \\(f\colon \mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\psi)\\) be a homomorphism of Alexander quandles satisfying the conditions of Theorem 5.1, and view \\(M\\) and \\(N\\) as \\(\Lambda\\)-modules as in the above discussion. Let \\(c:= f(0)\\), and define \\(T\colon M\to N\\) by \\(T:= f-c\\). Then \\(f=T-c\\), so we only have to show that \\(T\\) is \\(\Lambda\\)-linear. By Lemma 6.2, it suffices to show that \\(T\\) is a homomorphism of abelian groups such that \\(T\circ\varphi=\psi\circ T\\). Clearly, \\(T(0)=0\\).
 
@@ -262,13 +262,13 @@ for all \\(a,b,c,d\in M\\). In particular, given \\(x,y\in M\\), let \\[a:=\varp
 Let \\(\mathsf{CMQnd}\\) be the category of commutative medial quandles and quandle homomorphisms, and recall that \\(k=\mathbb{Z}[1/2]\\) denotes the ring of dyadic rationals. 
 Specializing Theorem 5.3 yields an equivalence of categories from \\(\mathsf{AffMod}\_{k}\\) to \\(\mathsf{CMQnd}\\). We give more details below.
 
-By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{\Lambda}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) from Theorem 5.3 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
+By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lambda/(2s-1)\xrightarrow{\sim}k\\] induces a fully faithful embedding \\(\mathsf{AffMod}\_{k}\hookrightarrow \mathsf{AffMod}\_{\Lambda}\\). The image consists precisely of affine \\(\Lambda\\)-modules \\(M\\) such that \\((2s-1)M=0\\). Composing with the equivalence of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\xrightarrow{\sim}\mathsf{MLQnd}\\) from Theorem 5.3 shows that \\(\mathsf{AffMod}\_{k}\\) is equivalent to the category of averaging quandles \\(M_{\mathrm{avg}}\\). By Corollary 4.2, the latter category is equivalent to \\(\mathsf{CMQnd}\\). Summarizing, we have the following.
 
 **Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathrm{avg}\colon\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
 ## 6. Free objects
 
-As applications of Theorem 5.3 and Corollary 5.4, we describe free medial Latin quandles, free commutative medial quandles, and certain free medial quandles. We also obtain a structure theorem for finitely generated commutative medial quandles.
+As an application of Theorem 5.3 and Corollary 5.4, we completely describe free medial Latin quandles and free commutative medial quandles. As another application, we obtain a structure theorem for finitely generated commutative medial quandles.
 
 ### 6.1. Free affine modules
 
@@ -278,7 +278,7 @@ More explicitly, we can construct affine modules as follows. Let \\(X\\) be a se
 
 ### 6.2. Free medial Latin quandles
 
-Theorem 5.3 and Corollary 5.4 provide equivalences of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}_{\Lambda}\xrightarrow{\sim}\mathsf{MedQnd}\\) and \\(\mathrm{avg}\colon\mathsf{AffMod}_k\xrightarrow{\sim}\mathsf{CMQnd}\\). Since equivalences of categories preserve universal properties, it follows that free objects in the target categories are precisely the images of the free objects in the source categories.
+Theorem 5.3 and Corollary 5.4 provide equivalences of categories \\(\mathrm{Alex}\colon\mathsf{AffMod}_{\Lambda}\xrightarrow{\sim}\mathsf{MLQnd}\\) and \\(\mathrm{avg}\colon\mathsf{AffMod}_k\xrightarrow{\sim}\mathsf{CMQnd}\\). Since equivalences of categories preserve universal properties, it follows that free objects in the target categories are precisely the images of the free objects in the source categories.
 
 More explicitly, let \\(X\\) be a set. We construct the free medial Latin quandle \\(\mathrm{FML}(X)\\) and the free commutative medial quandle \\(\mathrm{FCM}(X)\\) as follows. If \\(X\\) is empty, then these quandles are also empty. Otherwise, fixing a basepoint \\(z\in X\\), recall that we have free affine modules \\(F_\Lambda(X)\\) and \\(F_k(X)\\). Then \\(\mathrm{FML}(X)\\) is the Alexander quandle \\(\mathrm{Alex}(F_\Lambda(X),\varphi)\\), where \\(\varphi\\) denotes multiplication by \\(s\\). On the other hand, \\(\mathrm{FCM}(X)\\) is the averaging quandle \\(F_k(X)\_{\mathrm{avg}}\\). In particular, if \\(X\\) is a set of cardinality \\(1\leq n<\infty\\), then \\(\mathrm{FCM}(X)\cong k^{n-1}_{\mathrm{avg}}\\).
 
