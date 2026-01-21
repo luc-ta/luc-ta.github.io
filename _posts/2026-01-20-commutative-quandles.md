@@ -19,7 +19,7 @@ In 1982, Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced nonassocia
 
 The purpose of this blogpost is to solve two open problems of Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. Along the way, we show that the category of commutative (resp. Latin) medial quandles is equivalent to the category of affine modules over the ring of dyadic rationals \\(k:=\mathbb{Z}[1/2]\\) (resp. the ring \\(\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}]\\)), and we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. 
 
-An auxiliary goal of this blogpost is to clarify the relationships quandles have with a family of algebraic structures called _cancellative midpoint algebras._ Sigmon \[S70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over \\(k\\) \[Ba24, Fr08\].
+An auxiliary goal of this blogpost is to clarify the relationships quandles have with a family of algebraic structures called _cancellative midpoint algebras._ Sigmon \[Si70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over \\(k\\) \[Ba24, Fr08\].
 
 ### 1.1. Definitions
 
