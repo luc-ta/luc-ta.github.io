@@ -11,15 +11,15 @@ tags:
   - universal-algebra
 ---
 
-In this blogpost, we solve two open problems posed by Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials in \\(s\\) and \\(1-s\\)).
+In this blogpost, we solve two open problems posed by Bardakov and Elhamdadi BE26BE26 in the theory of quandle rings. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials in \\(s\\) and \\(1-s\\)).
 
 ## 1. Introduction
 
-In 1982, Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced nonassociative algebraic structures called _quandles_ to develop complete invariants of knots. A special class of quandles, called _medial_ quandles, is particularly important in this topological setting. Other special classes of quandles, called _Latin_ quandles and _commutative_ quandles, are important to the theory of certain nonassociative rings called _quandle rings._ 
+In 1982, Joyce Jo82Jo82 and Matveev Ma82Ma82 independently introduced nonassociative algebraic structures called _quandles_ to develop complete invariants of knots. A special class of quandles, called _medial_ quandles, is particularly important in this topological setting. Other special classes of quandles, called _Latin_ quandles and _commutative_ quandles, are important to the theory of certain nonassociative rings called _quandle rings._ 
 
-The purpose of this blogpost is to solve two open problems of Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. Along the way, we show that the category of commutative (resp. Latin) medial quandles is equivalent to the category of affine modules over the ring of dyadic rationals \\(k:=\mathbb{Z}[1/2]\\) (resp. the ring \\(\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}]\\)), and we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. 
+The purpose of this blogpost is to solve two open problems of Bardakov and Elhamdadi BE26BE26 in the theory of quandle rings. Along the way, we show that the category of commutative (resp. Latin) medial quandles is equivalent to the category of affine modules over the ring of dyadic rationals \\(k:=\mathbb{Z}[1/2]\\) (resp. the ring \\(\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}]\\)), and we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. 
 
-An auxiliary goal of this blogpost is to clarify the relationships quandles have with a family of algebraic structures called _cancellative midpoint algebras._ Sigmon \[Si70\] introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis \[ES01, Fr08\], and they have connections to (affine) modules over \\(k\\) \[Ba24, Fr08\].
+An auxiliary goal of this blogpost is to clarify the relationships quandles have with a family of algebraic structures called _cancellative midpoint algebras._ Sigmon Si70Si70 introduced cancellative midpoint algebras under the name "medial means" in 1970. Cancellative midpoint algebras allow for categorifications of certain aspects of convex analysis ES01,Fr08ES01, Fr08, and they have connections to (affine) modules over \\(k\\) Ba24,Fr08Ba24, Fr08.
 
 ### 1.1. Definitions
 
@@ -122,10 +122,10 @@ $$
 
 ### 3.2. Cocommutative quandles
 
-In this section, we solve the third part of \[BE26, Question 7.1\]. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ of \\(X\\) is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
-(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see \[BT26\].) The name is justified because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
+In this section, we solve the third part of BE26,Question7.1BE26, Question 7.1. In the following, let \\((X,\ast)\\) be a quandle, denoted simply by \\(X\\). Recall that the _dual quandle_ of \\(X\\) is the quandle \\(X^{\mathrm{op}}:=(X,\overline{\ast})\\), where \\[x\overline{\ast}y:=R_y^{-1}(x).\\]
+(For a proof that \\(X^{\mathrm{op}}\\) is a quandle, see BT26BT26.) The name is justified because \\((X^{\mathrm{op}})^{\mathrm{op}}=X\\).
 
-We will say that \\(X\\) is _cocommutative_ if its dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of \[BE26, Question 7.1\]. These results appear to be new.
+We will say that \\(X\\) is _cocommutative_ if its dual quandle \\(X^{\mathrm{op}}\\) is commutative. Below, we provide a necessary and sufficient condition under which \\(X\\) is cocommutative. In particular, we completely describe quandles that are both commutative and cocommutative; this solves part (3) of BE26,Question7.1BE26, Question 7.1. These results appear to be new.
 
 **Theorem 3.2.** _Let \\((X,\ast)\\) be a quandle. The following are equivalent:_ \
 (1) _\\(X\\) is cocommutative._ \
@@ -142,23 +142,23 @@ as desired.
 
 **Corollary 3.3.** _Every cocommutative quandle is Latin._
 
-**Corollary 3.4** (cf. \[BE26, Question 7.1\])**.** _Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei._
+**Corollary 3.4** (cf. BE26,Question7.1BE26, Question 7.1)**.** _Let \\((X,\ast)\\) be a commutative quandle. Then \\(X\\) is cocommutative if and only if \\(X\\) is a kei._
 
 _Proof._ Since \\(X\\) is commutative, we have \\(L_x=R_x\\) for all \\(x\in X\\). Hence, Theorem 3.2 yields the claim. QED.
 
-_Remark 3.5._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures that correspond to combinatorial designs called _Hall triple systems._ See \[St15T, Sec. 3.4\] for further discussion and references on distributive Steiner quasigroups, and see \[NP06\] for a quandle-theoretic treatment of commutative kei.
+_Remark 3.5._ Commutative kei are the same as _distributive Steiner quasigroups,_ which are algebraic structures that correspond to combinatorial designs called _Hall triple systems._ See St15T,Sec.3.4St15T, Sec. 3.4 for further discussion and references on distributive Steiner quasigroups, and see NP06NP06 for a quandle-theoretic treatment of commutative kei.
 
 ## 4. Classification of medial Latin quandles
 
-In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost (see Theorem 6.3), we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in \[Ba24, JPSZ15\], we provide new, much shorter proofs at the cost of using the Bruck–Murdoch–Toyoda theorem.
+In light of Section 3.1, it is natural to ask for necessary and sufficient conditions under which finite quandles decompose as direct products of averaging quandles of the form \\(C_{2n+1}\\). Later in this blogpost (see Theorem 6.3), we will show that these conditions are precisely commutativity and mediality. To that end, this section completely describes medial Latin quandles and commutative medial quandles. Although the results of this section were already shown in Ba24,JPSZ15Ba24, JPSZ15, we provide new, much shorter proofs at the cost of using the Bruck–Murdoch–Toyoda theorem.
 
-Recall from Lemma 2.1 that every Latin quandle (and, hence, every commutative quandle) is a quasigroup. In the medial case, this observation allow us to appeal to the well-known _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\) wwith multiplication \\[a\cdot b := \varphi(a)+\psi(b)+c.\\]
+Recall from Lemma 2.1 that every Latin quandle (and, hence, every commutative quandle) is a quasigroup. In the medial case, this observation allow us to appeal to the well-known _Bruck–Murdoch–Toyoda theorem_, which states the following: For every medial quasigroup \\( (X,\ast)\\), there exists an abelian group \\(A\\), a fixed element \\(c\in A\\), and two commuting automorphisms \\(\varphi,\psi\\) of \\(A\\) such that \\(X\\) is isomorphic to the medial quasigroup \\( (A,\cdot)\\) with multiplication \\[a\cdot b := \varphi(a)+\psi(b)+c.\\]
 
-**Proposition 4.1** (\[JPSZ15, Ex. 2.2 and Cor. 3.4\])**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that the map \\(\mathrm{id}-\varphi\\) is an automorphism of \\(A\\)._
+**Proposition 4.1** (JPSZ15,Ex.2.2andCor.3.4JPSZ15, Ex. 2.2 and Cor. 3.4)**.** _Every medial Latin quandle is isomorphic to an Alexander quandle \\(\mathrm{Alex}(A,\varphi)\\) such that the map \\(\mathrm{id}-\varphi\\) is an automorphism of \\(A\\)._
 
 _Proof._ By the above discussion, every medial Latin quandle is isomorphic to a quasigroup of the form \\( (A,\cdot)\\) described above. By assumption, \\( (A,\cdot)\\) is idempotent, so taking \\(a:=0\\) and \\(b:=0\\) above shows that \\(c=0\\). Therefore, idempotence forces \\(\varphi+\psi=\mathrm{id}\\). That is, \\[a\cdot b=\varphi(a)+(\mathrm{id}-\varphi)(b),\\] so \\( (A,\cdot)=\mathrm{Alex}(A,\varphi),\\) as desired. Finally, since \\( (A,\cdot)\\) is Latin, the left multiplication maps \\(L_a=\varphi(a)+\mathrm{id}-\varphi\\) are invertible. Since addition by \\(\varphi(a)\\) is invertible, it follows that \\(\mathrm{id}-\varphi\\) is also invertible. QED.
 
-**Corollary 4.2** (\[Ba24\])**.** _Every commutative medial quandle is isomorphic to an averaging quandle._
+**Corollary 4.2** (Ba24Ba24)**.** _Every commutative medial quandle is isomorphic to an averaging quandle._
 
 _Proof._ By Proposition 4.1, every commutative medial quandle is isomorphic to an Alexander quandle \\( \mathrm{Alex}(A,\varphi) \\). Commutativity implies that \\[\varphi(a)=a\ast 0=0\ast a=a-\varphi(a)\\] for all \\(a\in A\\); that is, \\(2\varphi=\mathrm{id}\\). Since \\(\varphi\\) is invertible, it follows that multiplication by \\(2\\) is invertible. Hence, \\(A\\) is a \\(k\\)-module, and \\(\varphi\\) is multiplication by \\(1/2\\). QED.
 
@@ -166,7 +166,7 @@ _Remark 4.3._ The "converses" of Proposition 4.1 and Corollary 4.2 also hold. Pr
 
 ### 4.1. Constructions
 
-In light of Lemma 2.2, the construction of Bauer in \[Ba24\] can be viewed as a way to recover the averaging quandle corresponding to a given commutative medial quandle under Theorem 4.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
+In light of Lemma 2.2, the construction of Bauer in Ba24Ba24 can be viewed as a way to recover the averaging quandle corresponding to a given commutative medial quandle under Theorem 4.2. Although we will not use this construction, it is worth recording in our notation. Namely, given a nonempty commutative quandle \\( (X,\ast)\\), fix a basepoint \\(0\in X\\). Bauer showed that the following operations define a \\(k\\)-module structure on \\(X\\) such that \\(0\\) is the additive identity and \\(X_{\mathrm{avg}}\cong(X,\ast)\\):
 
 $$
     \begin{aligned}
