@@ -41,13 +41,13 @@ The prototypical example of a quandle is the _conjugation quandle_ of a group \\
 
 In Section 2, we record some lemmas and discuss a family of commutative medial quandles that we call _averaging quandles._ Averaging quandles turn out to model _all_ commutative medial quandles, as we show later on in Section 4.
 
-In Section 3, we solve Question 7.1 of \[BE26\]. In particular, we discuss an obstruction to a general structure theorem for commutative quandles, and we completely characterize both commutative and noncommutative quandles whose dual quandles are commutative.
+In Section 3, we solve Question 7.1 of BE26BE26. In particular, we discuss an obstruction to a general structure theorem for commutative quandles, and we completely characterize both commutative and noncommutative quandles whose dual quandles are commutative.
 
 In Section 4, we provide new proofs characterizing all medial Latin quandles as certain Alexander quandles and, in particular, all commutative medial quandles as averaging quandles.
 
 In Section 5, we strengthen the results of Section 4 by showing that "taking the Alexander quandle" (resp. the averaging quandle) defines an equivalence of categories from affine modules over \\(\Lambda=\mathbb{Z}[s^{\pm 1}, (1-s)^{-1}]\\) (resp. \\(k=\mathbb{Z}[1/2]\\)) to Latin (resp. commutative) medial quandles.
 
-In Section 6, we completely describe free objects in the categories studied in Section 5. As an application, we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. This solves Question 7.3 and resolves a conjectural structure theorem in Question 7.1 of \[BE26\].
+In Section 6, we completely describe free objects in the categories studied in Section 5. As an application, we deduce structure theorems for finitely generated commutative medial quandles and certain cancellative midpoint algebras. This solves Question 7.3 and resolves a conjectural structure theorem in Question 7.1 of BE26BE26.
 
 ## 2. Preliminaries
 
@@ -63,7 +63,7 @@ The following lemmas are straightforward and left to the reader.
 * _Every commutative rack is distributive and Latin—in particular, a quasigroup and a quandle._
 * _Every distributive quasigroup is a Latin quandle._
 
-**Lemma 2.2** (cf. \[Ba24\])**.** 
+**Lemma 2.2** (cf. Ba24Ba24)**.** 
 * _Let \\( (X,\ast)\\) be a finite commutative magma. Then \\(X\\) is cancellative if and only if it is Latin._
 * _Commutative medial quandles are the same as Latin midpoint algebras. In particular, finite commutative medial quandles are the same as finite cancellative midpoint algebras._
 
@@ -73,21 +73,21 @@ _Remark 2.3._ Infinite cancellative midpoint algebras are not necessarily quasig
 
 Henceforth, \\(k:=\mathbb{Z}[\frac{1}{2}]\\) denotes the ring of dyadic rationals. All abelian groups are denoted additively.
 
-In this section, we define a class of commutative medial quandles called _averaging quandles_. The quandles in parts (1) and (2) of \[BE26, Ex. 5.1\] are special classes of averaging quandles.
+In this section, we define a class of commutative medial quandles called _averaging quandles_. The quandles in parts (1) and (2) of BE26,Ex.5.1BE26, Ex. 5.1 are special classes of averaging quandles.
 
 **Definition 2.5.** Let \\(A\\) be a unital ring in which \\(2\\) is invertible, and let \\(M\\) be a left \\(A\\)-module. Define a quandle operation on \\(M\\) by averaging: \\[x\ast y:=\frac{1}{2}(x+y).\\] Then \\( M_{\mathrm{avg}}:=(M,\ast) \\) is a commutative quandle called the _averaging quandle_ on \\(M\\). 
 
-In particular, let \\(M=\mathbb{Z}/(2n+1)\\) be the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\). Then we denote the corresponding averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). (Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from \[BE26\].)
+In particular, let \\(M=\mathbb{Z}/(2n+1)\\) be the cyclic group of order \\(2n+1\\) with \\(n\geq 0\\). Then we denote the corresponding averaging quandle by \\(C\_{2n+1}:=M\_{\mathrm{avg}}\\). (Since \\(2^{-1}=n+1\\) in \\(M\\), this definition of \\(C_{2n+1}\\) coincides with the one from BE26BE26.)
 
-_Remark 2.6._ Averaging quandles are a special class of so-called _weighted average quandles_ (see \[BT26\]), which are themselves a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle, then multiplication by \\(1/2\\) defines an automorphism of \\(M\\) whose corresponding Alexander quandle is precisely \\(M_{\mathrm{avg}}\\). In particular, all averaging quandles are medial. In general, though, Alexander quandles are not necessarily commutative.
+_Remark 2.6._ Averaging quandles are a special class of so-called _weighted average quandles_ (see BT26BT26), which are themselves a special class of Alexander quandles. Indeed, if \\( M_{\mathrm{avg}}\\) is an averaging quandle, then multiplication by \\(1/2\\) defines an automorphism of \\(M\\) whose corresponding Alexander quandle is precisely \\(M_{\mathrm{avg}}\\). In particular, all averaging quandles are medial. In general, though, Alexander quandles are not necessarily commutative.
 
-_Remark 2.7._ Contrary to Example 5.1(3) and Question 7.3 of \[BE26\], the subset \\(X:=\\{m/2^n \mid m,n\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
+_Remark 2.7._ Contrary to Example 5.1(3) and Question 7.3 of BE26BE26, the subset \\(X:=\\{m/2^n \mid m,n\in\mathbb{Z}_{\geq 0}\\}\subset k\\) is not a subquandle of \\(k\_{\mathrm{avg}}\\). Indeed, the right multiplication map \\( R_1\\) does not restrict to a permutation of \\(X\\).
 
 ## 3. First solutions
 
-In this section, we solve Question 7.1 of Bardakov and Elhamdadi \[BE26\]. Of the question's three parts, the second can be solved fairly quickly.
+In this section, we solve Question 7.1 of Bardakov and Elhamdadi BE26BE26. Of the question's three parts, the second can be solved fairly quickly.
 
-**Proposition 3.1** (cf. \[BE26, Question 7.1\])**.** _Let \\(G\\) be a group. Then:_ \
+**Proposition 3.1** (cf. BE26,Question7.1BE26, Question 7.1)**.** _Let \\(G\\) be a group. Then:_ \
 (1) _\\(\mathrm{Conj}(G)\\) is commutative if and only if \\(G\\) is the trivial group._ \
 (2) _\\(\mathrm{Core}(G)\\) is commutative if and only if the exponent of \\(G\\) is \\(\mathrm{exp}(G)=3\\)._
 
@@ -97,9 +97,9 @@ _Proof._ (1): If \\(\mathrm{Conj}(G)\\) is commutative, then \\[g=g\ast e=e\ast 
 
 ### 3.1. An obstruction to structure theorems
 
-The first part of \[BE26, Question 7.1\] asks whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost (see Theorem 6.3), we will give an additional assumption (namely, mediality) under which this question has a positive answer.
+The first part of BE26,Question7.1BE26, Question 7.1 asks whether every finite commutative quandle can be written as a direct product of averaging quandles of the form \\(C_{2n+1}\\). In this section, we show that the question has a negative answer. Later in this blogpost (see Theorem 6.3), we will give an additional assumption (namely, mediality) under which this question has a positive answer.
 
-To give a negative answer to \[BE26, Question 7.1\], it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that direct products of medial quandles are medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec \[KN81, Thm. 12.4\] (see \[St15A, Ex. 3.4\]) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
+To give a negative answer to BE26,Question7.1BE26, Question 7.1, it suffices to construct a finite commutative quandle that is not medial. This is due to Remark 2.6 and the fact that direct products of medial quandles are medial. Indeed, such quandles have already appeared in the literature. In 1981, Kepka and Němec KN81,Thm.12.4KN81, Thm. 12.4 (see St15A,Ex.3.4St15A, Ex. 3.4) constructed non-medial distributive quasigroups (hence quandles by Lemma 2.1) of order 81. (They also showed that these are the smallest such examples.) Of their constructions, the following is in fact a commutative quandle. 
 
 Given an abelian group \\(A\\) and a function \\(f\colon A^3\to A\\), we say that \\(f\\) is _triadditive_ if for all \\(x,y\in A\\), the restrictions \\(f(-,x,y)\\), \\(f(x,-,y)\\), and \\(f(x,y,-)\\) are endomorphisms of \\(A\\). In particular, let \\(\mathbb{Z}/3\\) denote the cyclic group of order 3, let \\(A:= (\mathbb{Z}/3)^4\\), and let \\(e_1,e_2,e_3,e_4\\) be the canonical generators of \\(A\\). Define a triadditive function \\(f\\) by extending 
 
@@ -194,7 +194,7 @@ The reader can check that this map is a quandle isomorphism. In particular, if \
 
 ## 5. Equivalences of categories
 
-Proposition 4.1 and Corollary 4.2 allow us to give an alternative, commutative-algebraic perspective on the theory of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, \[Ba24, Fr08\]), Lemma 2.2 suggests that commutative medial quandles should be related to these modules. We will formalize this idea using an equivalence of categories.
+Proposition 4.1 and Corollary 4.2 allow us to give an alternative, commutative-algebraic perspective on the theory of medial Latin quandles. In particular, since cancellative midpoint algebras are closely related to affine modules over \\(k\\) (see, for example, Ba24,Fr08Ba24, Fr08), Lemma 2.2 suggests that commutative medial quandles should be related to these modules. We will formalize this idea using an equivalence of categories.
 
 Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The objects consist of the empty set and all left \\(R\\)-modules. The morphisms are affine transformations (that is, sums of \\(R\\)-module homomorphisms and constant functions). We call \\(\mathsf{AffMod}\_R\\) the category of _(left) affine modules_ over \\(R\\).[^1]
 
@@ -202,7 +202,7 @@ Given a ring \\(R\\), define a category \\(\mathsf{AffMod}\_R\\) as follows. The
 
 Henceforth, let \\(\mathsf{MLQnd}\\) be the category of medial Latin quandles and quandle homomorphisms, and denote the ring of integral Laurent polynomials in \\(s\\) and \\(1-s\\) by \\[\Lambda:=\mathbb{Z}[s^{\pm 1},(1-s)^{-1}].\\] Building upon Proposition 4.1, we will show that \\(\mathsf{AffMod}\_{\Lambda}\\) and \\(\mathsf{MLQnd}\\) are equivalent.
 
-Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible; cf. \[BT26\]. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{\pm 1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{\pm 1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
+Note that the data of an object \\(M\\) in \\(\mathsf{AffMod}\_{\Lambda}\\) is equivalent to the data of an abelian group automorphism \\(\varphi\in\mathrm{Aut}(M)\\) such that the map \\(\mathrm{id}-\varphi\\) is invertible; cf. BT26BT26. (Explicitly, the correspondence is given by \\(s^{\pm 1}\cdot m \leftrightarrow \varphi^{\pm 1}(m)\\) and \\((1-s)^{\pm 1}\cdot m\leftrightarrow (\mathrm{id}-\varphi)^{\pm 1}(m)\\) for all \\(m\in M\\).) So, define a functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) on objects by sending \\(M\\) to the induced Alexander quandle \\(\mathrm{Alex}(M,\varphi)\\). Let \\(\mathrm{Alex}\\) fix all morphisms (as set-theoretic maps).
 
 **Lemma 5.1.** _The assignment \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) is a functor._
 
@@ -228,7 +228,7 @@ Next, we prove the main result of this section.
 
 **Theorem 5.3.** _The functor \\(\mathrm{Alex}\colon\mathsf{AffMod}\_{\Lambda}\to\mathsf{MLQnd}\\) is an equivalence of categories._
 
-_Proof._ By Lemma 5.1, Proposition 4.1, and the above discussion, \\(\mathrm{Alex}\\) is an essentially surjective functor. Therefore, it suffices to show that \\(\mathrm{Alex}\\) is fully faithful. Faithfulness is clear. To show fullness, let \\(f\colon \mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\psi)\\) be a homomorphism of Alexander quandles satisfying the conditions of Theorem 5.1, and view \\(M\\) and \\(N\\) as \\(\Lambda\\)-modules as in the above discussion. Let \\(c:= f(0)\\), and define \\(T\colon M\to N\\) by \\(T:= f-c\\). Then \\(f=T-c\\), so we only have to show that \\(T\\) is \\(\Lambda\\)-linear. By Lemma 6.2, it suffices to show that \\(T\\) is a homomorphism of abelian groups such that \\(T\circ\varphi=\psi\circ T\\). Clearly, \\(T(0)=0\\).
+_Proof._ By Lemma 5.1, Proposition 4.1, and the above discussion, \\(\mathrm{Alex}\\) is an essentially surjective functor. Therefore, it suffices to show that \\(\mathrm{Alex}\\) is fully faithful. Faithfulness is clear. To show fullness, let \\(f\colon \mathrm{Alex}(M,\varphi)\to\mathrm{Alex}(N,\psi)\\) be a homomorphism of Alexander quandles satisfying the conditions of Proposition 5.1, and view \\(M\\) and \\(N\\) as \\(\Lambda\\)-modules as in the above discussion. Let \\(c:= f(0)\\), and define \\(T\colon M\to N\\) by \\(T:= f-c\\). Then \\(f=T-c\\), so we only have to show that \\(T\\) is \\(\Lambda\\)-linear. By Lemma 6.2, it suffices to show that \\(T\\) is a homomorphism of abelian groups such that \\(T\circ\varphi=\psi\circ T\\). Clearly, \\(T(0)=0\\).
 
 Since \\(f\\) is a quandle homomorphism, the reader can verify that \\(T\\) is also a quandle homomorphism. Equivalently,
 \\[T(\varphi(x-y)+y)=\psi(T(x))+(\mathrm{id}-\psi)(T(y))\\] for all \\(x,y\in M\\). In particular, for all \\(z\in M\\), taking \\((x,y):=(\varphi^{-1}(z),0)\\) shows that \\(T=\psi\circ T\circ\varphi^{-1}\\). Therefore, \\(T\circ\varphi=\psi\circ T\\), as desired. 
