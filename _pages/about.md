@@ -18,19 +18,19 @@ Publications
 
 **Preprints**
 
-_From affine algebraic racks to Leibniz algebras._ [arXiv:2512.15909](https://arxiv.org/abs/2512.15909), 2025. 24 pages.
+_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ [arXiv:2512.15909](https://arxiv.org/abs/2512.15909), 2025. 31 pages + references.
 
-_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages.
+_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 11 pages + references.
 
 _Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages. Submitted.
 
-_Good involutions of twisted conjugation subquandles and Alexander quandles._ [arXiv:2508.16772](https://arxiv.org/abs/2508.16772), 2025. 18 pages. Submitted.
+_Good involutions of twisted conjugation subquandles and Alexander quandles._ [arXiv:2508.16772](https://arxiv.org/abs/2508.16772), 2025. 17 pages + references. Submitted.
 
-_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 33 pages. Submitted.
+_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages + references. Submitted.
 
-_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages.
+_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages + references.
 
-_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 29 pages. Submitted.
+_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages + references. Submitted.
 
 **Peer-Reviewed Articles**
 
