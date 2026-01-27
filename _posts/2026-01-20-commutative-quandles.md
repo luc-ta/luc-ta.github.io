@@ -9,6 +9,7 @@ tags:
   - racks-and-quandles
   - commutative-algebra
   - universal-algebra
+  - group-theory
 ---
 
 In this blogpost, we solve two open problems posed by Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials in \\(s\\) and \\(1-s\\)).
