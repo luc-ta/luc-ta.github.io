@@ -13,6 +13,8 @@ tags:
 
 In this blogpost, we solve two open problems posed by Bardakov and Elhamdadi \[BE26\] in the theory of quandle rings. In particular, non-medial commutative quandles obstruct a conjectural structure theorem of \[_op. cit._\]. However, assuming mediality makes the conjecture hold; we deduce this from an equivalence of categories between commutative (resp. Latin) medial quandles and affine modules over the ring of dyadic rationals (resp. integral Laurent polynomials in \\(s\\) and \\(1-s\\)).
 
+_Update (1/27/26): I have added Corollary 5.5 and Remarks 5.6 and 5.7._
+
 ## 1. Introduction
 
 In 1982, Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced nonassociative algebraic structures called _quandles_ to develop complete invariants of knots. A special class of quandles, called _medial_ quandles, is particularly important in this topological setting. Other special classes of quandles, called _Latin_ quandles and _commutative_ quandles, are important to the theory of certain nonassociative rings called _quandle rings._ 
@@ -269,6 +271,14 @@ By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lam
 
 **Corollary 5.4.** _The functor \\(\mathrm{Alex}\\) induces an equivalence of categories \\(\mathrm{avg}\colon\mathsf{AffMod}\_k\xrightarrow{\sim}\mathsf{CMQnd}\\) that sends every affine \\(k\\)-module \\(M\\) to its averaging quandle \\(M\_{\mathrm{avg}}\\)._
 
+The reader can verify for all rings \\(R\\), two nonempty objects in \\(\mathsf{AffMod}\_{R}\\) are isomorphic if and only if they are isomorphic as left \\(R\\)-modules. Therefore, combining Lemma 5.2 with Theorem 5.3 and Corollary 5.4 yields the following.
+
+**Corollary 5.5.** Let \\(\mathrm{Alex}(M,\varphi)\\) and \\(\mathrm{Alex}(N,\psi)\\) be Latin Alexander quandles. Then these quandles are isomorphic if and only if \\(M\\) and \\(N\\) are isomorphic as \\(\mathbb{Z}[s]\\)-modules. In particular, two averaging quandles are isomorphic if and only if they are isomorphic as \\(k\\)-modules.
+
+_Remark 5.6._ In 2003, Nelson \[Ne03, Thm. 2.1\] proved that if \\(\mathrm{Alex}(M,\varphi)\\) and \\(\mathrm{Alex}(N,\psi)\\) are finite Alexander quandles, then they are isomorphic if and only if \\((1-s)M\\) and \\((1-s)N\\) are isomorphic as \\(\mathbb{Z}[s^{\pm 1}]\\)-modules. Since multiplication by \\(1-s\\) is invertible for Latin Alexander quandles, Corollary 5.5 shows that Nelson's result also holds if the word "finite" is replaced with "Latin."
+
+_Remark 5.7._ Corollary 5.5 fails if we drop the assumption that \\(\mathrm{Alex}(M,\varphi)\\) and \\(\mathrm{Alex}(N,\psi)\\) are Latin; this is equivalent to dropping the assumption that \\(1-s\\) is invertible. For example, Nelson \[Ne03\] shows that \\(\mathbb{Z}/(9,s-4)\\) and \\(\mathbb{Z}/(9,s-7)\\) are isomorphic as Alexander quandles but not as \\(\mathbb{Z}[s^{\pm 1}]\\)-modules. Accordingly, these \\(\mathbb{Z}[s^{\pm 1}]\\)-modules are not \\(\Lambda\\)-modules.
+
 ## 6. Free objects
 
 As an application of Theorem 5.3 and Corollary 5.4, we completely describe free medial Latin quandles and free commutative medial quandles. As another application, we obtain a structure theorem for finitely generated commutative medial quandles.
@@ -318,6 +328,8 @@ _Remark 6.4._ By Lemma 2.2, Theorem 6.3 is also a structure theorem for finitely
 \[KN81\] T. Kepka and P. Němec, _Commutative Moufang loops and distributive groupoids of small orders,_ Czechoslovak Math. J. **31(106)** (1981), no. 4, 633–669. MR0631607
 
 \[Ma82\] S. V. Matveev, _Distributive groupoids in knot theory,_ Mat. Sb. (N.S.) **119**(161) (1982), no. 1, 78–88, 160. MR672410
+
+\[Ne03\] S. Nelson, _Classification of finite Alexander quandles,_ Topology Proc. **27** (2003), no. 1, 245–258. MR2048935
 
 \[NP06\] M. Niebrzydowski and J. H. Przytycki, _Burnside kei,_ Fund. Math. **190** (2006), 211–229. 2232860
 
