@@ -273,7 +273,7 @@ By restriction of scalars, the ring epimorphism \\[\Lambda\twoheadrightarrow\Lam
 
 The reader can verify for all rings \\(R\\), two nonempty objects in \\(\mathsf{AffMod}\_{R}\\) are isomorphic if and only if they are isomorphic as left \\(R\\)-modules. Therefore, combining Lemma 5.2 with Theorem 5.3 and Corollary 5.4 yields the following.
 
-**Corollary 5.5.** Let \\(\mathrm{Alex}(M,\varphi)\\) and \\(\mathrm{Alex}(N,\psi)\\) be Latin Alexander quandles. Then these quandles are isomorphic if and only if \\(M\\) and \\(N\\) are isomorphic as \\(\mathbb{Z}[s]\\)-modules. In particular, two averaging quandles are isomorphic if and only if they are isomorphic as \\(k\\)-modules.
+**Corollary 5.5.** _Two Latin Alexander quandles \\(\mathrm{Alex}(M,\varphi)\\) and \\(\mathrm{Alex}(N,\psi)\\) are isomorphic if and only if \\(M\\) and \\(N\\) are isomorphic as \\(\mathbb{Z}[s]\\)-modules. In particular, two averaging quandles are isomorphic if and only if they are isomorphic as \\(k\\)-modules._
 
 _Remark 5.6._ In 2003, Nelson \[Ne03, Thm. 2.1\] proved that if \\(\mathrm{Alex}(M,\varphi)\\) and \\(\mathrm{Alex}(N,\psi)\\) are finite Alexander quandles, then they are isomorphic if and only if \\((1-s)M\\) and \\((1-s)N\\) are isomorphic as \\(\mathbb{Z}[s^{\pm 1}]\\)-modules. Since multiplication by \\(1-s\\) is invertible for Latin Alexander quandles, Corollary 5.5 shows that Nelson's result also holds if the word "finite" is replaced with "Latin."
 
