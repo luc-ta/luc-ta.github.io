@@ -18,6 +18,8 @@ Publications
 
 **Preprints**
 
+_On medial Latin quandles and affine modules._ [arXiv:2602.08875](https://arxiv.org/abs/2602.08875), 2026. 10 pages.
+
 _From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ [arXiv:2512.15909](https://arxiv.org/abs/2512.15909), 2026. 31 pages. Submitted.
 
 _Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 11 pages.
