@@ -15,6 +15,8 @@ In this blogpost, we solve two open problems posed by Bardakov and Elhamdadi \[B
 
 _Update (1/27/26): I have added Corollary 5.5 and Remarks 5.6 and 5.7._
 
+_Update (2/10/26): I have adapted this blogpost into a short note available on [arXiv](https://arxiv.org/abs/2602.08875)._
+
 ## 1. Introduction
 
 In 1982, Joyce \[Jo82\] and Matveev \[Ma82\] independently introduced nonassociative algebraic structures called _quandles_ to develop complete invariants of knots. A special class of quandles, called _medial_ quandles, is particularly important in this topological setting. Other special classes of quandles, called _Latin_ quandles and _commutative_ quandles, are important to the theory of certain nonassociative rings called _quandle rings._ 
