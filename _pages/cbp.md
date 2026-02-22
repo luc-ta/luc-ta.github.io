@@ -10,7 +10,7 @@ The University of Pittsburgh is hosting a **border patrol [recruitment event](ht
 
 At the same time, Pitt is [staying silent](https://www.pittgradunion.org/updatefebruary-19-2026) on whether **ICE** can enter campus spaces without warrant. **Pitt's negligence puts our international colleagues in danger.**
 
-We need to coodinate and tell Pitt to protect our international colleagues. **Pledge to call Vice Chancellor Pickett on [this form](google.com).** Once you've signed up for a time, call him at **[412-648-4685](tel:+14126484685).** In addition to calling, you can also feel free to email him at [**cwp19@pitt.edu**](mailto:cwp19@pitt.edu) and submit reports to [**Pitt Concern Connection**](https://app.convercent.com/en-US/LandingPage/2d6327d5-9fec-ea11-a974-000d3ab9f296?_=1612800567898). You can use the sample scripts below or write your own. 
+We need to coodinate and tell Pitt to protect our international colleagues. **Pledge to call Vice Chancellor Pickett on [this form](google.com).** Once you've signed up for a time, call him at **[412-648-4685](tel:+14126484685).** In addition to calling, you can also feel free to email him at [**cwp19@pitt.edu**](mailto:cwp19@pitt.edu). You can use the sample scripts below or write your own. 
 
 **Sample phone script**
 
