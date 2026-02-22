@@ -1,13 +1,10 @@
 ---
 permalink: /cbp/
-title: "No CBP/ICE on our campus!"
+title: "Tell Pitt: No CBP/ICE on our campus!"
 author_profile: false
 redirect_from: 
   - /ice/
 ---
-
-Tell Pitt: No CBP/ICE on our campus!
-======
 
 The University of Pittsburgh is hosting a **border patrol [recruitment event](https://pitt.joinhandshake.com/stu/events/1896598)** on Thursday, February 26 (which they've tried to cover up by deleting the [event page](https://imgur.com/a/Qjz5pzG)!). This is part of a broader **Customs and Border Protection [recruitment program](https://careercentral.pitt.edu/jobs/u-s-customs-and-border-protection-u-s-customs-and-border-protection-officer/)** that Pitt's advertising to the community.
 
