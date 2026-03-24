@@ -28,13 +28,13 @@ _Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https
 
 _Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages. Submitted.
 
-_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ [arXiv:2506.04437](https://arxiv.org/abs/2506.04437), 2025. 19 pages. Submitted.
-
 _Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages. Submitted.
 
 **Peer-Reviewed Articles**
 
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ To appear in Communications in Algebra, doi:10.1080/00927872.2026.2643415. 17 pages. \[[journal](https://doi.org/10.1080/00927872.2026.2643415)\] \[[arXiv](https://arxiv.org/abs/2508.16772)\] 
+
+_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ To appear in the Journal of Non-Associative Structures, doi:doi.org/10.46298/jonas.17215. 18 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
 
 _Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications. **377** (2026), Paper No. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
 
