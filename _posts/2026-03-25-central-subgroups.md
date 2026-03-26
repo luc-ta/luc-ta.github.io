@@ -21,7 +21,7 @@ To study good involutions of \\(\mathrm{Core}(G)\\) (see \[LT25, Thm. 7.11\]), w
 
 ## 2. The example
 
-Our example is the following group of order 16; see \[Grou\] for more information about this group. Let \\(G:=(D_4\times C_4)/C_2\\) be the central product of the dihedral group \\(D_4\\) of order eight and the cyclic group \\(C_4\\) of order four over a common cyclic central subgroup of order two: \\[G\cong\langle r,s,x\mid r^4=s^2=x^4=1,\; r^2=x^2,\; srs=r^{-1},\; rx=xr,\; sx=xs \rangle.\\] Here, \\(\langle r,s\rangle\cong D_4\\) and \\(Z(G)=\langle x\rangle\cong C_4\\). 
+Our example is the following group of order 16; see \[Cent\] for more information about this group. Let \\(G:=(D_4\times C_4)/C_2\\) be the central product of the dihedral group \\(D_4\\) of order eight and the cyclic group \\(C_4\\) of order four over a common cyclic central subgroup of order two: \\[G\cong\langle r,s,x\mid r^4=s^2=x^4=1,\; r^2=x^2,\; srs=r^{-1},\; rx=xr,\; sx=xs \rangle.\\] Here, \\(\langle r,s\rangle\cong D_4\\) and \\(Z(G)=\langle x\rangle\cong C_4\\). 
 
 In the above presentation of \\(G\\), we have \\(x\notin T(G)=\langle x^2\rangle\cong C_2\\). We claim that \\(x\in A(G)\\). Indeed, let 
 \\[g_1:= xr^3,\quad g_2:= s,\quad g_3:= 1,\quad g_4:= sr.\\] Then
