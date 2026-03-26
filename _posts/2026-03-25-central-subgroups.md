@@ -38,7 +38,7 @@ _Remark._ In fact, we have \\(T(G)< A(G)=Z(G)\\) in this example.
 
 ## References
 
-\[Cent\] _Central product of D8 and Z4,_ Groupprops, https://groupprops.subwiki.org/wiki/Central_product_of_D8_and_Z4. Accessed: 3-25-26.
+\[Cent\] _Central product of D8 and Z4,_ Groupprops, The Group Properties Wiki, https://groupprops.subwiki.org/wiki/Central_product_of_D8_and_Z4. Accessed: 3-25-26.
 
 \[LT25\] L. Ta. _Good involutions of conjugation subquandles_ (2025). Preprint, [arXiv:2505.08090](https://arxiv.org/abs/2505.08090).
 
