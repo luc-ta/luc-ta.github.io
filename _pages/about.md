@@ -38,7 +38,7 @@ _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ To a
 
 _Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications. **377** (2026), Paper No. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
 
-_Enumeration of virtual quandles up to isomorphism._ Journal of Integer Sequences. **28** (2025), no. 8, Article 25.8.4. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
+_Enumeration of virtual quandles up to isomorphism._ Journal of Integer Sequences. **28** (2025), no. 8, Article 25.8.4. MR5008753. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
 
 _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Tony W. H. Wong. Journal of Knot Theory and Its Ramifications **34** (2025), no. 12, Paper No. 2550055, doi:10.1142/S0218216525500555. MR4966653. 52 pages. \[[journal](https://doi.org/10.1142/S0218216525500555)\] \[[arXiv](https://arxiv.org/abs/2410.08064)\]
 
