@@ -34,9 +34,9 @@ _Classification and structure of generalized Legendrian racks._ [arXiv:2504.1267
 
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ To appear in Communications in Algebra, doi:10.1080/00927872.2026.2643415. 17 pages. \[[journal](https://doi.org/10.1080/00927872.2026.2643415)\] \[[arXiv](https://arxiv.org/abs/2508.16772)\] 
 
-_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ To appear in the Journal of Non-Associative Structures, doi:10.46298/jonas.17215. 25 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
+_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ Journal of Non-Associative Structures. **1** (2026), no. 1, Paper no. 3, doi:10.46298/jonas.17215. 25 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
 
-_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications. **377** (2026), Paper No. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
+_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications. **377** (2026), Paper no. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
 
 _Enumeration of virtual quandles up to isomorphism._ Journal of Integer Sequences. **28** (2025), no. 8, Article 25.8.4. MR5008753. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
 
