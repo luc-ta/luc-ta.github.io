@@ -44,7 +44,7 @@ _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha 
 
 **Editor-Reviewed Publications**
 
-Counterexample showing that the McCoy property does not pass to subrings. [Database of Ring Theory](https://ringtheory.herokuapp.com/properties/property/156/) (see also [this MSE post](https://math.stackexchange.com/a/5141663/1563727)), 2026.
+Counterexample showing that the McCoy property does not pass to subrings. [_Database of Ring Theory_](https://ringtheory.herokuapp.com/properties/property/156/) (see also [this MSE post](https://math.stackexchange.com/a/5141663/1563727)), 2026.
 
 Integer sequences [A383144](https://oeis.org/A383144)–[A383146](https://oeis.org/A383146), [A383828](https://oeis.org/A383828)–[A383831](https://oeis.org/A383831), and [A385040](https://oeis.org/A385040)–[A385041](https://oeis.org/A385041) relating to racks and quandles. _On-Line Encyclopedia of Integer Sequences (OEIS),_ 2025.
 
