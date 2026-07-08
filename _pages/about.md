@@ -18,8 +18,6 @@ Publications
 
 **Preprints**
 
-_On medial Latin quandles and affine modules._ [arXiv:2602.08875](https://arxiv.org/abs/2602.08875), 2026. 10 pages. Submitted.
-
 _From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ [arXiv:2512.15909](https://arxiv.org/abs/2512.15909), 2026. 31 pages. Submitted.
 
 _Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages. Submitted.
@@ -31,6 +29,8 @@ _Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.
 _Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages. Submitted.
 
 **Peer-Reviewed Articles**
+
+_On medial Latin quandles and affine modules._ To appear in the Canadian Mathematical Bulletin. 13 pages. \[[arXiv](https://arxiv.org/abs/2602.08875)\] 
 
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ To appear in Communications in Algebra, doi:10.1080/00927872.2026.2643415. 17 pages. \[[journal](https://doi.org/10.1080/00927872.2026.2643415)\] \[[arXiv](https://arxiv.org/abs/2508.16772)\] 
 
