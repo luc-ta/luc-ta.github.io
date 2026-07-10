@@ -14,7 +14,7 @@ We construct an infinite family of McCoy rings containing subrings that are neit
 
 A (unital associative) ring \\(R\\) is called _left McCoy_ (resp. _right McCoy_) if, whenever \\(fg=0\\) with \\(f,g\in R[x]\\) nonzero, there exists a nonzero element \\(r\in R\\) such that \\(rg=0\\) (resp.\ \\(fr=0\\)). We say that \\(R\\) is _McCoy_ if \\(R\\) is both left McCoy and right McCoy. 
 
-In 2025, a Math Stack Exchange user posed the question of whether the McCoy property passes to subrings. The purpose of this blogpost is document [my negative answer](https://math.stackexchange.com/a/5141663/1563727) to this question, which was subsequently added to the [Database of Ring Theory](https://ringtheory.herokuapp.com/properties/property/156/).
+In 2025, a Math Stack Exchange user posed the question of whether the McCoy property passes to subrings. The purpose of this blogpost is document [my negative answer](https://math.stackexchange.com/a/5141663/1563727) to this question in 2026, which was subsequently added to the [Database of Ring Theory](https://ringtheory.herokuapp.com/properties/property/156/).
 
 ## 2. The construction
 
