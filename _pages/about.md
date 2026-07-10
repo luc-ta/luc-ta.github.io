@@ -34,13 +34,13 @@ _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha 
 
 **Preprints**
 
-_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages. Submitted.
+_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages.
 
-_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages. Submitted.
+_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages.
 
-_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages. Submitted.
+_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages.
 
-_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages. Submitted.
+_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages.
 
 **Editor-Reviewed Publications**
 
