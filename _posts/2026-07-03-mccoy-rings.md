@@ -22,7 +22,7 @@ Let \\(k\\) be an integral domain. We construct a (unital associative) ring \\(R
 \\[AB:=\begin{pmatrix}
 a_{11}b_{11} & a_{11}b_{12}+a_{12}b_{22} \\\\ a_{21}b_{11}+a_{22}b_{21} &a_{22}b_{22}
 \end{pmatrix}.\\]
-Often, \\(R\\) is called a _Morita context ring_ or _generalized matrix ring_ whose associated bimodule maps are both zero. Also, if \(k=\mathbb F_2\) is the finite field of order \(2\), then \\(R\\) is isomorphic to [this ring](https://ringtheory.herokuapp.com/rings/ring/170/). 
+Often, \\(R\\) is called a _Morita context ring_ or _generalized matrix ring_ whose associated bimodule maps are both zero. Also, if \\(k=\mathbb F_2\\) is the finite field of order \(2\), then \\(R\\) is isomorphic to [this ring](https://ringtheory.herokuapp.com/rings/ring/170/). 
 
 In the following, let \\(E_{11}\\), \\(E_{12}\\), \\(E_{21}\\), and \\(E_{22}\\) denote the usual elementary matrices in \\(R\\).
 
