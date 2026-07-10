@@ -26,7 +26,7 @@ Often, \\(R\\) is called a _Morita context ring_ or _generalized matrix ring_ wh
 
 In the following, let \\(E_{11}\\), \\(E_{12}\\), \\(E_{21}\\), and \\(E_{22}\\) denote the usual elementary matrices in \\(R\\).
 
-**Theorem.** The ring \\(R\\) is McCoy and contains a subring \\(S\\) that is neither left McCoy nor right McCoy.
+**Theorem.** _The ring \\(R\\) is McCoy, but \\(R\\) contains a subring \\(S\\) that is neither left McCoy nor right McCoy._
 
 _Proof._ Let \\(S:= T_2(k)\\) be the subset of upper triangular matrices in \\(R\\), which is a subring with its usual multiplication. We claim that \\(S\\) is neither left McCoy nor right McCoy. Indeed, consider the polynomials \\[f(x):= E_{12}x+E_{11},\qquad g(x):= -E_{12}x+E_{22}\\] in \\(S[x]\\). Evidently, \\(fg=0\\). Since \\(r\\) is upper triangular, it is straightforward to show that if \\(r\in S\\) and \\(rg=0\\) or \\(fr=0\\), then \\(r=0\\), as desired. That is, \\(S\\) is neither left McCoy nor right McCoy.
 
