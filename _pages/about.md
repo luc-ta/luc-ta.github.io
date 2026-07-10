@@ -16,19 +16,9 @@ Publications
 
 
 
-**Preprints**
-
-_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ [arXiv:2512.15909](https://arxiv.org/abs/2512.15909), 2026. 31 pages. Submitted.
-
-_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages. Submitted.
-
-_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages. Submitted.
-
-_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages. Submitted.
-
-_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages. Submitted.
-
 **Peer-Reviewed Articles**
+
+_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ To appear in the Journal of Algebra. 31 pages. \[[arXiv](https://arxiv.org/abs/2512.15909)\]
 
 _On medial Latin quandles and affine modules._ To appear in the Canadian Mathematical Bulletin. 13 pages. \[[arXiv](https://arxiv.org/abs/2602.08875)\] 
 
@@ -41,6 +31,16 @@ _Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, M
 _Enumeration of virtual quandles up to isomorphism._ Journal of Integer Sequences. **28** (2025), no. 8, Article 25.8.4. MR5008753. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
 
 _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Tony W. H. Wong. Journal of Knot Theory and Its Ramifications **34** (2025), no. 12, Paper No. 2550055, doi:10.1142/S0218216525500555. MR4966653. 52 pages. \[[journal](https://doi.org/10.1142/S0218216525500555)\] \[[arXiv](https://arxiv.org/abs/2410.08064)\]
+
+**Preprints**
+
+_Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas Wood. [arXiv:2510.26619](https://arxiv.org/abs/2510.26619), 2025. 13 pages. Submitted.
+
+_Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages. Submitted.
+
+_Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages. Submitted.
+
+_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages. Submitted.
 
 **Editor-Reviewed Publications**
 
