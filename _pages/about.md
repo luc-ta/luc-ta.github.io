@@ -18,7 +18,7 @@ Publications
 
 **Peer-Reviewed Articles**
 
-_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ To appear in the Journal of Algebra. 31 pages. \[[arXiv](https://arxiv.org/abs/2512.15909)\]
+_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ To appear in the Journal of Algebra. 31 pages. \[[journal](https://doi.org/10.1016/j.jalgebra.2026.06.036)\] \[[arXiv](https://arxiv.org/abs/2512.15909)\]
 
 _On medial Latin quandles and affine modules._ To appear in the Canadian Mathematical Bulletin, doi:10.4153/S0008439526102306. 13 pages. \[[journal](https://doi.org/10.4153/s0008439526102306)\] \[[arXiv](https://arxiv.org/abs/2602.08875)\] 
 
