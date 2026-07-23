@@ -18,17 +18,17 @@ Publications
 
 **Peer-Reviewed Articles**
 
-_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ Journal of Algebra. **712** (2027), 55–100, doi:10.1016/j.jalgebra.2026.06.036. \[[journal](https://doi.org/10.1016/j.jalgebra.2026.06.036)\] \[[arXiv](https://arxiv.org/abs/2512.15909)\]
+_From affine algebraic racks to Leibniz algebras and Yang–Baxter operators._ Journal of Algebra **712** (2027), 55–100, doi:10.1016/j.jalgebra.2026.06.036. \[[journal](https://doi.org/10.1016/j.jalgebra.2026.06.036)\] \[[arXiv](https://arxiv.org/abs/2512.15909)\]
 
 _On medial Latin quandles and affine modules._ To appear in the Canadian Mathematical Bulletin, doi:10.4153/S0008439526102306. 13 pages. \[[journal](https://doi.org/10.4153/s0008439526102306)\] \[[arXiv](https://arxiv.org/abs/2602.08875)\] 
 
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ To appear in Communications in Algebra, doi:10.1080/00927872.2026.2643415. 17 pages. \[[journal](https://doi.org/10.1080/00927872.2026.2643415)\] \[[arXiv](https://arxiv.org/abs/2508.16772)\] 
 
-_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ Journal of Non-Associative Structures. **1** (2026), no. 1, Paper no. 3, doi:10.46298/jonas.17215. 25 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
+_Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ Journal of Non-Associative Structures **1** (2026), no. 1, Paper no. 3, doi:10.46298/jonas.17215. 25 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
 
-_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications. **377** (2026), Paper no. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
+_Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications **377** (2026), Paper no. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
 
-_Enumeration of virtual quandles up to isomorphism._ Journal of Integer Sequences. **28** (2025), no. 8, Article 25.8.4. MR5008753. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
+_Enumeration of virtual quandles up to isomorphism._ Journal of Integer Sequences **28** (2025), no. 8, Article 25.8.4. MR5008753. 11 pages. \[[journal](https://cs.uwaterloo.ca/journals/JIS/VOL28/Ta/ta3.html)\] \[[arXiv](https://arxiv.org/abs/2506.16536)\]
 
 _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha Pezzimenti, Leif Schaumann, and Tony W. H. Wong. Journal of Knot Theory and Its Ramifications **34** (2025), no. 12, Paper No. 2550055, doi:10.1142/S0218216525500555. MR4966653. 52 pages. \[[journal](https://doi.org/10.1142/S0218216525500555)\] \[[arXiv](https://arxiv.org/abs/2410.08064)\]
 
