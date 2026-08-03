@@ -24,6 +24,8 @@ _On medial Latin quandles and affine modules._ To appear in the Canadian Mathema
 
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ To appear in Communications in Algebra, doi:10.1080/00927872.2026.2643415. 17 pages. \[[journal](https://doi.org/10.1080/00927872.2026.2643415)\] \[[arXiv](https://arxiv.org/abs/2508.16772)\] 
 
+_Classification and structure of generalized Legendrian racks._ To appear in Beiträge zur Algebra und Geometrie. 28 pages. \[[arXiv](https://arxiv.org/abs/2504.12671)\]
+
 _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ Journal of Non-Associative Structures **1** (2026), no. 1, Paper no. 3, doi:10.46298/jonas.17215. 25 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
 
 _Constructions of and bounds on the toric mosaic number,_ with Kendall Heiney, Margaret Kipe, Samantha Pezzimenti, and Kaelyn Pontes. Topology and its Applications **377** (2026), Paper no. 109657, doi:10.1016/j.topol.2025.109657. MR4981983. 17 pages. \[[journal](https://doi.org/10.1016/j.topol.2025.109657)\] \[[arXiv](https://arxiv.org/abs/2504.02265)\]
@@ -39,8 +41,6 @@ _Distinguishing power of 4-Legendrian permutation racks,_ with Peyton Phinehas W
 _Groups versus quandle-like invariants of 3-manifolds._ [arXiv:2509.24098](https://arxiv.org/abs/2509.24098), 2025. 11 pages.
 
 _Good involutions of conjugation subquandles._ [arXiv:2505.08090](https://arxiv.org/abs/2505.08090), 2025. 31 pages.
-
-_Classification and structure of generalized Legendrian racks._ [arXiv:2504.12671](https://arxiv.org/abs/2504.12671), 2025. 28 pages.
 
 **Editor-Reviewed Publications**
 
