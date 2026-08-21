@@ -24,7 +24,7 @@ _On medial Latin quandles and affine modules._ To appear in the Canadian Mathema
 
 _Good involutions of twisted conjugation subquandles and Alexander quandles._ To appear in Communications in Algebra, doi:10.1080/00927872.2026.2643415. 17 pages. \[[journal](https://doi.org/10.1080/00927872.2026.2643415)\] \[[arXiv](https://arxiv.org/abs/2508.16772)\] 
 
-_Classification and structure of generalized Legendrian racks._ To appear in Beiträge zur Algebra und Geometrie. 28 pages. \[[arXiv](https://arxiv.org/abs/2504.12671)\]
+_Classification and structure of generalized Legendrian racks._ To appear in Beiträge zur Algebra und Geometrie. 28 pages. \[[journal](https://doi.org/10.1007/s13366-026-00864-8)\] \[[arXiv](https://arxiv.org/abs/2504.12671)\]
 
 _Graph quandles: Generalized Cayley graphs of racks and right quasigroups._ Journal of Non-Associative Structures **1** (2026), no. 1, Paper no. 3, doi:10.46298/jonas.17215. 25 pages. \[[journal](https://doi.org/10.46298/jonas.17215)\] \[[arXiv](https://arxiv.org/abs/2506.04437)\]
 
