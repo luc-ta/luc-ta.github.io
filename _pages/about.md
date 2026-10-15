@@ -38,6 +38,8 @@ _Bounds on the mosaic number of Legendrian knots_, with Margaret Kipe, Samantha 
 
 **Preprints**
 
+_The zero divisor and augmentation conjectures for medial quandle rings._ [arXiv:2610.20306](https://arxiv.org/abs/2610.20306), 2026. 12 pages.
+
 _Fourier analysis and idempotents in quandle algebras,_ with Mohamed Elhamdadi and Bryce Virgin. [arXiv:2609.03799](https://arxiv.org/abs/2609.03799), 2026. 12 pages.
 
 _Idempotents, automorphism groups, and commutator widths of quandle algebras,_ with Birama Sangare. [arXiv:2608.01550](https://arxiv.org/abs/2608.01550), 2026. 17 pages.
